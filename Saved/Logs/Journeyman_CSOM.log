@@ -740,3 +740,140 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.22-15.19.12:687][246]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
 [2021.02.22-15.19.12:687][246]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
 [2021.02.22-15.19.13:010][246]EditorErrors: Warning: No assets to check in!
+[2021.02.22-16.12.56:236][313]LogRenderer: Reallocating scene render targets to support 1060x524 Format 10 NumSamples 1 (Frame:14529).
+[2021.02.22-16.13.18:810][738]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Programmer/scrips/Pausemenu/PauseMenu.PauseMenu
+[2021.02.22-16.13.19:733][738]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 125 classes and 0 folders.
+[2021.02.22-16.13.21:690][738]LogSlate: Took 0.056572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.02.22-16.16.36:599][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube11)
+[2021.02.22-16.16.43:158][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube59)
+[2021.02.22-16.16.43:807][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube133)
+[2021.02.22-16.16.45:963][715]Cmd: TRANSACTION UNDO
+[2021.02.22-16.16.45:963][715]LogEditorTransaction: Undo Clicking on Actors
+[2021.02.22-16.16.46:977][773]Cmd: TRANSACTION UNDO
+[2021.02.22-16.16.46:977][773]LogEditorTransaction: Undo Clicking on Actors
+[2021.02.22-16.16.50:044][ 76]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube3)
+[2021.02.22-16.16.52:394][273]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.02.22-16.17.54:036][490]Cmd: DELETE
+[2021.02.22-16.17.54:036][490]Cmd: ACTOR DELETE
+[2021.02.22-16.17.54:153][490]LogUObjectHash: Compacting FUObjectHashTables data took   7.65ms
+[2021.02.22-16.17.54:156][490]LogEditorActor: Deleted 0 Actors (0.119 secs)
+[2021.02.22-16.18.43:184][576]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2021.02.22-16.18.43:477][576]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/dan-chase_updated6F1D1212491B2EF1657BB78723257BDB.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated.umap'
+[2021.02.22-16.18.44:352][576]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/dan-chase_updated_BuiltData991105E145A87ABA496CA2A52698ABAF.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated_BuiltData.uasset'
+[2021.02.22-16.18.44:413][576]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-16.18.44:413][576]LogContentValidation: Display: Validating World /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated.dan-chase_updated
+[2021.02.22-16.18.44:414][576]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated_BuiltData.dan-chase_updated_BuiltData
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.18.54:848][714]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.19.06:306][714]LogSlate: Window 'Submit Files' being destroyed
+[2021.02.22-16.19.15:440][631]MapCheck: New page: Map Check
+[2021.02.22-16.19.15:478][631]Cmd: MAP REBUILD ALLVISIBLE
+[2021.02.22-16.19.15:479][631]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.02.22-16.19.16:332][631]LogWorld: UWorld::CleanupWorld for dan-chase_updated, bSessionEnded=true, bCleanupResources=false
+[2021.02.22-16.19.16:578][631]LightingResults: New page: Lighting Build - 22 Feb 2021, 16:19:16
+[2021.02.22-16.19.16:839][631]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.02.22-16.19.17:102][631]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.02.22-16.19.17:125][631]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.02.22-16.19.18:156][631]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.02.22-16.19.18:156][631]LogSwarmInterface: [TryOpenConnection] Local Process ID is 177548
+[2021.02.22-16.19.22:870][631]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2021.02.22-16.19.22:887][631]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.02.22-16.19.22:887][631]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.02.22-16.19.22:887][631]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.02.22-16.19.22:887][631]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.02.22-16.19.22:887][631]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.02.22-16.19.23:811][631]LogEditorBuildUtils: Build time 0:08
+[2021.02.22-16.19.24:432][635]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
+[2021.02.22-16.19.39:593][677]Job is a success!
+[2021.02.22-16.19.40:392][678]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.199s
+[2021.02.22-16.19.40:393][678]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2021.02.22-16.19.40:402][678]LogVolumetricLightmapImport:      BrickData (all levels) 2.5Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2021.02.22-16.19.40:402][678]LogVolumetricLightmapImport:      Bricks at depth
+[2021.02.22-16.19.40:402][678]LogVolumetricLightmapImport:          0: 1.9% covering 100.0% of volume
+[2021.02.22-16.19.40:402][678]LogVolumetricLightmapImport:          1: 6.0% covering 4.9% of volume
+[2021.02.22-16.19.40:402][678]LogVolumetricLightmapImport:          2: 92.0% covering 1.2% of volume
+[2021.02.22-16.19.40:402][678]LogVolumetricLightmapImport:      Bricks in each level
+[2021.02.22-16.19.40:402][678]LogVolumetricLightmapImport:          dan-chase_updated 			 414 bricks 	 100.0% (Persistent Level)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 512X256)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 512X512)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 512X512)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 512X256)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 512X512)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 512X512)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: SkyOcclusion1_6 (AutoDXT, 64X32)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64)
+[2021.02.22-16.19.42:493][678]LogTexture: Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64)
+[2021.02.22-16.19.42:693][678]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 32X32)
+[2021.02.22-16.19.42:693][678]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 64X64)
+[2021.02.22-16.19.42:693][678]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (G8, 128X64)
+[2021.02.22-16.19.42:693][678]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 512X512)
+[2021.02.22-16.19.42:978][678]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 1024X512)
+[2021.02.22-16.19.42:978][678]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X512)
+[2021.02.22-16.19.42:978][678]Lightmass on DESKTOP-38FH8H9: 16.5 sec total, 635 ms importing, 51 ms setup, 2.40 sec photons, 13.3 sec processing, 0 ms extra exporting [668/668 mappings]. Threads: 1:33 min total, 42.8 sec processing.
+[2021.02.22-16.19.42:982][678]LogStaticLightingSystem: dan-chase_updated_BuiltData storing lightmap data for 256 meshes in 11 LightmapResourceClusters (23.3 Meshes per cluster).
+[2021.02.22-16.19.43:064][678]LogUObjectHash: Compacting FUObjectHashTables data took   5.29ms
+[2021.02.22-16.19.43:246][678]LogStaticLightingSystem: Illumination: 26.2 sec (1.67 sec encoding lightmaps, 305 ms encoding shadowmaps)
+[2021.02.22-16.19.43:273][678]LogStaticLightingSystem: Lightmap texture memory:  9.3 MB (6.7 MB streaming, 2.7 MB non-streaming), 12 textures
+[2021.02.22-16.19.43:273][678]LogStaticLightingSystem: Shadowmap texture memory: 1.7 MB (1.4 MB streaming, 0.3 MB non-streaming), 6 textures
+[2021.02.22-16.19.49:210][678]DumpUnbuiltLightIteractions
+[2021.02.22-16.19.49:210][678]Lights with unbuilt interactions: 0
+[2021.02.22-16.19.49:210][678]
+[2021.02.22-16.19.49:210][678]Primitives with unbuilt interactions: 0
+[2021.02.22-16.19.49:407][679]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.02.22-16.19.49:407][679]MapCheck: New page: dan-chase_updated - 22 Feb 2021, 16:19:49
+[2021.02.22-16.19.49:484][679]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.181ms to complete.
+[2021.02.22-16.20.03:655][282]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2021.02.22-16.20.03:927][282]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/dan-chase_updatedB0AF826542F64E9DEA9557832F806248.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated.umap'
+[2021.02.22-16.20.03:979][282]LogFileHelpers: Saving map 'dan-chase_updated' took 0.407
+[2021.02.22-16.20.04:299][282]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/dan-chase_updated_BuiltData1C4F8F4D4C0E3E76B734E088D5E6B1C1.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated_BuiltData.uasset'
+[2021.02.22-16.20.04:324][282]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.22-16.20.04:324][282]LogContentValidation: Display: Validating World /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated.dan-chase_updated
+[2021.02.22-16.20.04:324][282]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated_BuiltData.dan-chase_updated_BuiltData
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.10:454][919]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/tim782/Desktop/Castlevania_sotm'
+[2021.02.22-16.20.38:060][919]LogSlate: Window 'Submit Files' being destroyed
+[2021.02.22-16.20.41:096][919]LogSourceControl: commit successful: [master 64073ff] organised files
+[2021.02.22-16.20.41:180][919]SourceControl: [master 64073ff] organised files
+[2021.02.22-16.20.41:180][919]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2021.02.22-16.20.41:189][919]SourceControl: Commited [master 64073ff] organised files.
