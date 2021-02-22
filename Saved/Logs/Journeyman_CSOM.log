@@ -557,3 +557,83 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.22-16.23.43:760][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
 [2021.02.22-16.23.43:760][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
 [2021.02.22-16.23.43:760][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.02.22-16.23.44:301][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.02.22-16.23.44:309][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.02.22-16.23.44:389][  0]LogLinker: Warning: Failed to load '/Game/SideScrollerBP/SideScrollerOverview': Can't find file.
+[2021.02.22-16.23.44:389][  0]LogLinker: Warning: Failed to load '/Game/SideScrollerBP/SideScrollerOverview': Can't find file.
+[2021.02.22-16.23.44:389][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerBP/SideScrollerOverview.SideScrollerOverview_C'
+[2021.02.22-16.23.44:443][  0]SourceControl: Source control is disabled
+[2021.02.22-16.23.48:285][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.22-16.23.48:316][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.22-16.23.48:316][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.22-16.23.48:396][  0]LogOcInput: OculusInput pre-init called
+[2021.02.22-16.23.48:415][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.02.22-16.23.48:415][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.02.22-16.23.48:508][  0]LogEngine: Initializing Engine...
+[2021.02.22-16.23.48:510][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.22-16.23.48:510][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.02.22-16.23.48:511][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.02.22-16.23.48:708][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.22-16.23.48:720][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.02.22-16.23.48:720][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A85CA31800), frame # 0
+[2021.02.22-16.23.48:720][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A85CA2B100), frame # 0
+[2021.02.22-16.23.48:740][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-16.23.48:740][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-16.23.48:740][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-16.23.48:740][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-16.23.48:740][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-16.23.48:740][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-16.23.48:740][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-16.23.48:740][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-16.23.48:740][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-16.23.48:740][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-16.23.48:769][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-16.23.48:769][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-16.23.48:918][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.02.22-16.23.48:923][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-16.23.48:928][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-16.23.48:929][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-16.23.48:931][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-16.23.48:933][  0]LogInit: FAudioDevice initialized.
+[2021.02.22-16.23.48:934][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.22-16.23.49:213][  0]LogDerivedDataCache: Saved boot cache 0.28s 76MB C:/Users/tim782/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.22-16.23.49:223][  0]LogInit: Texture streaming: Enabled
+[2021.02.22-16.23.49:256][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.02.22-16.23.49:256][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.02.22-16.23.49:259][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.02.22-16.23.49:439][  0]LogInit: Transaction tracking system initialized
+[2021.02.22-16.23.49:484][  0]BlueprintLog: New page: Editor Load
+[2021.02.22-16.23.49:612][  0]LocalizationService: Localization service is disabled
+[2021.02.22-16.23.49:851][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.02.22-16.23.49:851][  0]LogCook: Display: Mobile HDR setting 1
+[2021.02.22-16.23.50:047][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Content/' took 0.01s
+[2021.02.22-16.23.50:309][  0]LogUnrealEdMisc: Loading editor; pre map load, took 19.854
+[2021.02.22-16.23.50:309][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.02.22-16.23.50:310][  0]LogEditorServer: Warning: Can't find file '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2021.02.22-16.23.50:310][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.02.22-16.23.50:310][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.304ms to complete.
+[2021.02.22-16.23.50:310][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.001
+[2021.02.22-16.23.50:313][  0]LogUnrealEdMisc: Total Editor Startup Time, took 19.858
+[2021.02.22-16.23.50:513][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-16.23.50:526][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-16.23.50:537][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-16.23.50:551][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-16.23.50:784][  0]LogCollectionManager: Loaded 0 collections in 0.003783 seconds
+[2021.02.22-16.23.50:814][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Collections/' took 0.00s
+[2021.02.22-16.23.50:814][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Content/Developers/tim782/Collections/' took 0.00s
+[2021.02.22-16.23.50:814][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Content/Collections/' took 0.00s
+[2021.02.22-16.23.50:814][  0]LogContentBrowser: Native class hierarchy populated in 0.0192 seconds. Added 3427 classes and 821 folders.
+[2021.02.22-16.23.50:819][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.02.22-16.23.50:944][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.02.22-16.23.50:952][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2021.02.22-16.23.50:993][  0]LogSlate: Took 0.000374 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.22-16.23.50:996][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.02.22-16.23.51:003][  0]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.02.22-16.23.51:157][  0]LogRenderer: Reallocating scene render targets to support 1064x548 Format 10 NumSamples 1 (Frame:1).
+[2021.02.22-16.23.51:281][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.02.22-16.23.51:281][  0]LogLoad: (Engine Initialization) Total time: 20.83 seconds
+[2021.02.22-16.23.51:281][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.02.22-16.23.51:340][  0]LogAssetRegistry: Asset discovery search completed in 9.1365 seconds
+[2021.02.22-16.23.51:345][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.02.22-16.23.51:348][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.22-16.23.51:392][  0]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
