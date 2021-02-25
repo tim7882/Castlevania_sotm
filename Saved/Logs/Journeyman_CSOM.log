@@ -2025,3 +2025,191 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.25-14.26.19:226][674]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
 [2021.02.25-14.26.24:432][674]LogSlate: Window 'Submit Files' being destroyed
 [2021.02.25-14.26.24:694][674]SourceControl: Error: error: pathspec 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/TestMap/Test_Map.umap' did not match any file(s) known to git
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.12:947][245]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.27.13:049][245]EditorErrors: Warning: No assets to check in!
+[2021.02.25-14.29.36:073][427]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.02.25-14.29.36:761][508]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2021.02.25-14.29.37:697][508]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.02.25-14.29.38:385][590]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.02.25-14.29.46:356][523]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.02.25-14.29.51:239][ 90]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.02.25-14.29.54:228][431]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.02.25-14.30.00:497][163]BlueprintLog: New page: Compile MyCharactor
+[2021.02.25-14.30.00:545][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.02.25-14.30.55:184][614]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.02.25-14.30.55:200][614]LogSavePackage: Moving '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Saved/test_MapE35226E24E41B81248D70B986B76838D.tmp' to '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/TestMap/test_Map.umap'
+[2021.02.25-14.30.55:291][614]LogSavePackage: Moving '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Saved/test_Map_BuiltDataE77B54494DECA6E272385495AF2AF54F.tmp' to '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/TestMap/test_Map_BuiltData.uasset'
+[2021.02.25-14.30.55:300][614]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.25-14.30.55:300][614]LogContentValidation: Display: Validating World /Game/Programmer/TestMap/test_Map.test_Map
+[2021.02.25-14.30.55:300][614]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Programmer/TestMap/test_Map_BuiltData.test_Map_BuiltData
+[2021.02.25-14.30.56:884][789]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.25-14.30.56:897][789]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.25-14.30.56:897][789]PIE: New page: PIE session: test_Map (25 Feb 2021, 14:30:56)
+[2021.02.25-14.30.56:937][789]LogPlayLevel: Creating play world package: /Game/Programmer/TestMap/UEDPIE_0_test_Map
+[2021.02.25-14.30.56:939][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001803s)
+[2021.02.25-14.30.56:940][789]LogAIModule: Creating AISystem for world test_Map
+[2021.02.25-14.30.56:940][789]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CE4BC75200), frame # 144789
+[2021.02.25-14.30.56:940][789]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CE214020C0), frame # 144789
+[2021.02.25-14.30.56:940][789]LogPlayLevel: PIE: World Init took: (0.001183s)
+[2021.02.25-14.30.56:940][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Programmer/TestMap/test_Map.test_Map to /Game/Programmer/TestMap/UEDPIE_0_test_Map.test_Map (0.003115s)
+[2021.02.25-14.30.56:963][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.02.25-14.30.56:964][789]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.25-14.30.56:964][789]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.25-14.30.56:964][789]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.25-14.30.56:964][789]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.25-14.30.56:964][789]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.25-14.30.56:964][789]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.25-14.30.56:964][789]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.25-14.30.56:964][789]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.25-14.30.56:964][789]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.25-14.30.56:964][789]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.25-14.30.56:966][789]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.25-14.30.56:966][789]LogAudioMixer: Display: 1: FrontRight
+[2021.02.25-14.30.56:976][789]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless)
+[2021.02.25-14.30.56:976][789]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.25-14.30.56:976][789]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.25-14.30.56:976][789]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.25-14.30.56:976][789]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.25-14.30.56:986][789]LogInit: FAudioDevice initialized.
+[2021.02.25-14.30.56:996][789]LogLoad: Game class is 'GameModeBase'
+[2021.02.25-14.30.56:997][789]LogWorld: Bringing World /Game/Programmer/TestMap/UEDPIE_0_test_Map.test_Map up for play (max tick rate 0) at 2021.02.25-14.30.56
+[2021.02.25-14.30.56:997][789]LogWorld: Bringing up level for play took: 0.000589
+[2021.02.25-14.30.56:997][789]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.02.25-14.30.56:999][789]PIE: Server logged in
+[2021.02.25-14.30.56:999][789]PIE: Play in editor total start time 0.103 seconds.
+[2021.02.25-14.31.17:437][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.25-14.31.17:437][233]LogWorld: BeginTearingDown for /Game/Programmer/TestMap/UEDPIE_0_test_Map
+[2021.02.25-14.31.17:437][233]LogWorld: UWorld::CleanupWorld for test_Map, bSessionEnded=true, bCleanupResources=true
+[2021.02.25-14.31.17:438][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.25-14.31.17:447][233]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.25-14.31.17:450][233]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.25-14.31.17:466][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.25-14.31.17:479][233]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001CE214020C0), frame # 147233
+[2021.02.25-14.31.17:479][233]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001CE4BC75200), frame # 147233
+[2021.02.25-14.31.17:480][233]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.02.25-14.31.17:524][235]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.02.25-14.31.50:490][ 37]BlueprintLog: New page: Compile MyCharactor
+[2021.02.25-14.31.50:536][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2021.02.25-14.32.08:496][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.02.25-14.32.08:511][146]LogSavePackage: Moving '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Saved/test_Map2E96D8E94CA25AFD0BF918888D86DD73.tmp' to '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/TestMap/test_Map.umap'
+[2021.02.25-14.32.08:615][146]LogSavePackage: Moving '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Saved/test_Map_BuiltData84E34CFD42D037F7ED7301A372026537.tmp' to '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/TestMap/test_Map_BuiltData.uasset'
+[2021.02.25-14.32.08:624][146]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.25-14.32.08:624][146]LogContentValidation: Display: Validating World /Game/Programmer/TestMap/test_Map.test_Map
+[2021.02.25-14.32.08:624][146]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Programmer/TestMap/test_Map_BuiltData.test_Map_BuiltData
+[2021.02.25-14.32.09:572][257]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.25-14.32.09:585][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.25-14.32.09:586][257]PIE: New page: PIE session: test_Map (25 Feb 2021, 14:32:09)
+[2021.02.25-14.32.09:586][257]LogPlayLevel: Creating play world package: /Game/Programmer/TestMap/UEDPIE_0_test_Map
+[2021.02.25-14.32.09:587][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001450s)
+[2021.02.25-14.32.09:588][257]LogAIModule: Creating AISystem for world test_Map
+[2021.02.25-14.32.09:588][257]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001CE01C9AE00), frame # 153257
+[2021.02.25-14.32.09:588][257]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001CDA064A980), frame # 153257
+[2021.02.25-14.32.09:588][257]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2021.02.25-14.32.09:588][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Programmer/TestMap/test_Map.test_Map to /Game/Programmer/TestMap/UEDPIE_0_test_Map.test_Map (0.002316s)
+[2021.02.25-14.32.09:605][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2021.02.25-14.32.09:606][257]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.25-14.32.09:606][257]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.25-14.32.09:606][257]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.25-14.32.09:606][257]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.25-14.32.09:606][257]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.25-14.32.09:606][257]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.25-14.32.09:606][257]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.25-14.32.09:606][257]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.25-14.32.09:607][257]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.25-14.32.09:607][257]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.25-14.32.09:608][257]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.25-14.32.09:608][257]LogAudioMixer: Display: 1: FrontRight
+[2021.02.25-14.32.09:617][257]LogAudioMixer: Display: Using Audio Device Speakers (HyperX Cloud Flight Wireless)
+[2021.02.25-14.32.09:617][257]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.25-14.32.09:617][257]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.25-14.32.09:617][257]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.25-14.32.09:617][257]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.25-14.32.09:627][257]LogInit: FAudioDevice initialized.
+[2021.02.25-14.32.09:634][257]LogLoad: Game class is 'GameModeBase'
+[2021.02.25-14.32.09:635][257]LogWorld: Bringing World /Game/Programmer/TestMap/UEDPIE_0_test_Map.test_Map up for play (max tick rate 0) at 2021.02.25-14.32.09
+[2021.02.25-14.32.09:635][257]LogWorld: Bringing up level for play took: 0.000463
+[2021.02.25-14.32.09:636][257]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.02.25-14.32.09:637][257]PIE: Server logged in
+[2021.02.25-14.32.09:638][257]PIE: Play in editor total start time 0.052 seconds.
+[2021.02.25-14.32.18:787][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.25-14.32.18:787][352]LogWorld: BeginTearingDown for /Game/Programmer/TestMap/UEDPIE_0_test_Map
+[2021.02.25-14.32.18:787][352]LogWorld: UWorld::CleanupWorld for test_Map, bSessionEnded=true, bCleanupResources=true
+[2021.02.25-14.32.18:787][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.25-14.32.18:795][352]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.25-14.32.18:797][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.25-14.32.18:814][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.25-14.32.18:826][352]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001CDA064A980), frame # 154352
+[2021.02.25-14.32.18:826][352]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001CE01C9AE00), frame # 154352
+[2021.02.25-14.32.18:828][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.02.25-14.32.18:869][354]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.02.25-14.32.24:918][ 60]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Programmer/scrips/MyCharactor" FILE="../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/scrips/MyCharactor.uasset" SILENT=true
+[2021.02.25-14.32.24:952][ 60]LogSavePackage: Moving '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Saved/MyCharactorF3B5EB6E42D4867968239AB9ADB2CF64.tmp' to '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/scrips/MyCharactor.uasset'
+[2021.02.25-14.32.24:961][ 60]AssetCheck: New page: Asset Save: MyCharactor
+[2021.02.25-14.32.24:961][ 60]LogContentValidation: Display: Validating Blueprint /Game/Programmer/scrips/MyCharactor.MyCharactor
+[2021.02.25-14.32.26:549][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Programmer/scrips/bp_Bullet" FILE="../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/scrips/bp_Bullet.uasset" SILENT=true
+[2021.02.25-14.32.26:567][226]LogSavePackage: Moving '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Saved/bp_Bullet7E3DE691439BD87D2542899506340D8F.tmp' to '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/scrips/bp_Bullet.uasset'
+[2021.02.25-14.32.26:577][226]AssetCheck: New page: Asset Save: bp_Bullet
+[2021.02.25-14.32.26:577][226]LogContentValidation: Display: Validating Blueprint /Game/Programmer/scrips/bp_Bullet.bp_Bullet
+[2021.02.25-14.32.29:074][503]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.02.25-14.32.29:074][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.25-14.32.36:623][351]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Programmer/scrips/MyCharactor" FILE="../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/scrips/MyCharactor.uasset" SILENT=true
+[2021.02.25-14.32.36:657][351]LogSavePackage: Moving '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Saved/MyCharactor9EEBCF7C4D8987993C1DE0B1F6440DCE.tmp' to '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/scrips/MyCharactor.uasset'
+[2021.02.25-14.32.36:668][351]AssetCheck: New page: Asset Save: MyCharactor
+[2021.02.25-14.32.36:668][351]LogContentValidation: Display: Validating Blueprint /Game/Programmer/scrips/MyCharactor.MyCharactor
+[2021.02.25-14.32.52:619][187]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2021.02.25-14.32.54:206][368]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.02.25-14.32.54:206][368]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.02.25-14.32.54:206][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.25-14.32.57:446][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:446][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:446][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:446][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:447][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:447][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:447][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:447][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:447][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:447][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:447][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:447][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:447][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:447][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:447][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:447][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:447][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.32.57:447][699]SourceControl: fatal: C:/Engines/Unreal/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Engines/Unreal/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm'
+[2021.02.25-14.33.21:864][699]LogSlate: Window 'Submit Files' being destroyed
+[2021.02.25-14.33.22:135][699]SourceControl: Error: error: pathspec 'C:/Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/TestMap/Test_Map.umap' did not match any file(s) known to git
+[2021.02.25-14.33.32:829][919]LogSlate: Window 'Message Log' being destroyed
+[2021.02.25-14.33.32:833][919]LogSlate: Window 'Message Log' being destroyed
+[2021.02.25-14.33.34:322][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.02.25-14.33.34:344][ 86]LogSavePackage: Moving '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Saved/test_MapEE4057D44F8C25F6965748B191842468.tmp' to '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/TestMap/test_Map.umap'
+[2021.02.25-14.33.34:449][ 86]LogSavePackage: Moving '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Saved/test_Map_BuiltDataB4CEA8144C8EF395640F70B8BC5ABBE5.tmp' to '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/TestMap/test_Map_BuiltData.uasset'
+[2021.02.25-14.33.34:459][ 86]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.25-14.33.34:459][ 86]LogContentValidation: Display: Validating World /Game/Programmer/TestMap/test_Map.test_Map
+[2021.02.25-14.33.34:459][ 86]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Programmer/TestMap/test_Map_BuiltData.test_Map_BuiltData
+[2021.02.25-14.33.36:408][255]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2021.02.25-14.34.02:262][512]LogSlate: Window 'Source Control Login' being destroyed
+[2021.02.25-14.34.11:534][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.02.25-14.34.11:550][999]LogSavePackage: Moving '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Saved/test_Map4845B11E4236126F5031C9864E30C3EF.tmp' to '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/TestMap/test_Map.umap'
+[2021.02.25-14.34.11:643][999]LogSavePackage: Moving '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Saved/test_Map_BuiltDataD501276D403591FFD9FDF1856F5CA3BC.tmp' to '../../../../../../Users/jakem/Documents/GitHub/Castlevania_sotm/Content/Programmer/TestMap/test_Map_BuiltData.uasset'
+[2021.02.25-14.34.11:654][999]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.25-14.34.11:654][999]LogContentValidation: Display: Validating World /Game/Programmer/TestMap/test_Map.test_Map
+[2021.02.25-14.34.11:654][999]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Programmer/TestMap/test_Map_BuiltData.test_Map_BuiltData
