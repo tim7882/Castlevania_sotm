@@ -2165,3 +2165,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.02-16.57.59:722][976]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated' took 0.034
 [2021.03.02-17.08.00:205][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
 [2021.03.02-17.08.00:206][769]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated' took 0.052
+[2021.03.02-17.18.00:657][562]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2021.03.02-17.18.00:659][562]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated' took 0.055
