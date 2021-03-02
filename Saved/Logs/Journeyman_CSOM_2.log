@@ -527,6 +527,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.02-14.20.26:323][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
 [2021.03.02-14.20.26:323][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
 [2021.03.02-14.20.26:323][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+<<<<<<< Updated upstream
 [2021.03.02-14.20.27:698][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
 [2021.03.02-14.20.27:817][  0]LogDerivedDataCache: Loaded boot cache 0.12s 76MB C:/Users/tim782/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
 [2021.03.02-14.20.27:817][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tim782/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
@@ -1075,3 +1076,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.02-14.21.07:627][500]LogD3D11RHI: CleanupD3DDevice
 [2021.03.02-14.21.07:642][500]LogExit: Exiting.
 [2021.03.02-14.21.07:678][500]Log file closed, 03/02/21 14:21:07
+=======
+>>>>>>> Stashed changes
