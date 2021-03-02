@@ -945,3 +945,1221 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.02-14.40.21:167][769]Cmd: SELECT NONE
 [2021.03.02-14.40.22:427][897]Cmd: SELECT NONE
 [2021.03.02-14.40.23:272][987]Cmd: SELECT NONE
+[2021.03.02-15.16.49:790][494]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated.dan-chase_updated
+[2021.03.02-15.16.49:844][494]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2021.03.02-15.16.49:852][494]Cmd: MAP LOAD FILE="../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.02-15.16.49:852][494]LightingResults: New page: Lighting Build
+[2021.03.02-15.16.49:853][494]LoadErrors: New page: Loading map: dan-chase_updated.umap
+[2021.03.02-15.16.49:886][494]LogWorld: UWorld::CleanupWorld for test_Map, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-15.16.49:886][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-15.16.49:886][494]MapCheck: New page: Map Check
+[2021.03.02-15.16.49:886][494]LightingResults: New page: Lighting Build
+[2021.03.02-15.16.49:950][494]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000171A9D48400), frame # 24494
+[2021.03.02-15.16.49:950][494]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001718EF44800), frame # 24494
+[2021.03.02-15.16.49:953][494]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2021.03.02-15.16.49:972][494]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.02-15.16.49:973][494]LogAIModule: Creating AISystem for world dan-chase_updated
+[2021.03.02-15.16.49:973][494]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000171BF0E6200), frame # 24494
+[2021.03.02-15.16.49:973][494]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017201A5AFC0), frame # 24494
+[2021.03.02-15.16.50:035][494]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.03.02-15.16.50:097][494]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.02-15.16.50:098][494]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.263ms to complete.
+[2021.03.02-15.16.50:098][494]LogFileHelpers: Loading map 'dan-chase_updated' took 0.247
+[2021.03.02-15.16.52:473][755]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.02-15.16.52:505][755]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.02-15.16.52:505][755]PIE: New page: PIE session: dan-chase_updated (2 Mar 2021, 15:16:52)
+[2021.03.02-15.16.52:526][755]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated
+[2021.03.02-15.16.52:587][755]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060403s)
+[2021.03.02-15.16.52:588][755]LogAIModule: Creating AISystem for world dan-chase_updated
+[2021.03.02-15.16.52:588][755]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000172002C7A00), frame # 24755
+[2021.03.02-15.16.52:588][755]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000171CC6B9580), frame # 24755
+[2021.03.02-15.16.52:588][755]LogPlayLevel: PIE: World Init took: (0.001562s)
+[2021.03.02-15.16.52:588][755]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated.dan-chase_updated to /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated.dan-chase_updated (0.062177s)
+[2021.03.02-15.16.52:648][755]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2021.03.02-15.16.52:651][755]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.02-15.16.52:651][755]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.02-15.16.52:651][755]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.02-15.16.52:651][755]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.02-15.16.52:651][755]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.02-15.16.52:651][755]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.02-15.16.52:651][755]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.02-15.16.52:651][755]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.02-15.16.52:651][755]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.02-15.16.52:651][755]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.02-15.16.52:659][755]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.02-15.16.52:660][755]LogAudioMixer: Display: 1: FrontRight
+[2021.03.02-15.16.52:692][755]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.03.02-15.16.52:692][755]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.02-15.16.52:692][755]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.02-15.16.52:693][755]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.02-15.16.52:693][755]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.02-15.16.52:715][755]LogInit: FAudioDevice initialized.
+[2021.03.02-15.16.52:726][755]LogLoad: Game class is 'GameModeBase'
+[2021.03.02-15.16.52:737][755]LogWorld: Bringing World /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated.dan-chase_updated up for play (max tick rate 0) at 2021.03.02-15.16.52
+[2021.03.02-15.16.52:737][755]LogWorld: Bringing up level for play took: 0.010242
+[2021.03.02-15.16.52:737][755]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.03.02-15.16.52:741][755]PIE: Server logged in
+[2021.03.02-15.16.52:742][755]PIE: Play in editor total start time 0.238 seconds.
+[2021.03.02-15.16.55:273][ 55]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:281][ 56]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:289][ 57]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:298][ 58]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:306][ 59]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:314][ 60]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:323][ 61]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:331][ 62]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:339][ 63]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:348][ 64]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:356][ 65]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:364][ 66]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:373][ 67]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:381][ 68]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:390][ 69]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:398][ 70]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:406][ 71]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:414][ 72]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:423][ 73]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:431][ 74]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:439][ 75]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:448][ 76]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:456][ 77]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:464][ 78]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:473][ 79]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:481][ 80]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:489][ 81]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:498][ 82]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:506][ 83]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:514][ 84]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:523][ 85]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:531][ 86]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:539][ 87]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:548][ 88]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:556][ 89]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:564][ 90]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:573][ 91]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:581][ 92]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:589][ 93]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:598][ 94]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:606][ 95]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:614][ 96]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:623][ 97]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:631][ 98]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:639][ 99]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:648][100]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:656][101]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:873][127]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:881][128]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:889][129]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:898][130]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:914][132]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:923][133]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:931][134]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:939][135]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:948][136]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:956][137]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:965][138]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:973][139]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:981][140]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:990][141]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.55:998][142]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:006][143]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:014][144]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:040][147]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:056][149]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:073][151]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:081][152]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:089][153]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:098][154]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:106][155]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:114][156]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:123][157]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:131][158]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:140][159]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:148][160]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:156][161]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:165][162]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:173][163]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:181][164]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:190][165]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:198][166]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:206][167]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:215][168]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:223][169]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:231][170]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:239][171]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:248][172]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:256][173]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:265][174]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:273][175]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:281][176]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:290][177]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:298][178]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:441][195]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:449][196]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:466][198]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:482][200]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:491][201]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:499][202]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:507][203]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:516][204]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:524][205]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:532][206]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:541][207]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:549][208]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:558][209]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:566][210]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:574][211]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:582][212]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:592][213]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:599][214]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:607][215]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:616][216]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:624][217]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:632][218]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:641][219]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:657][221]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:666][222]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:741][231]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:749][232]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:757][233]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:766][234]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:774][235]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:782][236]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:791][237]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:799][238]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:807][239]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:816][240]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:824][241]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:833][242]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:841][243]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:849][244]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:857][245]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:866][246]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:874][247]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:882][248]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:891][249]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:899][250]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:908][251]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:916][252]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:924][253]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:932][254]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:941][255]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.56:999][262]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:007][263]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:024][265]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:166][282]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:174][283]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:182][284]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:191][285]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:199][286]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:207][287]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:216][288]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:224][289]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:232][290]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:241][291]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:249][292]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:257][293]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:266][294]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:274][295]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:282][296]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:291][297]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:299][298]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:307][299]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:316][300]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:324][301]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:332][302]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:341][303]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:349][304]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:357][305]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:366][306]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:374][307]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:382][308]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:391][309]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:399][310]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:407][311]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:416][312]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:424][313]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:432][314]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:441][315]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:449][316]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:499][322]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:532][326]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:549][328]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:557][329]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:566][330]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:574][331]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:583][332]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:591][333]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:599][334]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:608][335]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:616][336]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:624][337]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:633][338]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:641][339]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:649][340]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:658][341]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:666][342]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:674][343]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:683][344]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:691][345]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:699][346]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:708][347]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:716][348]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:724][349]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:833][362]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:899][370]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:908][371]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:916][372]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:924][373]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:933][374]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:941][375]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:950][376]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:959][377]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:966][378]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.57:974][379]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:033][386]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:083][392]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:091][393]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:099][394]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:124][397]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:174][403]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:183][404]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:191][405]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:200][406]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:208][407]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:216][408]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:225][409]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:233][410]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:241][411]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:250][412]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:258][413]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:267][414]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:283][416]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:308][419]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:433][434]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:442][435]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:450][436]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:458][437]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:466][438]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:475][439]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:483][440]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:491][441]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:500][442]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:508][443]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:516][444]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:525][445]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:533][446]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:542][447]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:550][448]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:558][449]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:566][450]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:575][451]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:583][452]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:591][453]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:600][454]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:608][455]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:616][456]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:625][457]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:633][458]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:641][459]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:650][460]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:658][461]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:675][463]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:800][478]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:808][479]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:816][480]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:825][481]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:833][482]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:841][483]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:850][484]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:858][485]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:867][486]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:875][487]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:884][488]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:892][489]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:900][490]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:909][491]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:917][492]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:925][493]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:934][494]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:942][495]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:950][496]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:958][497]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:967][498]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:975][499]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:983][500]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.58:992][501]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.59:000][502]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.59:008][503]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.59:017][504]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.59:025][505]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.59:033][506]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.59:042][507]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.59:050][508]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.59:058][509]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.59:067][510]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.59:075][511]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.59:083][512]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.16.59:100][514]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:342][663]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:350][664]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:359][665]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:367][666]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:375][667]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:384][668]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:392][669]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:400][670]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:409][671]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:417][672]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:426][673]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:434][674]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:442][675]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:450][676]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:459][677]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:467][678]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:475][679]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:484][680]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:492][681]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:500][682]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:509][683]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:517][684]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:526][685]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:534][686]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:543][687]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:550][688]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:559][689]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:567][690]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:575][691]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:584][692]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:600][694]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:609][695]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:617][696]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:625][697]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:634][698]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:642][699]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:650][700]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:659][701]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:684][704]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:809][719]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:817][720]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:826][721]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:834][722]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:842][723]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:850][724]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:859][725]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:867][726]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:875][727]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.00:884][728]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:267][774]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:295][777]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:336][782]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:361][785]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:369][786]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:377][787]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:386][788]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:394][789]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:402][790]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:452][796]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:460][797]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:477][799]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:486][800]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:494][801]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:511][803]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:519][804]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:535][806]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:544][807]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.01:711][827]LogBlueprintUserMessages: [MyCharactor_2] 899.616089
+[2021.03.02-15.17.02:477][919]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.02:744][951]LogBlueprintUserMessages: [MyCharactor_2] 894.426697
+[2021.03.02-15.17.03:619][ 56]LogBlueprintUserMessages: [MyCharactor_2] 899.616028
+[2021.03.02-15.17.04:652][180]LogBlueprintUserMessages: [MyCharactor_2] 894.426758
+[2021.03.02-15.17.06:961][457]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.06:970][458]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.06:986][460]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.06:994][461]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.07:003][462]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.07:161][481]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.07:169][482]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.07:177][483]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.07:186][484]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.07:194][485]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.07:203][486]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.07:994][581]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:003][582]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:011][583]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:019][584]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:028][585]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:036][586]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:044][587]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:053][588]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:061][589]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:069][590]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:078][591]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:086][592]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:095][593]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:111][595]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:153][600]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:186][604]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:194][605]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:203][606]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:211][607]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:219][608]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:228][609]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:244][611]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:253][612]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:261][613]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:269][614]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:278][615]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:286][616]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:403][630]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:411][631]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:419][632]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:428][633]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:436][634]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:444][635]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:453][636]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:469][638]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:820][680]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:828][681]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:836][682]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:853][684]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:870][686]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:878][687]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:886][688]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:895][689]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:903][690]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:911][691]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:920][692]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:928][693]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:936][694]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:945][695]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:953][696]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:962][697]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:970][698]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:978][699]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:986][700]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.08:995][701]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:028][705]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:036][706]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:045][707]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:061][709]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:078][711]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:086][712]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:095][713]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:103][714]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:111][715]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:128][717]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:136][718]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:145][719]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:153][720]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:161][721]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:170][722]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:178][723]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:186][724]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:195][725]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:203][726]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:211][727]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:220][728]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:228][729]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:236][730]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:245][731]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:253][732]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:261][733]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:270][734]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:278][735]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:286][736]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:295][737]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:303][738]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:311][739]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:320][740]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:328][741]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:336][742]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:344][743]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:353][744]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:361][745]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:419][752]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:428][753]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:436][754]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:445][755]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:453][756]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:461][757]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:474][758]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:482][759]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:491][760]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:500][761]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:509][762]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:543][763]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:551][764]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:559][765]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:570][766]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:579][767]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:587][768]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:596][769]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:604][770]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:612][771]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:620][772]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:629][773]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:637][774]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:646][775]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:654][776]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:662][777]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:679][779]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:687][780]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:846][799]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.09:862][801]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:612][131]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:629][133]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:637][134]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:646][135]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:654][136]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:662][137]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:671][138]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:679][139]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:687][140]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:696][141]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:704][142]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:712][143]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:721][144]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:729][145]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:737][146]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:746][147]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:754][148]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:762][149]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:771][150]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:787][152]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:796][153]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:804][154]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:812][155]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:821][156]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:829][157]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:837][158]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:846][159]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:854][160]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:862][161]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:871][162]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:879][163]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:887][164]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:896][165]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:904][166]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:912][167]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:921][168]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:929][169]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:937][170]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:946][171]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:954][172]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:963][173]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:971][174]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:987][176]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.12:996][177]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:021][180]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:104][190]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:112][191]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:121][192]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:129][193]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:137][194]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:154][196]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:162][197]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:171][198]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:179][199]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:187][200]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:196][201]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:204][202]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:212][203]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:221][204]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:229][205]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:237][206]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:246][207]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:254][208]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:262][209]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:271][210]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:279][211]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:287][212]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:296][213]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:304][214]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:312][215]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:321][216]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:329][217]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:337][218]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:346][219]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:354][220]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:362][221]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:371][222]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:379][223]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:387][224]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:396][225]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:404][226]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:412][227]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:421][228]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:429][229]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:437][230]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:446][231]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:454][232]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:462][233]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:471][234]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:479][235]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:487][236]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:496][237]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:504][238]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:512][239]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:521][240]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:529][241]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:537][242]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:546][243]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:554][244]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:563][245]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:571][246]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:579][247]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:587][248]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:596][249]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:604][250]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:612][251]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:621][252]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:629][253]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:637][254]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:646][255]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:654][256]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:662][257]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:670][258]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:679][259]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:687][260]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:696][261]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:704][262]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:712][263]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:720][264]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:729][265]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:737][266]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:746][267]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:754][268]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:762][269]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:770][270]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:779][271]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:787][272]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:796][273]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:804][274]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:812][275]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:820][276]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:829][277]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:837][278]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:846][279]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:854][280]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:862][281]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:870][282]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:912][287]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:921][288]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:929][289]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:937][290]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:946][291]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:954][292]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:962][293]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:971][294]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.13:979][295]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.17.14:667][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.02-15.17.14:667][373]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated
+[2021.03.02-15.17.14:667][373]LogWorld: UWorld::CleanupWorld for dan-chase_updated, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-15.17.14:670][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-15.17.14:681][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.02-15.17.14:685][373]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-15.17.14:737][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.02-15.17.14:766][373]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000171CC6B9580), frame # 27373
+[2021.03.02-15.17.14:766][373]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000172002C7A00), frame # 27373
+[2021.03.02-15.17.14:771][373]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.03.02-15.17.14:835][374]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.03.02-15.17.28:899][907]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Programmer/scrips/MyCharactor.MyCharactor
+[2021.03.02-15.17.39:489][ 32]LogRenderer: Reallocating scene render targets to support 864x524 Format 10 NumSamples 1 (Frame:1).
+[2021.03.02-15.18.16:428][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube140)
+[2021.03.02-15.18.43:304][  3]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.02-15.18.43:340][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.02-15.18.43:340][  3]PIE: New page: PIE session: dan-chase_updated (2 Mar 2021, 15:18:43)
+[2021.03.02-15.18.43:377][  3]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated
+[2021.03.02-15.18.43:444][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066913s)
+[2021.03.02-15.18.43:445][  3]LogAIModule: Creating AISystem for world dan-chase_updated
+[2021.03.02-15.18.43:445][  3]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001718F385C00), frame # 37003
+[2021.03.02-15.18.43:445][  3]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017201A9A700), frame # 37003
+[2021.03.02-15.18.43:446][  3]LogPlayLevel: PIE: World Init took: (0.001760s)
+[2021.03.02-15.18.43:446][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated.dan-chase_updated to /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated.dan-chase_updated (0.068960s)
+[2021.03.02-15.18.43:494][  3]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2021.03.02-15.18.43:495][  3]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.02-15.18.43:495][  3]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.02-15.18.43:495][  3]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.02-15.18.43:495][  3]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.02-15.18.43:496][  3]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.02-15.18.43:496][  3]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.02-15.18.43:496][  3]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.02-15.18.43:496][  3]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.02-15.18.43:496][  3]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.02-15.18.43:496][  3]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.02-15.18.43:504][  3]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.02-15.18.43:504][  3]LogAudioMixer: Display: 1: FrontRight
+[2021.03.02-15.18.43:538][  3]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.03.02-15.18.43:539][  3]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.02-15.18.43:539][  3]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.02-15.18.43:539][  3]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.02-15.18.43:540][  3]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.02-15.18.43:560][  3]LogInit: FAudioDevice initialized.
+[2021.03.02-15.18.43:574][  3]LogLoad: Game class is 'GameModeBase'
+[2021.03.02-15.18.43:586][  3]LogWorld: Bringing World /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated.dan-chase_updated up for play (max tick rate 0) at 2021.03.02-15.18.43
+[2021.03.02-15.18.43:586][  3]LogWorld: Bringing up level for play took: 0.011899
+[2021.03.02-15.18.43:587][  3]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.03.02-15.18.43:590][  3]PIE: Server logged in
+[2021.03.02-15.18.43:591][  3]PIE: Play in editor total start time 0.252 seconds.
+[2021.03.02-15.18.44:709][134]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.44:935][161]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.44:943][162]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.44:951][163]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.44:960][164]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.44:969][165]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.44:977][166]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.44:985][167]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.44:994][168]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:002][169]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:010][170]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:019][171]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:035][173]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:044][174]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:052][175]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:070][177]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:087][179]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:104][181]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:112][182]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:120][183]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:129][184]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:137][185]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:154][187]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:162][188]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:170][189]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:179][190]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:187][191]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:195][192]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:204][193]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:212][194]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:220][195]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:337][209]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:345][210]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:354][211]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:362][212]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:370][213]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:387][215]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:395][216]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:404][217]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:412][218]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:420][219]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:429][220]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:437][221]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:445][222]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:454][223]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:462][224]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.45:470][225]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.46:312][326]LogBlueprintUserMessages: [MyCharactor_2] 899.616089
+[2021.03.02-15.18.47:348][450]LogBlueprintUserMessages: [MyCharactor_2] 894.426758
+[2021.03.02-15.18.48:098][540]LogBlueprintUserMessages: [MyCharactor_2] 899.616028
+[2021.03.02-15.18.49:673][729]LogBlueprintUserMessages: [MyCharactor_2] 894.496582
+[2021.03.02-15.18.51:442][941]LogBlueprintUserMessages: [MyCharactor_2] 899.615967
+[2021.03.02-15.18.53:075][137]LogBlueprintUserMessages: [MyCharactor_2] 894.592468
+[2021.03.02-15.18.58:051][734]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:068][736]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:076][737]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:085][738]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:093][739]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:101][740]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:134][744]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:143][745]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:151][746]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:160][747]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:168][748]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:176][749]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:185][750]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:193][751]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:201][752]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:210][753]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:218][754]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:226][755]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:235][756]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:243][757]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:251][758]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:259][759]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:268][760]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:276][761]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:284][762]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:293][763]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:301][764]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:310][765]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:318][766]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:326][767]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:334][768]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:376][773]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:385][774]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:393][775]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:401][776]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:410][777]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:418][778]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:426][779]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:435][780]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:443][781]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:451][782]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:460][783]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:468][784]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:476][785]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:485][786]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:493][787]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:526][791]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:535][792]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:543][793]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:551][794]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:560][795]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:568][796]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:576][797]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:585][798]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:593][799]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:601][800]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:610][801]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:618][802]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:626][803]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:635][804]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:643][805]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:651][806]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:660][807]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:668][808]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:676][809]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:685][810]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:693][811]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:701][812]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:709][813]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:718][814]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:726][815]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:734][816]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:743][817]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:776][821]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:835][828]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:843][829]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:860][831]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:868][832]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:876][833]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:885][834]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:893][835]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:901][836]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:910][837]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:918][838]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:926][839]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:935][840]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:951][842]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:960][843]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:968][844]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:976][845]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:985][846]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.58:993][847]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:001][848]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:010][849]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:018][850]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:026][851]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:034][852]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:043][853]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:052][854]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:060][855]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:068][856]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:076][857]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:085][858]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:093][859]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:101][860]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:109][861]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:118][862]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:126][863]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:151][866]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:160][867]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:168][868]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:176][869]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:185][870]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:193][871]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:201][872]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:210][873]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:218][874]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:226][875]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:235][876]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:243][877]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:251][878]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:260][879]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:268][880]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:276][881]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:285][882]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:293][883]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:301][884]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:309][885]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:318][886]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:326][887]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:335][888]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:343][889]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:351][890]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:360][891]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:368][892]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:376][893]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:385][894]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:393][895]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:401][896]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:410][897]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:418][898]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:427][899]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.18.59:459][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.02-15.18.59:459][899]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated
+[2021.03.02-15.18.59:459][899]LogWorld: UWorld::CleanupWorld for dan-chase_updated, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-15.18.59:461][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-15.18.59:470][899]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.02-15.18.59:474][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-15.18.59:535][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.02-15.18.59:536][899]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017201A9A700), frame # 38899
+[2021.03.02-15.18.59:536][899]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001718F385C00), frame # 38899
+[2021.03.02-15.18.59:541][899]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2021.03.02-15.18.59:603][900]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.03.02-15.19.00:488][  2]Cmd: SELECT NONE
+[2021.03.02-15.19.07:848][765]LogRenderer: Reallocating scene render targets to support 876x524 Format 10 NumSamples 1 (Frame:7282).
+[2021.03.02-15.19.14:480][349]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.02-15.19.14:514][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.02-15.19.14:514][349]PIE: New page: PIE session: dan-chase_updated (2 Mar 2021, 15:19:14)
+[2021.03.02-15.19.14:547][349]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated
+[2021.03.02-15.19.14:606][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059384s)
+[2021.03.02-15.19.14:608][349]LogAIModule: Creating AISystem for world dan-chase_updated
+[2021.03.02-15.19.14:608][349]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017200121400), frame # 40349
+[2021.03.02-15.19.14:608][349]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000171B2F50900), frame # 40349
+[2021.03.02-15.19.14:608][349]LogPlayLevel: PIE: World Init took: (0.001755s)
+[2021.03.02-15.19.14:608][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated.dan-chase_updated to /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated.dan-chase_updated (0.061366s)
+[2021.03.02-15.19.14:666][349]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.03.02-15.19.14:668][349]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.02-15.19.14:668][349]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.02-15.19.14:668][349]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.02-15.19.14:668][349]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.02-15.19.14:668][349]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.02-15.19.14:668][349]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.02-15.19.14:668][349]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.02-15.19.14:668][349]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.02-15.19.14:669][349]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.02-15.19.14:669][349]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.02-15.19.14:676][349]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.02-15.19.14:676][349]LogAudioMixer: Display: 1: FrontRight
+[2021.03.02-15.19.14:706][349]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.03.02-15.19.14:706][349]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.02-15.19.14:706][349]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.02-15.19.14:706][349]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.02-15.19.14:707][349]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.02-15.19.14:729][349]LogInit: FAudioDevice initialized.
+[2021.03.02-15.19.14:738][349]LogLoad: Game class is 'GameModeBase'
+[2021.03.02-15.19.14:749][349]LogWorld: Bringing World /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated.dan-chase_updated up for play (max tick rate 0) at 2021.03.02-15.19.14
+[2021.03.02-15.19.14:749][349]LogWorld: Bringing up level for play took: 0.010417
+[2021.03.02-15.19.14:749][349]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.03.02-15.19.14:752][349]PIE: Server logged in
+[2021.03.02-15.19.14:754][349]PIE: Play in editor total start time 0.241 seconds.
+[2021.03.02-15.19.16:526][559]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.16:542][561]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.16:651][574]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.16:659][575]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.16:676][577]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.20:809][ 73]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.20:826][ 75]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.20:901][ 84]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.20:918][ 86]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.21:895][203]LogBlueprintUserMessages: [MyCharactor_2] 899.616089
+[2021.03.02-15.19.23:578][405]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:586][406]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:595][407]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:603][408]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:611][409]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:628][411]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:637][412]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:644][413]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:653][414]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:661][415]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:670][416]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:678][417]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:686][418]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:695][419]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:703][420]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:711][421]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:720][422]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:720][422]LogBlueprintUserMessages: [MyCharactor_2] 894.598511
+[2021.03.02-15.19.23:729][423]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:745][425]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:753][426]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:761][427]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:770][428]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:778][429]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:786][430]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:795][431]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:803][432]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:845][437]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:853][438]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:861][439]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:870][440]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:878][441]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:886][442]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:895][443]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:903][444]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:911][445]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:920][446]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:928][447]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:936][448]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:953][450]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:961][451]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:970][452]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:978][453]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:986][454]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.23:995][455]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:003][456]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:011][457]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:020][458]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:028][459]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:045][461]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:053][462]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:061][463]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:070][464]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:078][465]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:086][466]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:095][467]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:103][468]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:111][469]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:119][470]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:137][472]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:145][473]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:153][474]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:161][475]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:170][476]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:178][477]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:186][478]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:211][481]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:220][482]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:228][483]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:236][484]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:245][485]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:253][486]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:261][487]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:270][488]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:278][489]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:320][494]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:328][495]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:353][498]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:361][499]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:370][500]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:378][501]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:386][502]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:395][503]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:903][564]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:911][565]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:920][566]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:929][567]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:945][569]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:953][570]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:961][571]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:970][572]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.24:978][573]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:003][576]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:011][577]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:020][578]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:028][579]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:037][580]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:045][581]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:053][582]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:061][583]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:070][584]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:078][585]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:086][586]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:095][587]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:103][588]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:111][589]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:120][590]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:128][591]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:205][593]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:213][594]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:222][595]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:230][596]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:239][597]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:247][598]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:264][600]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:272][601]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:281][602]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:289][603]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:297][604]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:305][605]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:313][606]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:322][607]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:330][608]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:338][609]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:380][614]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:389][615]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:397][616]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:405][617]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:414][618]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:422][619]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:430][620]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:439][621]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.02-15.19.25:807][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.02-15.19.25:808][661]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated
+[2021.03.02-15.19.25:808][661]LogWorld: UWorld::CleanupWorld for dan-chase_updated, bSessionEnded=true, bCleanupResources=true
+[2021.03.02-15.19.25:810][661]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-15.19.25:817][661]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.02-15.19.25:821][661]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.02-15.19.25:875][661]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.02-15.19.25:901][661]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000171B2F50900), frame # 41661
+[2021.03.02-15.19.25:901][661]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017200121400), frame # 41661
+[2021.03.02-15.19.25:906][661]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2021.03.02-15.19.25:966][662]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.03.02-15.19.34:721][672]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2021.03.02-15.19.52:040][617]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.03.02-15.19.53:691][790]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube47)
+[2021.03.02-15.20.15:619][291]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.03.02-15.20.30:171][978]LogEditor: Attempting to add actor of class 'NavSystemConfigOverride' to level at 380.00,-3580.00,810.00
+[2021.03.02-15.20.31:452][103]LogEditor: Attempting to add actor of class 'NavSystemConfigOverride' to level at 1200.00,-3730.00,810.00
+[2021.03.02-15.20.33:377][328]Cmd: DELETE
+[2021.03.02-15.20.33:377][328]Cmd: ACTOR DELETE
+[2021.03.02-15.20.33:436][328]LogEditorActor: Deleted Actor: NavSystemConfigOverride
+[2021.03.02-15.20.33:473][328]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.03.02-15.20.33:476][328]LogEditorActor: Deleted 1 Actors (0.083 secs)
+[2021.03.02-15.20.34:972][490]LogEditor: Attempting to add actor of class 'NavSystemConfigOverride' to level at 470.00,-3470.00,830.00
+[2021.03.02-15.20.35:880][586]LogEditor: Attempting to add actor of class 'NavSystemConfigOverride' to level at 1150.00,-3690.00,810.00
+[2021.03.02-15.20.37:431][767]Cmd: DELETE
+[2021.03.02-15.20.37:431][767]Cmd: ACTOR DELETE
+[2021.03.02-15.20.37:447][767]LogEditorActor: Deleted Actor: NavSystemConfigOverride
+[2021.03.02-15.20.37:500][767]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.03.02-15.20.37:502][767]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2021.03.02-15.20.42:151][286]Cmd: DELETE
+[2021.03.02-15.20.42:151][286]Cmd: ACTOR DELETE
+[2021.03.02-15.20.42:168][286]LogEditorActor: Deleted Actor: NavModifierVolume
+[2021.03.02-15.20.42:230][286]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2021.03.02-15.20.42:232][286]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2021.03.02-15.20.45:405][658]LogEditor: Attempting to add actor of class 'NavLinkProxy' to level at -320.00,-4720.00,870.00
+[2021.03.02-15.20.46:720][800]LogEditor: Attempting to add actor of class 'NavLinkProxy' to level at 1190.00,-4240.00,810.00
+[2021.03.02-15.20.58:531][179]Cmd: DELETE
+[2021.03.02-15.20.58:531][179]Cmd: ACTOR DELETE
+[2021.03.02-15.20.58:547][179]LogEditorActor: Deleted Actor: NavLinkProxy
+[2021.03.02-15.20.58:607][179]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2021.03.02-15.20.58:608][179]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2021.03.02-15.21.07:670][231]LogEditor: Attempting to add actor of class 'AbstractNavData' to level at 730.00,-3070.00,810.00
+[2021.03.02-15.21.07:674][231]LogNavigation: Warning: NavData RegistrationFailed_AgentAlreadySupported, specified agent type already has its navmesh implemented.
+[2021.03.02-15.21.08:211][294]LogEditor: Attempting to add actor of class 'AbstractNavData' to level at 1150.00,-3700.00,810.00
+[2021.03.02-15.21.08:230][294]LogNavigation: Warning: NavData RegistrationFailed_AgentAlreadySupported, specified agent type already has its navmesh implemented.
+[2021.03.02-15.21.17:211][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.03.02-15.21.17:504][369]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.03.02-15.21.18:823][522]Cmd: DELETE
+[2021.03.02-15.21.18:823][522]Cmd: ACTOR DELETE
+[2021.03.02-15.21.18:839][522]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2021.03.02-15.21.18:895][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.03.02-15.21.18:897][522]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2021.03.02-15.21.18:901][522]LogNavigation: Warning: ConstructTiledNavMesh: Failed to create navmesh of size 0.
+[2021.03.02-15.27.39:519][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2021.03.02-15.27.39:815][219]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/dan-chase_updated_Auto18507EF4D40A1C6E1C71AC9AD7C494B48.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Autosaves/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated_Auto1.umap'
+[2021.03.02-15.27.39:819][219]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated' took 0.332
+[2021.03.02-15.27.39:819][219]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.332
+[2021.03.02-15.37.40:196][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2021.03.02-15.37.40:198][ 12]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated' took 0.032
+[2021.03.02-15.47.20:515][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2021.03.02-15.47.56:142][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.03.02-15.47.56:143][338]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated' took 0.048
+[2021.03.02-15.57.56:658][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2021.03.02-15.57.56:659][132]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated' took 0.034
+[2021.03.02-16.07.57:295][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2021.03.02-16.07.57:296][924]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated' took 0.043
+[2021.03.02-16.17.57:742][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2021.03.02-16.17.57:743][717]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated' took 0.041
+[2021.03.02-16.27.58:210][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2021.03.02-16.27.58:211][510]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated' took 0.038
+[2021.03.02-16.37.58:655][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2021.03.02-16.37.58:656][302]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated' took 0.034
+[2021.03.02-16.47.59:311][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2021.03.02-16.47.59:313][185]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated' took 0.040
+[2021.03.02-16.57.59:720][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2021.03.02-16.57.59:722][976]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated' took 0.034
