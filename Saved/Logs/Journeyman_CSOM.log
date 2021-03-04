@@ -2241,3 +2241,187 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.04-11.17.05:689][ 73]OBJ SavePackage: Finished generating thumbnails for package [/Game/Designer/Level_Design/Blockouts/Lucy_saferoom/BP-Door]
 [2021.03.04-11.17.05:743][ 73]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/BP-Door_Auto32AC4E5994339900D9FC113A8CAA2697D.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Autosaves/Game/Designer/Level_Design/Blockouts/Lucy_saferoom/BP-Door_Auto3.uasset'
 [2021.03.04-11.17.05:745][ 73]LogFileHelpers: Auto-saving content packages took 0.086
+[2021.03.04-11.27.06:201][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.03.04-11.27.06:204][585]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Lucy_saferoom/Lucy_saferoom' took 0.079
+[2021.03.04-11.27.06:204][585]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Programmer/scrips/MyCharactor] ([1] browsable assets)...
+[2021.03.04-11.27.06:232][585]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Programmer/scrips/MyCharactor.MyCharactor]
+[2021.03.04-11.27.06:232][585]OBJ SavePackage: Finished generating thumbnails for package [/Game/Programmer/scrips/MyCharactor]
+[2021.03.04-11.27.06:361][585]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/MyCharactor_Auto435290D0A4F190EBFF8238F99681C53A1.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Autosaves/Game/Programmer/scrips/MyCharactor_Auto4.uasset'
+[2021.03.04-11.27.06:363][585]LogFileHelpers: Auto-saving content packages took 0.160
+[2021.03.04-11.27.52:255][807]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Programmer/scrips/BPI_damagable.BPI_damagable
+[2021.03.04-11.28.01:354][760]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2021.03.04-11.28.01:354][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.04-11.28.01:924][813]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.03.04-11.28.01:924][813]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2021.03.04-11.28.01:924][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.04-11.28.02:422][862]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2021.03.04-11.28.02:423][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.04-11.28.13:505][578]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Programmer/scrips/StaminaHUD.StaminaHUD
+[2021.03.04-11.28.22:218][513]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2021.03.04-11.28.22:218][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.04-11.28.22:254][513]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2021.03.04-11.28.22:254][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.04-11.29.16:463][299]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.04-11.29.16:498][299]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.03.04-11.29.16:499][299]LogPlayLevel: [PlayLevel] Compiling BP-Door before play...
+[2021.03.04-11.29.16:678][299]LogUObjectHash: Compacting FUObjectHashTables data took   6.97ms
+[2021.03.04-11.29.16:702][299]LogPlayLevel: PlayLevel: Blueprint regeneration took 204 ms (1 blueprints)
+[2021.03.04-11.29.16:702][299]PIE: New page: PIE session: Lucy_saferoom (4 Mar 2021, 11:29:16)
+[2021.03.04-11.29.16:738][299]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Blockouts/Lucy_saferoom/UEDPIE_0_Lucy_saferoom
+[2021.03.04-11.29.16:773][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035696s)
+[2021.03.04-11.29.16:775][299]LogAIModule: Creating AISystem for world Lucy_saferoom
+[2021.03.04-11.29.16:775][299]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D99112400), frame # 240299
+[2021.03.04-11.29.16:775][299]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024E09C3D800), frame # 240299
+[2021.03.04-11.29.16:775][299]LogPlayLevel: PIE: World Init took: (0.001811s)
+[2021.03.04-11.29.16:775][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Blockouts/Lucy_saferoom/Lucy_saferoom.Lucy_saferoom to /Game/Designer/Level_Design/Blockouts/Lucy_saferoom/UEDPIE_0_Lucy_saferoom.Lucy_saferoom (0.037715s)
+[2021.03.04-11.29.16:892][299]LogUObjectHash: Compacting FUObjectHashTables data took   6.05ms
+[2021.03.04-11.29.16:895][299]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.04-11.29.16:895][299]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.04-11.29.16:895][299]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.04-11.29.16:895][299]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.04-11.29.16:895][299]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.04-11.29.16:895][299]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.04-11.29.16:895][299]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.04-11.29.16:895][299]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.04-11.29.16:896][299]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.04-11.29.16:896][299]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.04-11.29.16:904][299]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.04-11.29.16:904][299]LogAudioMixer: Display: 1: FrontRight
+[2021.03.04-11.29.16:942][299]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.03.04-11.29.16:942][299]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.04-11.29.16:942][299]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.04-11.29.16:942][299]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.04-11.29.16:943][299]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.04-11.29.16:965][299]LogInit: FAudioDevice initialized.
+[2021.03.04-11.29.16:978][299]LogLoad: Game class is 'GameModeBase'
+[2021.03.04-11.29.16:981][299]LogWorld: Bringing World /Game/Designer/Level_Design/Blockouts/Lucy_saferoom/UEDPIE_0_Lucy_saferoom.Lucy_saferoom up for play (max tick rate 0) at 2021.03.04-11.29.16
+[2021.03.04-11.29.16:981][299]LogWorld: Bringing up level for play took: 0.002098
+[2021.03.04-11.29.16:981][299]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.03.04-11.29.17:027][299]PIE: Server logged in
+[2021.03.04-11.29.17:029][299]PIE: Play in editor total start time 0.532 seconds.
+[2021.03.04-11.29.18:962][518]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.18:996][522]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:088][533]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:113][536]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:122][537]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:130][538]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:139][539]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:148][540]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:156][541]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:165][542]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:173][543]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:182][544]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:190][545]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:199][546]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:207][547]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:215][548]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:224][549]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:232][550]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.19:714][605]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.03.04-11.29.22:383][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.04-11.29.22:626][953]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.22:634][954]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.22:643][955]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.22:651][956]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.22:660][957]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.22:668][958]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.22:677][959]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.22:685][960]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.22:693][961]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.22:701][962]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.22:710][963]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.22:718][964]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.22:947][991]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.03.04-11.29.24:018][ 88]LogPackageName: SearchForPackageOnDisk took   0.261s, but failed to resolve MainMenu.umap.
+[2021.03.04-11.29.24:275][ 88]LogPackageName: SearchForPackageOnDisk took   0.240s, but failed to resolve MainMenu.umap.
+[2021.03.04-11.29.24:301][ 88]LogNet: Browse: /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated
+[2021.03.04-11.29.24:301][ 88]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated
+[2021.03.04-11.29.24:301][ 88]LogNet: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated'. Shutting down PIE.
+[2021.03.04-11.29.24:301][ 88]PIE: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated'. Shutting down PIE.
+[2021.03.04-11.29.24:301][ 88]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated
+[2021.03.04-11.29.24:301][ 88]LogNet: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated'. Shutting down PIE.
+[2021.03.04-11.29.24:301][ 88]PIE: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated'. Shutting down PIE.
+[2021.03.04-11.29.24:349][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.04-11.29.24:349][ 88]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Blockouts/Lucy_saferoom/UEDPIE_0_Lucy_saferoom
+[2021.03.04-11.29.24:350][ 88]LogWorld: UWorld::CleanupWorld for Lucy_saferoom, bSessionEnded=true, bCleanupResources=true
+[2021.03.04-11.29.24:350][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.04-11.29.24:358][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.04-11.29.24:363][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.04-11.29.24:394][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.04-11.29.24:423][ 88]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024E09C3D800), frame # 241088
+[2021.03.04-11.29.24:423][ 88]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D99112400), frame # 241088
+[2021.03.04-11.29.24:427][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2021.03.04-11.29.24:568][ 89]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2021.03.04-11.29.29:574][624]LogTemp: Repeating last play command: Selected Viewport
+[2021.03.04-11.29.29:606][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.04-11.29.29:606][624]PIE: New page: PIE session: Lucy_saferoom (4 Mar 2021, 11:29:29)
+[2021.03.04-11.29.29:606][624]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Blockouts/Lucy_saferoom/UEDPIE_0_Lucy_saferoom
+[2021.03.04-11.29.29:641][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034631s)
+[2021.03.04-11.29.29:642][624]LogAIModule: Creating AISystem for world Lucy_saferoom
+[2021.03.04-11.29.29:642][624]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D9A72A600), frame # 241624
+[2021.03.04-11.29.29:642][624]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024DE225CE00), frame # 241624
+[2021.03.04-11.29.29:643][624]LogPlayLevel: PIE: World Init took: (0.001553s)
+[2021.03.04-11.29.29:643][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Blockouts/Lucy_saferoom/Lucy_saferoom.Lucy_saferoom to /Game/Designer/Level_Design/Blockouts/Lucy_saferoom/UEDPIE_0_Lucy_saferoom.Lucy_saferoom (0.036340s)
+[2021.03.04-11.29.29:687][624]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.03.04-11.29.29:692][624]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.04-11.29.29:692][624]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.04-11.29.29:692][624]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.04-11.29.29:692][624]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.04-11.29.29:692][624]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.04-11.29.29:692][624]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.04-11.29.29:692][624]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.04-11.29.29:692][624]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.04-11.29.29:692][624]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.04-11.29.29:692][624]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.04-11.29.29:700][624]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.04-11.29.29:700][624]LogAudioMixer: Display: 1: FrontRight
+[2021.03.04-11.29.29:730][624]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.03.04-11.29.29:730][624]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.04-11.29.29:730][624]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.04-11.29.29:730][624]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.04-11.29.29:731][624]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.04-11.29.29:753][624]LogInit: FAudioDevice initialized.
+[2021.03.04-11.29.29:764][624]LogLoad: Game class is 'GameModeBase'
+[2021.03.04-11.29.29:767][624]LogWorld: Bringing World /Game/Designer/Level_Design/Blockouts/Lucy_saferoom/UEDPIE_0_Lucy_saferoom.Lucy_saferoom up for play (max tick rate 0) at 2021.03.04-11.29.29
+[2021.03.04-11.29.29:767][624]LogWorld: Bringing up level for play took: 0.001942
+[2021.03.04-11.29.29:767][624]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.03.04-11.29.29:770][624]PIE: Server logged in
+[2021.03.04-11.29.29:771][624]PIE: Play in editor total start time 0.166 seconds.
+[2021.03.04-11.29.30:430][693]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.30:455][696]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.30:497][701]LogBlueprintUserMessages: [MyCharactor_2] 0.0
+[2021.03.04-11.29.30:624][716]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.03.04-11.29.31:440][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.04-11.29.31:441][811]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Blockouts/Lucy_saferoom/UEDPIE_0_Lucy_saferoom
+[2021.03.04-11.29.31:478][811]LogWorld: UWorld::CleanupWorld for Lucy_saferoom, bSessionEnded=true, bCleanupResources=true
+[2021.03.04-11.29.31:479][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.04-11.29.31:487][811]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.04-11.29.31:491][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.04-11.29.31:523][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.04-11.29.31:550][811]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024DE225CE00), frame # 241811
+[2021.03.04-11.29.31:550][811]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D9A72A600), frame # 241811
+[2021.03.04-11.29.31:555][811]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2021.03.04-11.29.31:628][812]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.03.04-11.29.32:546][915]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2021.03.04-11.33.13:627][710]LogTemp: Resetting audio stream to device id 
+[2021.03.04-11.33.13:670][710]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.04-11.33.13:670][710]LogAudioMixer: Display: 1: FrontRight
+[2021.03.04-11.33.14:303][713]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.03.04-13.06.53:895][742]LogTemp: Resetting audio stream to device id 
+[2021.03.04-13.06.53:953][742]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.04-13.06.53:953][742]LogAudioMixer: Display: 1: FrontRight
+[2021.03.04-13.06.54:586][745]LogHttp: Warning: 0000024E0B348800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6CAB25B8-4DA2-0597-38DE-1983C622A4B5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=0a79330343f3bc262913b396995ed417%7Cc719b2018f8344568f22fd6b6aeda4ac%7C108db09b-26d3-4f89-8f87-7c3ddd04490d&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.03.04-13.06.54:586][745]LogHttp: Warning: 0000024E0B348800: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2021.03.04-13.06.54:586][745]LogHttp: Warning: 0000024E0B348800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x24d4e0d7f70 [can pipeline])
+[2021.03.04-13.06.54:586][745]LogHttp: Warning: 0000024E0B348800: libcurl info message cache 1 (Re-using existing connection! (#28) with host datarouter.ol.epicgames.com)
+[2021.03.04-13.06.54:586][745]LogHttp: Warning: 0000024E0B348800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.213.182.132) port 443 (#28))
+[2021.03.04-13.06.54:586][745]LogHttp: Warning: 0000024E0B348800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.03.04-13.06.54:586][745]LogHttp: Warning: 0000024E0B348800: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2021.03.04-13.06.54:586][745]LogHttp: Warning: 0000024E0B348800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.03.04-13.06.54:586][745]LogHttp: Warning: 0000024E0B348800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.03.04-13.06.54:586][745]LogHttp: Warning: 0000024E0B348800: libcurl info message cache 7 (Closing connection 28)
+[2021.03.04-13.06.54:868][746]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6CAB25B8-4DA2-0597-38DE-1983C622A4B5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=0a79330343f3bc262913b396995ed417%7Cc719b2018f8344568f22fd6b6aeda4ac%7C108db09b-26d3-4f89-8f87-7c3ddd04490d&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.03.04-13.07.03:863][760]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2021.03.04-13.07.04:133][760]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Lucy_saferoom_Auto553A44FE647ECF096ABD19B825021D649.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Autosaves/Game/Designer/Level_Design/Blockouts/Lucy_saferoom/Lucy_saferoom_Auto5.umap'
+[2021.03.04-13.07.04:137][760]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Lucy_saferoom/Lucy_saferoom' took 0.317
+[2021.03.04-13.07.04:137][760]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.317
