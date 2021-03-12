@@ -1452,6 +1452,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.12-10.36.56:278][654]SourceControl: Commited [newtest1 cebe8e8] LISA AND LEVEL TRANSITION.
 [2021.03.12-10.36.56:339][655]AssetCheck: New page: Asset Save: MyCharactor
 [2021.03.12-10.36.56:339][655]LogContentValidation: Display: Validating Blueprint /Game/Programmer/scrips/MyCharactor.MyCharactor
+<<<<<<< HEAD
 [2021.03.12-10.41.44:539][582]LogUObjectHash: Compacting FUObjectHashTables data took   4.85ms
 [2021.03.12-10.41.44:605][582]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
 [2021.03.12-10.41.44:605][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
@@ -1894,3 +1895,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.12-10.41.48:080][583]LogD3D11RHI: CleanupD3DDevice
 [2021.03.12-10.41.48:098][583]LogExit: Exiting.
 [2021.03.12-10.41.48:310][583]Log file closed, 03/12/21 10:41:48
+=======
+>>>>>>> newtest1
