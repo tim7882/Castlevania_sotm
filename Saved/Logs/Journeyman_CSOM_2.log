@@ -463,3 +463,289 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.15-14.50.59:789][  0]LogInit: Setting process to per monitor DPI aware
 [2021.03.15-14.51.01:872][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
 [2021.03.15-14.51.01:872][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.03.15-14.51.17:880][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.15-14.51.17:880][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.03.15-14.51.17:880][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.03.15-14.51.17:880][  0]LogD3D11RHI: D3D11 adapters:
+[2021.03.15-14.51.20:701][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2021.03.15-14.51.20:701][  0]LogD3D11RHI:       3052/0/10218 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2021.03.15-14.51.20:703][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.03.15-14.51.20:703][  0]LogD3D11RHI:       0/0/10218 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.03.15-14.51.20:703][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.03.15-14.51.20:715][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.03.15-14.51.20:715][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2021.03.15-14.51.20:715][  0]LogWindows: EnumDisplayDevices:
+[2021.03.15-14.51.20:715][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2021.03.15-14.51.20:715][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2021.03.15-14.51.20:716][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2021.03.15-14.51.20:717][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2021.03.15-14.51.20:717][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2021.03.15-14.51.20:718][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2021.03.15-14.51.20:718][  0]LogWindows:    6. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2021.03.15-14.51.20:719][  0]LogWindows:    7. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2021.03.15-14.51.20:719][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2021.03.15-14.51.20:719][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2021.03.15-14.51.20:719][  0]LogD3D11RHI:   Driver Version: Adrenalin 19.20 (internal:26.20.12028.2, unified:26.20.12028.2)
+[2021.03.15-14.51.20:719][  0]LogD3D11RHI:      Driver Date: 8-16-2019
+[2021.03.15-14.51.20:720][  0]LogRHI: Texture pool is 1816 MB (70% of 2594 MB)
+[2021.03.15-14.51.21:789][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2021.03.15-14.51.21:790][  0]LogD3D11RHI: Async texture creation enabled
+[2021.03.15-14.51.21:790][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.03.15-14.51.25:817][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2021.03.15-14.51.45:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.03.15-14.51.45:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.03.15-14.51.45:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.03.15-14.51.45:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.03.15-14.51.45:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.03.15-14.51.45:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.03.15-14.51.45:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.03.15-14.51.45:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.03.15-14.51.45:943][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.03.15-14.51.45:943][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.03.15-14.51.45:943][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.03.15-14.51.46:434][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.03.15-14.51.46:434][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.03.15-14.51.46:821][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.03.15-14.51.46:994][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.03.15-14.51.47:242][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.03.15-14.51.47:336][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.03.15-14.51.47:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.03.15-14.51.47:562][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.03.15-14.51.47:584][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.03.15-14.51.47:834][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.03.15-14.51.47:834][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.03.15-14.51.47:882][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.03.15-14.51.47:882][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.03.15-14.51.48:133][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.03.15-14.51.48:250][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.03.15-14.51.48:365][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.03.15-14.51.48:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.03.15-14.51.48:531][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.03.15-14.51.49:149][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.03.15-14.51.52:225][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/Shaders/WorkingDirectory/16908/).
+[2021.03.15-14.51.52:225][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tim782/AppData/Local/Temp/UnrealShaderWorkingDir/536B5B0B47C9CA31312757923F7C47BD/'.
+[2021.03.15-14.51.52:292][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.03.15-14.51.52:292][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.03.15-14.51.52:292][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.03.15-14.52.06:751][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.15-14.52.08:303][  0]LogDerivedDataCache: Loaded boot cache 1.47s 76MB C:/Users/tim782/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.15-14.52.08:303][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tim782/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.03.15-14.52.08:303][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tim782/Desktop/Castlevania_sotm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.15-14.52.08:303][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.15-14.52.08:303][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tim782/Desktop/Castlevania_sotm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.15-14.52.08:303][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.15-14.52.08:657][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.15-14.52.08:658][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.15-14.52.08:658][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.15-14.52.08:721][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tim782/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.15-14.52.08:721][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.15-14.52.08:721][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.15-14.52.09:375][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.15-14.52.09:758][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.15-14.52.12:019][  0]LogAssetRegistry: FAssetRegistry took 0.0508 seconds to start up
+[2021.03.15-14.52.25:795][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.15-14.52.38:355][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.15-14.52.38:355][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.15-14.52.38:355][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.15-14.52.38:355][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.15-14.52.38:362][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.15-14.52.41:505][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/CachedAssetRegistry.bin
+[2021.03.15-14.52.41:505][  0]LogNetVersion: Journeyman_CSOM 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4292092786)
+[2021.03.15-14.53.28:593][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002630876A980), frame # 0
+[2021.03.15-14.53.28:593][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026308606AC0), frame # 0
+[2021.03.15-14.53.28:970][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026308762A00), frame # 0
+[2021.03.15-14.53.30:779][  0]LogAssetRegistry: Error: Failed to open file for write ../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/8c0e1344.bin
+[2021.03.15-14.53.30:783][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 32), retrying in .5s...
+[2021.03.15-14.53.31:283][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
+[2021.03.15-14.53.31:787][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
+[2021.03.15-14.53.32:288][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
+[2021.03.15-14.53.32:789][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
+[2021.03.15-14.53.33:289][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
+[2021.03.15-14.53.33:790][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
+[2021.03.15-14.53.34:291][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
+[2021.03.15-14.53.34:792][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
+[2021.03.15-14.53.35:293][  0]LogFileManager: Warning: MoveFile was unable to move '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin' (Error Code 2), retrying in .5s...
+[2021.03.15-14.53.35:793][  0]LogFileManager: Error: Error moving file '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/AssetRegistryCache/6bead350.bin'.
+[2021.03.15-14.53.35:868][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 5.204647 seconds
+[2021.03.15-14.53.35:875][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.03.15-14.53.35:875][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.03.15-14.53.35:875][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.03.15-14.53.56:665][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.03.15-14.53.57:082][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.03.15-14.53.59:830][  0]LogLinker: Warning: Failed to load '/Game/SideScrollerBP/SideScrollerOverview': Can't find file.
+[2021.03.15-14.53.59:861][  0]LogLinker: Warning: Failed to load '/Game/SideScrollerBP/SideScrollerOverview': Can't find file.
+[2021.03.15-14.53.59:861][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerBP/SideScrollerOverview.SideScrollerOverview_C'
+[2021.03.15-14.54.01:422][  0]SourceControl: Source control is disabled
+[2021.03.15-14.54.21:271][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.03.15-14.54.22:393][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.15-14.54.22:393][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.03.15-14.54.24:301][  0]LogOcInput: OculusInput pre-init called
+[2021.03.15-14.54.24:811][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.03.15-14.54.24:811][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.03.15-14.54.29:342][  0]LogEngine: Initializing Engine...
+[2021.03.15-14.54.29:419][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.03.15-14.54.29:419][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.03.15-14.54.29:702][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.056 s
+[2021.03.15-14.54.32:196][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.03.15-14.54.34:191][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.03.15-14.54.34:191][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000026323E3D600), frame # 0
+[2021.03.15-14.54.34:191][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026323E79BC0), frame # 0
+[2021.03.15-14.54.34:716][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.15-14.54.34:716][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.15-14.54.34:716][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.15-14.54.34:716][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.15-14.54.34:716][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.15-14.54.34:717][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.15-14.54.34:717][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.15-14.54.34:717][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.15-14.54.34:855][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.15-14.54.34:855][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.15-14.54.35:720][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.15-14.54.35:720][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.03.15-14.54.35:948][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.03.15-14.54.35:968][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.15-14.54.36:223][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.15-14.54.36:223][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.15-14.54.36:245][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.15-14.54.36:247][  0]LogInit: FAudioDevice initialized.
+[2021.03.15-14.54.36:321][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.03.15-14.54.36:332][  0]LogDerivedDataCache: Error: Could not save memory cache C:/Users/tim782/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.15-14.54.36:332][  0]LogInit: Texture streaming: Enabled
+[2021.03.15-14.54.37:203][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.03.15-14.54.37:203][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={14FFAE4A-4E00-D5A6-6A57-10A9376FBD35}
+[2021.03.15-14.54.37:203][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.03.15-14.54.37:262][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.03.15-14.54.38:122][  0]LogInit: Transaction tracking system initialized
+[2021.03.15-14.54.39:779][  0]BlueprintLog: New page: Editor Load
+[2021.03.15-14.54.46:943][  0]LocalizationService: Localization service is disabled
+[2021.03.15-14.55.00:200][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Content/' took 0.10s
+[2021.03.15-14.55.00:200][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.03.15-14.55.00:202][  0]LogCook: Display: Mobile HDR setting 1
+[2021.03.15-14.55.21:567][  0]LogSlate: Took 0.092541 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.03.15-15.03.40:372][  0]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2021.03.15-15.10.08:290][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2021.03.15-15.10.09:925][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.03.15-15.10.14:633][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.03.15-15.10.14:635][  0]LogUnrealEdMisc: Loading editor; pre map load, took 1190.596
+[2021.03.15-15.10.15:535][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.03.15-15.10.15:603][  0]LightingResults: New page: Lighting Build
+[2021.03.15-15.10.17:204][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-15.10.17:325][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-15.10.17:652][  0]MapCheck: New page: Map Check
+[2021.03.15-15.10.17:652][  0]LightingResults: New page: Lighting Build
+[2021.03.15-15.10.18:736][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000026323E3D600), frame # 0
+[2021.03.15-15.10.18:736][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000026323E79BC0), frame # 0
+[2021.03.15-15.10.18:762][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2021.03.15-15.10.33:026][  0]LogAIModule: Creating AISystem for world dan-chase_updated
+[2021.03.15-15.10.33:027][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002630FA4BA00), frame # 0
+[2021.03.15-15.10.33:027][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000026317F55940), frame # 0
+[2021.03.15-15.10.34:128][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.03.15-15.10.34:246][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.03.15-15.10.34:248][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.03.15-15.10.34:270][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 22.198ms to complete.
+[2021.03.15-15.10.34:270][  0]LogFileHelpers: Loading map 'dan-chase_updated' took 19.186
+[2021.03.15-15.10.35:679][  0]LogUnrealEdMisc: Total Editor Startup Time, took 1211.639
+[2021.03.15-15.10.36:662][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-15.10.36:726][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-15.10.36:746][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-15.10.36:765][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-15.10.37:651][  0]LogCollectionManager: Loaded 0 collections in 0.032449 seconds
+[2021.03.15-15.10.39:012][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Collections/' took 0.00s
+[2021.03.15-15.10.39:013][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Content/Developers/tim782/Collections/' took 0.00s
+[2021.03.15-15.10.39:013][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Content/Collections/' took 0.00s
+[2021.03.15-15.10.39:013][  0]LogContentBrowser: Native class hierarchy populated in 0.0460 seconds. Added 3427 classes and 821 folders.
+[2021.03.15-15.10.39:940][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2021.03.15-15.10.45:148][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2021.03.15-15.10.46:377][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 2 classes and 0 folders.
+[2021.03.15-15.10.46:921][  0]LogSlate: Took 0.106472 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.03.15-15.10.47:409][  0]LogSlate: Took 0.403685 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.03.15-15.10.48:436][  0]LogRenderer: Reallocating scene render targets to support 668x372 Format 10 NumSamples 1 (Frame:1).
+[2021.03.15-15.10.51:578][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2021.03.15-15.10.51:578][  0]LogLoad: (Engine Initialization) Total time: 1227.54 seconds
+[2021.03.15-15.10.51:578][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.03.15-15.10.52:147][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.03.15-15.10.52:685][  0]LogSlate: Took 0.145839 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.15-15.10.53:992][  2]LogSlate: Took 0.000564 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.15-15.10.54:216][  3]LogAssetRegistry: Asset discovery search completed in 1122.1986 seconds
+[2021.03.15-15.10.54:233][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2021.03.15-15.13.11:683][ 91]LogRenderer: Reallocating scene render targets to support 672x372 Format 10 NumSamples 1 (Frame:12071).
+[2021.03.15-15.13.11:860][ 92]LogRenderer: Reallocating scene render targets to support 780x372 Format 10 NumSamples 1 (Frame:12073).
+[2021.03.15-15.13.12:040][ 93]LogRenderer: Reallocating scene render targets to support 828x372 Format 10 NumSamples 1 (Frame:12075).
+[2021.03.15-15.13.12:216][ 94]LogRenderer: Reallocating scene render targets to support 832x372 Format 10 NumSamples 1 (Frame:12077).
+[2021.03.15-15.13.15:980][272]LogRenderer: Reallocating scene render targets to support 832x376 Format 10 NumSamples 1 (Frame:12247).
+[2021.03.15-15.13.16:159][273]LogRenderer: Reallocating scene render targets to support 832x476 Format 10 NumSamples 1 (Frame:12249).
+[2021.03.15-15.13.16:327][274]LogRenderer: Reallocating scene render targets to support 832x572 Format 10 NumSamples 1 (Frame:12251).
+[2021.03.15-15.13.16:504][275]LogRenderer: Reallocating scene render targets to support 832x600 Format 10 NumSamples 1 (Frame:12253).
+[2021.03.15-15.13.22:000][546]LogRenderer: Reallocating scene render targets to support 856x600 Format 10 NumSamples 1 (Frame:12505).
+[2021.03.15-15.13.22:145][547]LogRenderer: Reallocating scene render targets to support 896x600 Format 10 NumSamples 1 (Frame:12507).
+[2021.03.15-15.13.22:295][548]LogRenderer: Reallocating scene render targets to support 908x600 Format 10 NumSamples 1 (Frame:12509).
+[2021.03.15-15.13.22:596][549]LogRenderer: Reallocating scene render targets to support 916x600 Format 10 NumSamples 1 (Frame:12511).
+[2021.03.15-15.13.27:454][780]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.03.15-15.13.27:594][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.03.15-15.13.27:906][780]PIE: New page: PIE session: dan-chase_updated (15 Mar 2021, 15:13:27)
+[2021.03.15-15.13.27:945][780]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.03.15-15.13.27:958][780]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.03.15-15.13.27:958][780]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated
+[2021.03.15-15.13.28:411][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.453023s)
+[2021.03.15-15.13.28:415][780]LogAIModule: Creating AISystem for world dan-chase_updated
+[2021.03.15-15.13.28:415][780]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002635A324800), frame # 12780
+[2021.03.15-15.13.28:416][780]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002630F895A80), frame # 12780
+[2021.03.15-15.13.28:418][780]LogPlayLevel: PIE: World Init took: (0.006357s)
+[2021.03.15-15.13.28:418][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated.dan-chase_updated to /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated.dan-chase_updated (0.460099s)
+[2021.03.15-15.13.28:552][780]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2021.03.15-15.13.28:562][780]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.03.15-15.13.28:562][780]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.03.15-15.13.28:562][780]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.03.15-15.13.28:562][780]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.03.15-15.13.28:562][780]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.03.15-15.13.28:563][780]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.03.15-15.13.28:563][780]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.03.15-15.13.28:563][780]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.03.15-15.13.28:564][780]LogAudio: Display: Using built-in audio occlusion.
+[2021.03.15-15.13.28:564][780]LogAudioMixer: Display: Initializing audio mixer.
+[2021.03.15-15.13.28:591][780]LogAudioMixer: Display: 0: FrontLeft
+[2021.03.15-15.13.28:591][780]LogAudioMixer: Display: 1: FrontRight
+[2021.03.15-15.13.28:691][780]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.03.15-15.13.28:691][780]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.03.15-15.13.28:691][780]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.03.15-15.13.28:692][780]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.03.15-15.13.28:694][780]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.03.15-15.13.28:755][780]LogInit: FAudioDevice initialized.
+[2021.03.15-15.13.28:838][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-15.13.28:841][780]LogLinker: Warning: Failed to load '/Game/Programmer/scrips/sidescoller': Can't find file.
+[2021.03.15-15.13.28:842][780]LogLinker: Warning: Failed to load '/Game/Programmer/scrips/sidescoller': Can't find file.
+[2021.03.15-15.13.28:842][780]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/Programmer/scrips/sidescoller.sidescoller_C'
+[2021.03.15-15.13.28:842][780]LogLoad: Game class is 'GameModeBase'
+[2021.03.15-15.13.28:901][780]LogWorld: Bringing World /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated.dan-chase_updated up for play (max tick rate 0) at 2021.03.15-15.13.28
+[2021.03.15-15.13.28:902][780]LogWorld: Bringing up level for play took: 0.036578
+[2021.03.15-15.13.28:903][780]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.03.15-15.13.29:278][780]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 20 classes and 0 folders.
+[2021.03.15-15.13.29:544][780]PIE: Server logged in
+[2021.03.15-15.13.29:547][780]PIE: Play in editor total start time 1.956 seconds.
+[2021.03.15-15.13.30:064][782]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2021.03.15-15.13.31:929][888]LogBlueprintUserMessages: [MyCharactor_2] 902.902161
+[2021.03.15-15.13.33:111][917]LogBlueprintUserMessages: [MyCharactor_2] 894.660339
+[2021.03.15-15.13.38:825][295]LogBlueprintUserMessages: [MyCharactor_2] 1077.271118
+[2021.03.15-15.13.39:846][366]LogBlueprintUserMessages: [MyCharactor_2] 1070.537476
+[2021.03.15-15.13.40:472][410]LogBlueprintUserMessages: [MyCharactor_2] 1077.703491
+[2021.03.15-15.13.41:511][482]LogBlueprintUserMessages: [MyCharactor_2] 1062.83728
+[2021.03.15-15.13.42:326][537]LogBlueprintUserMessages: [MyCharactor_2] 1056.708618
+[2021.03.15-15.13.43:973][647]LogBlueprintUserMessages: [MyCharactor_2] 1034.166504
+[2021.03.15-15.13.48:865][972]LogBlueprintUserMessages: [MyCharactor_2] 900.651672
+[2021.03.15-15.13.50:666][119]LogBlueprintUserMessages: [MyCharactor_2] 894.253418
+[2021.03.15-15.13.51:607][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.03.15-15.13.51:607][182]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Blockouts/Dan_chase/UEDPIE_0_dan-chase_updated
+[2021.03.15-15.13.51:608][182]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.03.15-15.13.51:656][182]LogWorld: UWorld::CleanupWorld for dan-chase_updated, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-15.13.51:775][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-15.13.52:031][182]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.03.15-15.13.52:037][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-15.13.52:536][182]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002635A324800), frame # 14182
+[2021.03.15-15.13.52:536][182]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002630F895A80), frame # 14182
+[2021.03.15-15.13.52:539][182]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.03.15-15.13.52:671][183]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.03.15-15.14.08:780][ 64]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Programmer/scrips/camera_BP.camera_BP
+[2021.03.15-15.14.14:136][ 64]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0029 seconds. Added 125 classes and 0 folders.
+[2021.03.15-15.14.21:987][ 64]LogSlate: Took 0.064890 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.03.15-15.14.29:973][196]LogSlate: Window 'camera_BP' being destroyed
+[2021.03.15-15.14.30:124][196]LogSlate: Took 0.124565 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
