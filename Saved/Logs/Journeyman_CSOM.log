@@ -529,3 +529,25 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.17-14.21.07:616][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
 [2021.03.17-14.21.07:616][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
 [2021.03.17-14.21.11:396][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.03.17-14.21.12:490][  0]LogDerivedDataCache: Loaded boot cache 1.09s 76MB C:/Users/tim782/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.03.17-14.21.12:490][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tim782/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.03.17-14.21.12:490][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tim782/Desktop/Castlevania_sotm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.03.17-14.21.12:491][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.03.17-14.21.12:491][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tim782/Desktop/Castlevania_sotm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.17-14.21.12:491][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.03.17-14.21.12:768][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.03.17-14.21.12:769][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.03.17-14.21.12:769][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.03.17-14.21.12:774][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tim782/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.03.17-14.21.12:775][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.03.17-14.21.12:775][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.03.17-14.21.13:025][  0]LogSlate: Using FreeType 2.10.0
+[2021.03.17-14.21.13:305][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.03.17-14.21.15:382][  0]LogAssetRegistry: FAssetRegistry took 0.0389 seconds to start up
+[2021.03.17-14.21.16:336][  0]LogInit: Selected Device Profile: [Windows]
+[2021.03.17-14.21.18:188][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.03.17-14.21.18:189][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.03.17-14.21.18:189][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.03.17-14.21.18:189][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.03.17-14.21.18:189][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.03.17-14.21.18:714][  0]LogNetVersion: Journeyman_CSOM 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4292092786)
