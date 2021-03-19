@@ -1671,3 +1671,82 @@ Would you like to reload these packages? This will revert any changes you have m
 [2021.03.19-12.46.53:176][ 28]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021820563E00), frame # 26028
 [2021.03.19-12.46.53:189][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
 [2021.03.19-12.46.53:377][ 29]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.03.19-12.47.19:050][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.03.19-12.47.23:410][841]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/T_Fire_Tiled_D.T_Fire_Tiled_D
+[2021.03.19-12.47.23:512][841]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2021.03.19-12.47.32:445][111]LogSlate: Window 'T_Fire_Tiled_D' being destroyed
+[2021.03.19-12.53.51:653][859]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.03.19-12.54.07:034][859]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/BossLevelMap_Auto1CCD3F25748316250C79B349DDBE81CCA.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Autosaves/Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/BossLevelMap_Auto1.umap'
+[2021.03.19-12.54.07:056][859]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/BossLevelMap' took 15.500
+[2021.03.19-12.54.07:056][859]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 15.500
+[2021.03.19-13.08.48:634][688]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.03.19-14.27.29:538][ 17]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.03.19-14.49.29:658][940]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.03.19-15.10.29:790][697]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.03.19-15.16.29:117][791]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/T_Fire.T_Fire
+[2021.03.19-15.16.29:138][791]LogMaterial: Display: Missing cached shader map for material T_Fire, compiling. 
+[2021.03.19-15.16.29:733][791]LogMaterial: Display: Missing cached shader map for material T_Fire, compiling. 
+[2021.03.19-15.16.29:804][791]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.03.19-15.16.29:805][791]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.03.19-15.16.29:805][791]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.03.19-15.16.29:805][791]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.03.19-15.16.29:808][791]LogMaterial: Display: Missing cached shader map for material T_Fire, compiling. 
+[2021.03.19-15.16.29:849][791]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2021.03.19-15.16.30:242][791]LogSlate: Took 0.000729 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.03.19-15.16.31:249][814]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 15
+[2021.03.19-15.16.31:467][823]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2021.03.19-15.16.31:586][829]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2021.03.19-15.16.31:608][830]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2021.03.19-15.16.32:205][853]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.03.19-15.16.32:245][856]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2021.03.19-15.16.32:376][866]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.03.19-15.16.32:389][867]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.03.19-15.16.32:989][900]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.03.19-15.16.33:089][906]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.03.19-15.16.33:130][908]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.03.19-15.16.33:289][916]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.03.19-15.16.33:721][934]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.03.19-15.16.33:827][941]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.03.19-15.16.33:860][943]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.03.19-15.16.33:941][944]MaterialEditorStats: Base pass shader: 122 instructions
+[2021.03.19-15.16.33:941][944]MaterialEditorStats: Base pass shader with Surface Lightmap: 149 instructions
+[2021.03.19-15.16.33:941][944]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2021.03.19-15.16.33:941][944]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2021.03.19-15.16.33:941][944]MaterialEditorStats: Texture samplers: 3/16
+[2021.03.19-15.16.33:941][944]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.03.19-15.16.33:941][944]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.03.19-15.17.47:183][417]LogMaterial: Display: Missing cached shader map for material T_Fire, compiling. 
+[2021.03.19-15.17.47:216][417]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.03.19-15.17.47:216][417]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.03.19-15.17.47:216][417]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.03.19-15.17.47:216][417]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.03.19-15.17.48:471][484]LogMaterial: Display: Missing cached shader map for material T_Fire, compiling. 
+[2021.03.19-15.17.48:677][497]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.03.19-15.17.48:846][513]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.03.19-15.17.48:967][526]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.03.19-15.17.48:968][526]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.03.19-15.17.49:587][569]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.03.19-15.17.49:678][576]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2021.03.19-15.17.49:781][583]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2021.03.19-15.17.49:795][584]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.03.19-15.17.50:426][620]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.03.19-15.17.50:586][631]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.03.19-15.17.50:602][632]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.03.19-15.17.51:322][679]MaterialEditorStats: Base pass shader: 122 instructions
+[2021.03.19-15.17.51:322][679]MaterialEditorStats: Base pass shader with Surface Lightmap: 149 instructions
+[2021.03.19-15.17.51:322][679]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 196 instructions
+[2021.03.19-15.17.51:322][679]MaterialEditorStats: Base pass vertex shader: 44 instructions
+[2021.03.19-15.17.51:322][679]MaterialEditorStats: Texture samplers: 3/16
+[2021.03.19-15.17.51:322][679]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2021.03.19-15.17.51:322][679]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.03.19-15.20.06:916][627]LogSlate: Window 'T_Fire_Tiled_D' being destroyed
+[2021.03.19-15.20.15:895][ 53]LogSlate: Window 'T_Fire' being destroyed
+[2021.03.19-15.30.31:813][877]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.03.19-15.50.45:382][634]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/Assets/DisplayCase/DispalyCaseLH.DispalyCaseLH
+[2021.03.19-15.50.46:511][634]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.03.19-15.50.46:511][634]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.19-15.50.47:640][634]LogSlate: Took 0.000707 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.03.19-15.50.59:220][512]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.03.19-15.50.59:220][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.19-16.03.40:908][403]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.03.19-16.03.40:908][403]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
