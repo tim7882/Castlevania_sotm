@@ -663,3 +663,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.19-16.18.49:726][652]LogMaterial: Display: Missing cached shader map for material BrickClay_Mat, compiling. 
 [2021.03.19-16.18.49:730][652]LogMaterial: Warning: C:\Users\tim782\Desktop\Castlevania_sotm\Content\Designer\Level_Design\Maps\Textures\BrickClay_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
 [2021.03.19-16.18.49:730][652]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.03.19-16.20.24:829][ 76]LogSlate: Took 0.000860 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.03.19-16.20.34:147][103]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.03.19-16.20.35:003][103]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/dan-chase_updated_Auto156CF4B554847288ABB27A3A637F551A4.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Autosaves/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated_Auto1.umap'
+[2021.03.19-16.20.35:058][103]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Blockouts/Dan_chase/dan-chase_updated' took 1.006
+[2021.03.19-16.20.35:058][103]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.006
