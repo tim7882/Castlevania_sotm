@@ -18750,3 +18750,38 @@ Script call stack:
 [2021.04.23-12.45.08:399][343]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B153B371B-48B7-51E7-08B6-D39C4DE235F5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=0a79330343f3bc262913b396995ed417%7C534b9808053e4a94b8769c80abbe48d9%7C108db09b-26d3-4f89-8f87-7c3ddd04490d&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
 [2021.04.23-12.45.08:422][343]LogModuleManager: Shutting down and abandoning module SSL (66)
 [2021.04.23-12.45.08:430][343]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.04.23-12.45.08:535][343]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.04.23-12.45.08:539][343]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.04.23-12.45.08:541][343]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.04.23-12.45.08:541][343]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.04.23-12.45.08:541][343]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.04.23-12.45.08:541][343]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.04.23-12.45.08:583][343]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.04.23-12.45.08:583][343]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.04.23-12.45.08:583][343]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.04.23-12.45.08:583][343]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.04.23-12.45.08:583][343]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.04.23-12.45.08:583][343]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.04.23-12.45.08:632][343]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.04.23-12.45.08:664][343]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.04.23-12.45.08:666][343]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.04.23-12.45.08:666][343]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.04.23-12.45.08:666][343]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.04.23-12.45.08:666][343]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.04.23-12.45.08:719][343]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.04.23-12.45.08:772][343]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.04.23-12.45.08:772][343]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.04.23-12.45.08:777][343]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.04.23-12.45.08:843][343]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.04.23-12.45.08:843][343]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.04.23-12.45.08:843][343]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.04.23-12.45.08:967][343]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.04.23-12.45.08:967][343]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.04.23-12.45.08:968][343]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.04.23-12.45.08:968][343]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.04.23-12.45.08:968][343]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.04.23-12.45.09:005][343]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.04.23-12.45.09:032][343]LogD3D11RHI: Shutdown
+[2021.04.23-12.45.09:032][343]LogD3D11RHI: CleanupD3DDevice
+[2021.04.23-12.45.09:375][343]LogExit: Exiting.
+[2021.04.23-12.45.09:706][343]Log file closed, 04/23/21 13:45:09
