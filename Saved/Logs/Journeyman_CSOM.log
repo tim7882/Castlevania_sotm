@@ -10085,3 +10085,101 @@ Script call stack:
 [2021.04.30-14.18.02:973][532]AssetCheck: New page: Asset Save: multiple assets
 [2021.04.30-14.18.02:973][532]LogContentValidation: Display: Validating Blueprint /Game/Programmer/scrips/HitBox.HitBox
 [2021.04.30-14.18.02:973][532]LogContentValidation: Display: Validating Blueprint /Game/Programmer/scrips/MyCharactor.MyCharactor
+[2021.04.30-14.21.21:446][443]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Programmer/TestMap/test_Map.test_Map
+[2021.04.30-14.21.21:643][443]LogUObjectHash: Compacting FUObjectHashTables data took  15.37ms
+[2021.04.30-14.21.22:916][443]LogSlate: Window 'Save Content' being destroyed
+[2021.04.30-14.21.23:628][443]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/test_hud_km_chase0FE8D7084D224EBD2FA764911802A159.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/KatMurthwaite/hudtest/test_hud_km_chase.uasset'
+[2021.04.30-14.21.23:638][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Designer/KatMurthwaite/lights/Gem" FILE="../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/KatMurthwaite/lights/Gem.uasset" SILENT=true
+[2021.04.30-14.21.23:770][443]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Gem05AE1DFD444B0E3B9C81B6B92F406260.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/KatMurthwaite/lights/Gem.uasset'
+[2021.04.30-14.21.23:815][443]Cmd: MAP LOAD FILE="../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Programmer/TestMap/test_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.30-14.21.23:816][443]LightingResults: New page: Lighting Build
+[2021.04.30-14.21.23:820][443]LoadErrors: New page: Loading map: test_Map.umap
+[2021.04.30-14.21.23:888][443]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-14.21.23:890][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-14.21.23:892][443]MapCheck: New page: Map Check
+[2021.04.30-14.21.23:892][443]LightingResults: New page: Lighting Build
+[2021.04.30-14.21.24:075][443]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000015298E00F40), frame # 408443
+[2021.04.30-14.21.24:075][443]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000015298D17E00), frame # 408443
+[2021.04.30-14.21.24:093][443]LogUObjectHash: Compacting FUObjectHashTables data took  12.02ms
+[2021.04.30-14.21.24:151][443]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.04.30-14.21.24:151][443]LogAIModule: Creating AISystem for world test_Map
+[2021.04.30-14.21.24:151][443]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000015217912200), frame # 408443
+[2021.04.30-14.21.24:152][443]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000152E6D7EFC0), frame # 408443
+[2021.04.30-14.21.24:267][443]LogUObjectHash: Compacting FUObjectHashTables data took   8.99ms
+[2021.04.30-14.21.24:427][443]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.30-14.21.24:430][443]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3.563ms to complete.
+[2021.04.30-14.21.24:431][443]LogFileHelpers: Loading map 'test_Map' took 0.652
+[2021.04.30-14.21.24:621][443]AssetCheck: New page: Asset Save: multiple assets
+[2021.04.30-14.21.24:621][443]LogContentValidation: Display: Validating WidgetBlueprint /Game/Designer/KatMurthwaite/hudtest/test_hud_km_chase.test_hud_km_chase
+[2021.04.30-14.21.24:621][443]LogContentValidation: Display: Validating Blueprint /Game/Designer/KatMurthwaite/lights/Gem.Gem
+[2021.04.30-14.21.29:749][602]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.04.30-14.21.29:840][602]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.04.30-14.21.29:840][602]PIE: New page: PIE session: test_Map (30 Apr 2021, 16:21:29)
+[2021.04.30-14.21.29:841][602]LogPlayLevel: Creating play world package: /Game/Programmer/TestMap/UEDPIE_0_test_Map
+[2021.04.30-14.21.29:854][602]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012201s)
+[2021.04.30-14.21.29:857][602]LogAIModule: Creating AISystem for world test_Map
+[2021.04.30-14.21.29:857][602]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000152AB324800), frame # 408602
+[2021.04.30-14.21.29:857][602]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000152E6D1F880), frame # 408602
+[2021.04.30-14.21.29:858][602]LogPlayLevel: PIE: World Init took: (0.003942s)
+[2021.04.30-14.21.29:858][602]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Programmer/TestMap/test_Map.test_Map to /Game/Programmer/TestMap/UEDPIE_0_test_Map.test_Map (0.016778s)
+[2021.04.30-14.21.30:016][602]LogUObjectHash: Compacting FUObjectHashTables data took  11.39ms
+[2021.04.30-14.21.30:026][602]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.30-14.21.30:026][602]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.30-14.21.30:026][602]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.30-14.21.30:026][602]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.30-14.21.30:026][602]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.30-14.21.30:026][602]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.30-14.21.30:027][602]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.30-14.21.30:027][602]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.30-14.21.30:028][602]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.30-14.21.30:028][602]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.30-14.21.30:049][602]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.30-14.21.30:049][602]LogAudioMixer: Display: 1: FrontRight
+[2021.04.30-14.21.30:124][602]LogAudioMixer: Display: Using Audio Device 3 - 2470W (AMD High Definition Audio Device)
+[2021.04.30-14.21.30:125][602]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.30-14.21.30:125][602]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.30-14.21.30:126][602]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.30-14.21.30:129][602]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.30-14.21.30:190][602]LogInit: FAudioDevice initialized.
+[2021.04.30-14.21.30:261][602]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-14.21.30:263][602]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.04.30-14.21.30:274][602]LogWorld: Bringing World /Game/Programmer/TestMap/UEDPIE_0_test_Map.test_Map up for play (max tick rate 0) at 2021.04.30-15.21.30
+[2021.04.30-14.21.30:276][602]LogWorld: Bringing up level for play took: 0.011017
+[2021.04.30-14.21.30:277][602]LogOnline: OSS: Creating online subsystem instance for: :Context_69
+[2021.04.30-14.21.30:302][602]PIE: Server logged in
+[2021.04.30-14.21.30:308][602]PIE: Play in editor total start time 0.471 seconds.
+[2021.04.30-14.21.37:914][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.30-14.21.37:914][881]LogWorld: BeginTearingDown for /Game/Programmer/TestMap/UEDPIE_0_test_Map
+[2021.04.30-14.21.37:916][881]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.04.30-14.21.37:938][881]LogWorld: UWorld::CleanupWorld for test_Map, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-14.21.37:940][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-14.21.37:962][881]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.04.30-14.21.37:975][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-14.21.38:206][881]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000152E6D1F880), frame # 408881
+[2021.04.30-14.21.38:206][881]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000152AB324800), frame # 408881
+[2021.04.30-14.21.38:216][881]LogUObjectHash: Compacting FUObjectHashTables data took   9.70ms
+[2021.04.30-14.21.38:378][882]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2021.04.30-14.21.53:341][378]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene
+[2021.04.30-14.21.53:554][378]LogUObjectHash: Compacting FUObjectHashTables data took  13.37ms
+[2021.04.30-14.21.53:567][378]Cmd: MAP LOAD FILE="../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Maps/Maps/ChaseScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.04.30-14.21.53:570][378]LightingResults: New page: Lighting Build
+[2021.04.30-14.21.53:575][378]LoadErrors: New page: Loading map: ChaseScene.umap
+[2021.04.30-14.21.53:578][378]LogWorld: UWorld::CleanupWorld for test_Map, bSessionEnded=true, bCleanupResources=true
+[2021.04.30-14.21.53:578][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.30-14.21.53:578][378]MapCheck: New page: Map Check
+[2021.04.30-14.21.53:578][378]LightingResults: New page: Lighting Build
+[2021.04.30-14.21.53:732][378]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000152E6D7EFC0), frame # 409378
+[2021.04.30-14.21.53:733][378]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000015217912200), frame # 409378
+[2021.04.30-14.21.53:745][378]LogUObjectHash: Compacting FUObjectHashTables data took  12.10ms
+[2021.04.30-14.21.54:413][378]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2021.04.30-14.21.54:413][378]LogAIModule: Creating AISystem for world ChaseScene
+[2021.04.30-14.21.54:413][378]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001525C382600), frame # 409378
+[2021.04.30-14.21.54:414][378]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000152FDEE07C0), frame # 409378
+[2021.04.30-14.21.54:415][378]LogNavigation: Warning: Recreating dtNavMesh instance due to saved navmesh origin (X=-0.006 Y=189.052 Z=0.000, usually the RecastNavMesh location) not being aligned with tile size (988 uu) 
+[2021.04.30-14.21.54:875][378]LogUObjectHash: Compacting FUObjectHashTables data took  11.74ms
+[2021.04.30-14.21.55:095][378]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.04.30-14.21.55:099][378]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 4.457ms to complete.
+[2021.04.30-14.21.55:100][378]LogFileHelpers: Loading map 'ChaseScene' took 1.537
+[2021.04.30-14.21.56:731][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Slice_T_5)
+[2021.04.30-14.22.01:085][489]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2021.04.30-14.22.14:430][752]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Slice_T_5)
