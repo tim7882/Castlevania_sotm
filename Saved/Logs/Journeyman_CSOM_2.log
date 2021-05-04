@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 ﻿Log file open, 05/04/21 12:50:54
 LogInit: Display: Running engine for game: Journeyman_CSOM
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.415430
+=======
+﻿Log file open, 04/22/21 10:56:20
+LogInit: Display: Running engine for game: Journeyman_CSOM
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.284383
+>>>>>>> pr/40
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -139,13 +147,13 @@ LogInit: Build: ++UE4+Release-4.25-CL-14469661
 LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
-LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD FX(tm)-8350 Eight-Core Processor           , GPU: AMD Radeon R9 200 Series
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz, GPU: NVIDIA GeForce GTX 1060 6GB
 LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line: 
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Command Line:  /Game/Designer/KatMurthwaite/Library/library_room_KM -game -PIEVIACONSOLE -Multiprocess GameUserSettingsINI=E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/PIEGameUserSettings0.ini -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -windowed -ResX=1280 -ResY=720
+LogInit: Base Directory: E:/epic games/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 26
@@ -176,7 +184,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -194,6 +202,7 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2021.05.04-11.51.15:428][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2021.05.04-11.51.15:428][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2021.05.04-11.51.15:429][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
@@ -1757,3 +1766,1449 @@ Script call stack:
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.04.22-09.56.20:985][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.04.22-09.56.20:985][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.04.22-09.56.20:986][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.04.22-09.56.20:986][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.04.22-09.56.20:986][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.04.22-09.56.20:986][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.04.22-09.56.20:986][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.04.22-09.56.20:986][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.04.22-09.56.20:986][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.04.22-09.56.20:986][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.04.22-09.56.20:986][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.04.22-09.56.20:991][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:991][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.22-09.56.20:991][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.22-09.56.20:991][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:991][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.22-09.56.20:991][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.22-09.56.20:992][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.22-09.56.20:993][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.22-09.56.20:993][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.22-09.56.20:993][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.04.22-09.56.20:993][  0]LogHAL: Display: Platform has ~ 16 GB [17119379456 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.04.22-09.56.20:993][  0]LogInit: Going up to parent DeviceProfile []
+[2021.04.22-09.56.20:994][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.04.22-09.56.20:994][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.04.22-09.56.20:995][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.04.22-09.56.20:996][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.04.22-09.56.20:996][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.04.22-09.56.20:996][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.04.22-09.56.20:996][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.04.22-09.56.20:996][  0]LogInit: Computer: DESKTOP-7D5UKFR
+[2021.04.22-09.56.20:996][  0]LogInit: User: kat
+[2021.04.22-09.56.20:996][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.04.22-09.56.20:996][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.04.22-09.56.20:996][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.04.22-09.56.20:996][  0]LogMemory: Platform Memory Stats for Windows
+[2021.04.22-09.56.20:996][  0]LogMemory: Process Physical Memory: 118.76 MB used, 118.76 MB peak
+[2021.04.22-09.56.20:996][  0]LogMemory: Process Virtual Memory: 111.76 MB used, 111.76 MB peak
+[2021.04.22-09.56.20:996][  0]LogMemory: Physical Memory: 10724.68 MB used,  5601.64 MB free, 16326.31 MB total
+[2021.04.22-09.56.20:996][  0]LogMemory: Virtual Memory: 5145.30 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2021.04.22-09.56.21:002][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.04.22-09.56.21:059][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.04.22-09.56.21:059][  0]LogInit: Using OS detected language (en-US).
+[2021.04.22-09.56.21:059][  0]LogInit: Using OS detected locale (en-GB).
+[2021.04.22-09.56.21:061][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.04.22-09.56.21:315][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.04.22-09.56.21:315][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.04.22-09.56.21:325][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.22-09.56.21:326][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.04.22-09.56.21:326][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.04.22-09.56.21:326][  0]LogD3D11RHI: D3D11 adapters:
+[2021.04.22-09.56.21:414][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2021.04.22-09.56.21:414][  0]LogD3D11RHI:       6052/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.04.22-09.56.21:417][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.04.22-09.56.21:417][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.04.22-09.56.21:417][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.04.22-09.56.21:427][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.04.22-09.56.21:427][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2021.04.22-09.56.21:428][  0]LogWindows: EnumDisplayDevices:
+[2021.04.22-09.56.21:428][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2021.04.22-09.56.21:428][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2021.04.22-09.56.21:428][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.04.22-09.56.21:429][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.04.22-09.56.21:429][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.04.22-09.56.21:429][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2021.04.22-09.56.21:429][  0]LogD3D11RHI:   Driver Version: 457.30 (internal:27.21.14.5730, unified:457.30)
+[2021.04.22-09.56.21:429][  0]LogD3D11RHI:      Driver Date: 11-6-2020
+[2021.04.22-09.56.21:429][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2021.04.22-09.56.21:492][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.04.22-09.56.21:492][  0]LogD3D11RHI: Async texture creation enabled
+[2021.04.22-09.56.21:492][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.04.22-09.56.21:525][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.04.22-09.56.21:848][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.04.22-09.56.21:853][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.04.22-09.56.21:863][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.04.22-09.56.21:872][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.04.22-09.56.21:872][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.04.22-09.56.21:878][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.04.22-09.56.21:931][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Documents/GitHub/Castlevania_sotm/Intermediate/Shaders/WorkingDirectory/12312/).
+[2021.04.22-09.56.21:931][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kat/AppData/Local/Temp/UnrealShaderWorkingDir/A2C8E3714D1DCE6890BC398A02A47821/'.
+[2021.04.22-09.56.21:932][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.04.22-09.56.21:932][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.04.22-09.56.21:932][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.04.22-09.56.22:713][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.04.22-09.56.22:771][  0]LogDerivedDataCache: Loaded boot cache 0.06s 75MB C:/Users/kat/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.04.22-09.56.22:771][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kat/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.04.22-09.56.22:771][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/Castlevania_sotm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.04.22-09.56.22:771][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.04.22-09.56.22:771][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitHub/Castlevania_sotm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.22-09.56.22:771][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.04.22-09.56.22:783][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.04.22-09.56.22:783][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.04.22-09.56.22:783][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.04.22-09.56.22:784][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.04.22-09.56.22:784][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.04.22-09.56.22:784][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.04.22-09.56.22:828][  0]LogSlate: Using FreeType 2.10.0
+[2021.04.22-09.56.22:829][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.04.22-09.56.22:919][  0]LogInit: Using OS detected language (en-US).
+[2021.04.22-09.56.22:919][  0]LogInit: Using OS detected locale (en-GB).
+[2021.04.22-09.56.22:919][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2021.04.22-09.56.22:919][  0]LogTextLocalizationManager: No localization for 'en-GB' exists, so 'en' will be used for the locale.
+[2021.04.22-09.56.22:919][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2021.04.22-09.56.22:919][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2021.04.22-09.56.22:920][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2021.04.22-09.56.22:923][  0]LogAssetRegistry: FAssetRegistry took 0.0017 seconds to start up
+[2021.04.22-09.56.23:109][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.000837 seconds
+[2021.04.22-09.56.23:157][  0]LogInit: Selected Device Profile: [Windows]
+[2021.04.22-09.56.23:262][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.04.22-09.56.23:262][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.04.22-09.56.23:262][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.04.22-09.56.23:262][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.04.22-09.56.23:262][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.04.22-09.56.23:279][  0]LogNetVersion: Journeyman_CSOM 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4292092786)
+[2021.04.22-09.56.23:534][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001DBD694FA00), frame # 0
+[2021.04.22-09.56.23:534][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001DBD69616C0), frame # 0
+[2021.04.22-09.56.23:536][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001DBD69B1C00), frame # 0
+[2021.04.22-09.56.23:664][  0]LogMoviePlayer: Initializing movie player
+[2021.04.22-09.56.23:816][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.04.22-09.56.23:819][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.04.22-09.56.23:858][  0]SourceControl: Source control is disabled
+[2021.04.22-09.56.23:858][  0]SourceControl: Source control is disabled
+[2021.04.22-09.56.23:865][  0]SourceControl: Source control is disabled
+[2021.04.22-09.56.23:978][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.04.22-09.56.23:994][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.22-09.56.23:994][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.04.22-09.56.24:034][  0]LogOcInput: OculusInput pre-init called
+[2021.04.22-09.56.24:049][  0]LogUObjectArray: 19064 objects as part of root set at end of initial load.
+[2021.04.22-09.56.24:049][  0]LogUObjectAllocator: 5015424 out of 0 bytes used by permanent object pool.
+[2021.04.22-09.56.24:049][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.04.22-09.56.24:088][  0]LogEngine: Initializing Engine...
+[2021.04.22-09.56.24:090][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.04.22-09.56.24:090][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.04.22-09.56.24:091][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.04.22-09.56.24:192][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.04.22-09.56.24:196][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.04.22-09.56.24:196][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.04.22-09.56.24:196][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.04.22-09.56.24:196][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.04.22-09.56.24:196][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.04.22-09.56.24:196][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.04.22-09.56.24:196][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.04.22-09.56.24:196][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.04.22-09.56.24:196][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.04.22-09.56.24:196][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.04.22-09.56.24:213][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.04.22-09.56.24:213][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.04.22-09.56.24:248][  0]LogAudioMixer: Display: Using Audio Device SAMSUNG (NVIDIA High Definition Audio)
+[2021.04.22-09.56.24:254][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.04.22-09.56.24:255][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.04.22-09.56.24:255][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.04.22-09.56.24:257][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.04.22-09.56.24:258][  0]LogInit: FAudioDevice initialized.
+[2021.04.22-09.56.24:259][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.04.22-09.56.24:264][  0]LogInit: Texture streaming: Enabled
+[2021.04.22-09.56.24:316][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-09.56.24:317][  0]LogInit: Display: Game Engine Initialized.
+[2021.04.22-09.56.24:317][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2021.04.22-09.56.24:341][  0]LogInit: Display: Starting Game.
+[2021.04.22-09.56.24:341][  0]LogNet: Browse: /Game/Designer/KatMurthwaite/Library/library_room_KM?Name=Player
+[2021.04.22-09.56.24:341][  0]LogLoad: LoadMap: /Game/Designer/KatMurthwaite/Library/library_room_KM?Name=Player
+[2021.04.22-09.56.24:341][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2021.04.22-09.56.24:343][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-09.56.24:343][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-09.56.24:351][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.04.22-09.56.24:394][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:394][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:394][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:395][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:395][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin1.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:395][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin1.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:395][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin1.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:396][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin1.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:397][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:397][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:397][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:397][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:398][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin2.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:398][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin2.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:398][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin2.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:398][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin2.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:399][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:399][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:399][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:399][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:400][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin3.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:400][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin3.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:400][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin3.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:400][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin3.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:402][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:402][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:402][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:402][  0]LogUObjectGlobals: Warning: Failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:403][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin4.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:403][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin4.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:403][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin4.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:403][  0]LogUObjectGlobals: Warning: While loading '../../../../../../Documents/GitHub/Castlevania_sotm/Content/Designer/KatMurthwaite/Library/BP/Spin4.uasset' failed to load '/Game/Designer/KatMurthwaite/Library/HUD/SPIN': Can't find file.
+[2021.04.22-09.56.24:477][  0]LogBlueprint: Error: [Compiler Spin1] Spawn node  Create Widget  must have a class specified.
+[2021.04.22-09.56.24:477][  0]LogBlueprint: Error: [Compiler Spin1] This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2021.04.22-09.56.24:478][  0]LogBlueprint: Error: [Compiler Spin2] Spawn node  Create Widget  must have a class specified.
+[2021.04.22-09.56.24:478][  0]LogBlueprint: Error: [Compiler Spin2] This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2021.04.22-09.56.24:479][  0]LogBlueprint: Error: [Compiler Spin3] Spawn node  Create Widget  must have a class specified.
+[2021.04.22-09.56.24:479][  0]LogBlueprint: Error: [Compiler Spin3] This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2021.04.22-09.56.24:481][  0]LogBlueprint: Error: [Compiler Spin4] Spawn node  Create Widget  must have a class specified.
+[2021.04.22-09.56.24:481][  0]LogBlueprint: Error: [Compiler Spin4] This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2021.04.22-09.56.24:774][  0]LogAIModule: Creating AISystem for world library_room_KM
+[2021.04.22-09.56.24:774][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001DBC9E09000), frame # 0
+[2021.04.22-09.56.24:774][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001DBDA942FC0), frame # 0
+[2021.04.22-09.56.24:777][  0]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.04.22-09.56.24:790][  0]LogWorld: Bringing World /Game/Designer/KatMurthwaite/Library/library_room_KM.library_room_KM up for play (max tick rate 0) at 2021.04.22-10.56.24
+[2021.04.22-09.56.24:790][  0]LogWorld: Bringing up level for play took: 0.012336
+[2021.04.22-09.56.24:791][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.04.22-09.56.24:793][  0]LogLoad: Took 0.451873 seconds to LoadMap(/Game/Designer/KatMurthwaite/Library/library_room_KM)
+[2021.04.22-09.56.24:841][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2021.04.22-09.56.24:841][  0]LogLoad: (Engine Initialization) Total time: 5.34 seconds
+[2021.04.22-09.56.24:841][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.04.22-09.56.24:858][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.04.22-09.56.24:861][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-09.56.24:927][  0]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:1).
+[2021.04.22-09.56.24:953][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:2).
+[2021.04.22-09.56.24:968][  1]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.24:969][  1]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.04.22-09.56.24:970][  2]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.24:975][  3]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.24:984][  4]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.24:993][  5]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:002][  6]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:012][  7]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:022][  8]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:032][  9]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:040][ 10]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:049][ 11]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:057][ 12]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:066][ 13]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:075][ 14]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:084][ 15]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:094][ 16]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:103][ 17]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:112][ 18]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:120][ 19]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:129][ 20]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:138][ 21]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:148][ 22]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:156][ 23]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:165][ 24]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:174][ 25]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:184][ 26]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:192][ 27]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:202][ 28]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:211][ 29]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:220][ 30]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:228][ 31]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:238][ 32]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:247][ 33]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:256][ 34]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:265][ 35]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:274][ 36]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:283][ 37]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:292][ 38]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:302][ 39]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:310][ 40]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:319][ 41]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:328][ 42]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:337][ 43]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:347][ 44]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:358][ 45]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:368][ 46]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:378][ 47]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:387][ 48]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:397][ 49]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:406][ 50]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:416][ 51]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:425][ 52]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:434][ 53]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:443][ 54]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:452][ 55]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:461][ 56]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:470][ 57]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:479][ 58]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:488][ 59]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:497][ 60]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:505][ 61]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:514][ 62]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:522][ 63]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:531][ 64]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:540][ 65]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:548][ 66]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:555][ 67]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:564][ 68]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:573][ 69]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:581][ 70]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:589][ 71]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:598][ 72]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:606][ 73]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:614][ 74]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:623][ 75]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:630][ 76]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:640][ 77]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:648][ 78]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:657][ 79]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:665][ 80]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:673][ 81]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:681][ 82]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:691][ 83]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:700][ 84]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:708][ 85]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:717][ 86]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:724][ 87]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:733][ 88]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:741][ 89]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:750][ 90]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:758][ 91]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:766][ 92]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:775][ 93]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:784][ 94]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:791][ 95]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:800][ 96]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:809][ 97]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:817][ 98]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:825][ 99]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:833][100]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:842][101]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:851][102]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:859][103]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:868][104]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:876][105]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:884][106]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:892][107]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:901][108]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:909][109]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:917][110]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:925][111]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:934][112]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:941][113]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:951][114]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:959][115]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:967][116]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:975][117]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:983][118]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.25:992][119]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:001][120]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:008][121]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:017][122]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:026][123]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:034][124]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:042][125]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:052][126]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:061][127]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:069][128]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:077][129]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:086][130]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:095][131]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:103][132]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:112][133]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:123][134]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:131][135]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:139][136]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:148][137]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:157][138]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:165][139]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:174][140]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:183][141]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:190][142]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:199][143]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:208][144]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:216][145]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:224][146]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:233][147]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:242][148]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:250][149]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:258][150]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:267][151]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:275][152]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:284][153]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:292][154]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:301][155]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:309][156]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:317][157]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:325][158]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:334][159]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:343][160]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:352][161]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:360][162]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:370][163]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:379][164]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:386][165]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:395][166]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:403][167]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:412][168]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:421][169]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:429][170]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:437][171]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:445][172]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:455][173]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:463][174]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:471][175]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:480][176]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:488][177]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:496][178]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:505][179]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:513][180]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:521][181]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:530][182]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:539][183]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:547][184]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:555][185]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:564][186]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:572][187]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:581][188]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:588][189]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:597][190]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:606][191]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:615][192]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:623][193]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:631][194]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:639][195]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:648][196]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:657][197]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:665][198]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:673][199]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:682][200]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:691][201]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:700][202]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:708][203]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:717][204]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:724][205]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:733][206]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:742][207]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:750][208]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:759][209]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:767][210]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:775][211]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:784][212]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:792][213]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:800][214]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:808][215]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:817][216]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:825][217]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:834][218]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:843][219]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:852][220]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:861][221]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:870][222]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:879][223]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:888][224]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:897][225]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:905][226]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:913][227]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:921][228]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:930][229]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:938][230]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:947][231]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:955][232]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:964][233]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:973][234]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:980][235]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:988][236]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.26:997][237]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:005][238]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:014][239]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:022][240]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:031][241]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:039][242]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:048][243]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:056][244]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:065][245]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:074][246]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:082][247]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:090][248]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:098][249]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:106][250]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:115][251]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:123][252]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:131][253]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:140][254]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:149][255]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:157][256]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:164][257]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:172][258]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:181][259]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:190][260]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:198][261]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:206][262]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:215][263]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:223][264]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:231][265]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:240][266]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:248][267]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:256][268]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:264][269]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:273][270]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:282][271]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:290][272]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:298][273]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:306][274]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:314][275]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:322][276]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:331][277]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:340][278]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:348][279]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:357][280]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:365][281]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:373][282]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:383][283]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:390][284]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:399][285]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:407][286]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:415][287]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:423][288]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:432][289]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:441][290]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:448][291]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:456][292]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:557][293]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:559][294]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:561][295]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:569][296]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:577][297]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:587][298]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:597][299]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:606][300]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:616][301]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:625][302]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:634][303]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:644][304]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:653][305]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:662][306]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:671][307]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:680][308]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:689][309]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:699][310]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:706][311]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:715][312]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:724][313]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:732][314]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:741][315]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:750][316]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:757][317]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:766][318]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:774][319]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:782][320]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:790][321]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:799][322]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:807][323]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:816][324]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:824][325]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:832][326]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:841][327]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:849][328]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:858][329]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:865][330]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:874][331]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:882][332]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:890][333]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:899][334]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:907][335]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:915][336]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:923][337]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:932][338]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:940][339]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:949][340]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:957][341]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:966][342]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:973][343]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:981][344]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:990][345]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.27:998][346]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:006][347]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:015][348]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:022][349]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:032][350]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:040][351]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:050][352]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:058][353]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:066][354]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:074][355]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:083][356]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:092][357]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:100][358]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:107][359]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:116][360]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:125][361]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:133][362]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:141][363]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:151][364]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:158][365]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:167][366]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:175][367]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:184][368]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:192][369]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:200][370]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:209][371]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:218][372]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:225][373]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:234][374]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:243][375]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:251][376]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:259][377]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:267][378]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:277][379]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:285][380]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:293][381]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:301][382]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:310][383]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:318][384]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:326][385]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:335][386]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:344][387]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:353][388]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:363][389]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:371][390]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:381][391]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:390][392]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:399][393]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:408][394]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:417][395]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:425][396]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:434][397]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:443][398]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:451][399]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:459][400]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:467][401]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:476][402]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:485][403]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:493][404]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:502][405]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:509][406]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:518][407]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:526][408]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:534][409]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:544][410]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:552][411]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:560][412]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:568][413]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:578][414]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:586][415]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:595][416]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:602][417]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:611][418]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:619][419]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:627][420]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:636][421]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:645][422]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:654][423]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:661][424]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:669][425]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:678][426]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:687][427]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:696][428]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:704][429]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:713][430]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:722][431]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:730][432]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:738][433]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:747][434]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:756][435]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:764][436]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:772][437]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:781][438]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:789][439]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:798][440]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:806][441]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:815][442]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:823][443]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:832][444]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:840][445]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:848][446]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:856][447]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:865][448]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:873][449]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:882][450]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:890][451]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:899][452]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:907][453]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:916][454]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:925][455]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:932][456]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:940][457]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:949][458]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:958][459]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:966][460]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:975][461]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:983][462]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.28:991][463]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:000][464]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:008][465]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:016][466]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:026][467]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:034][468]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:042][469]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:051][470]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:061][471]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:069][472]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:078][473]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:086][474]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:095][475]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:105][476]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:114][477]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:122][478]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:131][479]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:141][480]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:149][481]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:157][482]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:166][483]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:174][484]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:183][485]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:192][486]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:200][487]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:208][488]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:216][489]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:225][490]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:233][491]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:241][492]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:250][493]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:259][494]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:267][495]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:275][496]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:284][497]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:293][498]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:300][499]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:308][500]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:318][501]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:326][502]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:334][503]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:342][504]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:351][505]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:359][506]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:368][507]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:376][508]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:386][509]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:394][510]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:403][511]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:411][512]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:419][513]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:428][514]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:437][515]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:445][516]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:453][517]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:462][518]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:471][519]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:479][520]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:487][521]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:495][522]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:503][523]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:512][524]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:520][525]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:529][526]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:538][527]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:546][528]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:554][529]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:561][530]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:571][531]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:580][532]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:588][533]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:596][534]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:605][535]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:613][536]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:621][537]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:630][538]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:638][539]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:647][540]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:655][541]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:664][542]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:672][543]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:680][544]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:689][545]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:698][546]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:706][547]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:715][548]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:723][549]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:732][550]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:740][551]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:749][552]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:757][553]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:765][554]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:773][555]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:782][556]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:790][557]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:799][558]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:807][559]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:815][560]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:825][561]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:833][562]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:842][563]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:851][564]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:860][565]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:868][566]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:877][567]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:886][568]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:896][569]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:904][570]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:912][571]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:921][572]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:929][573]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:938][574]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:947][575]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:955][576]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:963][577]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:972][578]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:981][579]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:988][580]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.29:997][581]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:005][582]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:013][583]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:022][584]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:031][585]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:039][586]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:049][587]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:057][588]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:066][589]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:075][590]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:082][591]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:090][592]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:099][593]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:107][594]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:119][595]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:125][596]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:133][597]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:142][598]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:154][599]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:163][600]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:172][601]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:180][602]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:188][603]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:197][604]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:206][605]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:214][606]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:222][607]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:230][608]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:239][609]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:247][610]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:255][611]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:263][612]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:273][613]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:280][614]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:288][615]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:297][616]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:305][617]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:313][618]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:322][619]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:331][620]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:339][621]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:348][622]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:356][623]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:366][624]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:374][625]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:383][626]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:391][627]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:400][628]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:410][629]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:417][630]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:426][631]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:435][632]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:444][633]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:452][634]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:461][635]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:470][636]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:479][637]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:488][638]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:496][639]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:504][640]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:513][641]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:521][642]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:530][643]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:538][644]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:547][645]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:557][646]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:564][647]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:572][648]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:582][649]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:591][650]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:600][651]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:609][652]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:618][653]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:627][654]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:636][655]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:646][656]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:655][657]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:663][658]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:671][659]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:680][660]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:689][661]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:697][662]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:706][663]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:715][664]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:723][665]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:732][666]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:740][667]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:749][668]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:756][669]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:765][670]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:773][671]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:783][672]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:790][673]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:799][674]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:808][675]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:816][676]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:824][677]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:833][678]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:841][679]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:850][680]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:858][681]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:866][682]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:875][683]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:883][684]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:891][685]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:900][686]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:908][687]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:917][688]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:925][689]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:933][690]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:942][691]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:951][692]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:958][693]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:967][694]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:975][695]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:984][696]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.30:992][697]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:001][698]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:009][699]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:018][700]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:025][701]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:035][702]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:044][703]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:053][704]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:061][705]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:070][706]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:079][707]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:086][708]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:095][709]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:103][710]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:112][711]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:120][712]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:129][713]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:137][714]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:145][715]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:154][716]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:162][717]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:170][718]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:179][719]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:188][720]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:196][721]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:204][722]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:213][723]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:222][724]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:230][725]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:238][726]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:247][727]LogBlueprintUserMessages: [MyCharactor_2] 190.149994
+[2021.04.22-09.56.31:324][728]LogSlate: Window 'Journeyman_CSOM (64-bit Development PCD3D_SM5) ' being destroyed
+[2021.04.22-09.56.31:325][728]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.04.22-09.56.31:330][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-09.56.31:330][728]LogEngine: All Windows Closed
+[2021.04.22-09.56.31:330][728]LogWindows: FPlatformMisc::RequestExit(0)
+[2021.04.22-09.56.31:330][728]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.04.22-09.56.31:331][729]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.04.22-09.56.31:336][729]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2021.04.22-09.56.31:380][729]LogInit: Display: PreExit Game.
+[2021.04.22-09.56.31:415][729]LogWorld: BeginTearingDown for /Game/Designer/KatMurthwaite/Library/library_room_KM
+[2021.04.22-09.56.31:415][729]LogWorld: UWorld::CleanupWorld for library_room_KM, bSessionEnded=true, bCleanupResources=true
+[2021.04.22-09.56.31:416][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.22-09.56.32:105][729]LogExit: Preparing to exit.
+[2021.04.22-09.56.32:829][729]LogMoviePlayer: Shutting down movie player
+[2021.04.22-09.56.32:853][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.04.22-09.56.32:858][729]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.04.22-09.56.32:862][729]LogExit: Game engine shut down
+[2021.04.22-09.56.32:875][729]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001DBD694FA00), frame # 729
+[2021.04.22-09.56.32:875][729]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001DBD69616C0), frame # 729
+[2021.04.22-09.56.32:875][729]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001DBD69B1C00), frame # 729
+[2021.04.22-09.56.32:879][729]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001DBC9E09000), frame # 729
+[2021.04.22-09.56.32:879][729]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001DBDA942FC0), frame # 729
+[2021.04.22-09.56.32:899][729]LogExit: Object subsystem successfully closed.
+[2021.04.22-09.56.32:914][729]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.04.22-09.56.32:923][729]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2021.04.22-09.56.32:923][729]LogModuleManager: Shutting down and abandoning module SequenceRecorder (496)
+[2021.04.22-09.56.32:923][729]LogModuleManager: Shutting down and abandoning module AutomationController (494)
+[2021.04.22-09.56.32:923][729]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2021.04.22-09.56.32:923][729]LogModuleManager: Shutting down and abandoning module Voice (490)
+[2021.04.22-09.56.32:923][729]LogModuleManager: Shutting down and abandoning module AIModule (488)
+[2021.04.22-09.56.32:923][729]LogModuleManager: Shutting down and abandoning module GameplayDebugger (487)
+[2021.04.22-09.56.32:923][729]LogModuleManager: Shutting down and abandoning module AITestSuite (485)
+[2021.04.22-09.56.32:923][729]LogModuleManager: Shutting down and abandoning module NavigationSystem (483)
+[2021.04.22-09.56.32:923][729]LogModuleManager: Shutting down and abandoning module OculusMR (480)
+[2021.04.22-09.56.32:923][729]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (478)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (476)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module WebMMedia (474)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (472)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (470)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (468)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (466)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (464)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module PlanarCut (462)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module CharacterAI (460)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (456)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module LiveCoding (454)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module LevelSequence (452)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (450)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module MovieScene (448)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (446)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module PortalServices (444)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module PortalRpc (442)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module MessagingRpc (440)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (438)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module AudioMixerCore (437)
+[2021.04.22-09.56.32:924][729]LogModuleManager: Shutting down and abandoning module ProfilerService (434)
+[2021.04.22-09.56.33:081][729]LogModuleManager: Shutting down and abandoning module TaskGraph (432)
+[2021.04.22-09.56.33:081][729]LogModuleManager: Shutting down and abandoning module Synthesis (430)
+[2021.04.22-09.56.33:081][729]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (428)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module OculusInput (426)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (424)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module GooglePAD (422)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module EditableMesh (420)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (418)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module CableComponent (416)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module AudioCapture (414)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (413)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module AssetTags (410)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (408)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (406)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module AppleImageUtils (404)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module AndroidPermission (402)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (400)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (398)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module TemplateSequence (396)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (394)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (392)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (390)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (389)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module MediaCompositing (386)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module ImgMedia (384)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (382)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (380)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (378)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (376)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (374)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (372)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module MeshConversion (370)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module DynamicMesh (368)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (366)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module GeometricObjects (364)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (362)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (361)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (358)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (357)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module GeometryCache (354)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (353)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module ChaosNiagara (350)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module ChaosCloth (348)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module BackChannel (346)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module AutomationUtils (344)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (342)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module HotReload (341)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (340)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (336)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module UObjectPlugin (334)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (332)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (330)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (328)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module SourceControl (327)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (324)
+[2021.04.22-09.56.33:082][729]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (322)
+[2021.04.22-09.56.33:083][729]LogModuleManager: Shutting down and abandoning module SoundFields (320)
+[2021.04.22-09.56.33:083][729]LogModuleManager: Shutting down and abandoning module SignificanceManager (318)
+[2021.04.22-09.56.33:083][729]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (316)
+[2021.04.22-09.56.33:083][729]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (314)
+[2021.04.22-09.56.33:083][729]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (310)
+[2021.04.22-09.56.33:083][729]LogModuleManager: Shutting down and abandoning module ActorSequence (308)
+[2021.04.22-09.56.33:083][729]LogModuleManager: Shutting down and abandoning module UdpMessaging (306)
+[2021.04.22-09.56.33:184][729]LogModuleManager: Shutting down and abandoning module TcpMessaging (304)
+[2021.04.22-09.56.33:823][729]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (302)
+[2021.04.22-09.56.33:823][729]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (300)
+[2021.04.22-09.56.33:823][729]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (298)
+[2021.04.22-09.56.33:823][729]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (296)
+[2021.04.22-09.56.33:823][729]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (294)
+[2021.04.22-09.56.33:823][729]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.04.22-09.56.33:823][729]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (292)
+[2021.04.22-09.56.33:823][729]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (290)
+[2021.04.22-09.56.33:823][729]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
+[2021.04.22-09.56.33:823][729]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
+[2021.04.22-09.56.33:823][729]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
+[2021.04.22-09.56.33:823][729]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.04.22-09.56.33:823][729]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (282)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module MagicLeapAR (280)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module AugmentedReality (279)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (276)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module Niagara (274)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module SignalProcessing (273)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module NiagaraEditor (271)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module NiagaraCore (268)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (266)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (262)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module TreeMap (261)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module AnimationSharing (258)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (256)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module Paper2D (254)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (252)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (250)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (248)
+[2021.04.22-09.56.33:824][729]LogModuleManager: Shutting down and abandoning module PacketHandler (246)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (244)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (242)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module MediaAssets (240)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module Overlay (238)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module OverlayEditor (237)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module VREditor (234)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module StringTableEditor (232)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (230)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (228)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module FunctionalTesting (226)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (224)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (223)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module UMG (220)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module UMGEditor (219)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module Sequencer (218)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module MessageLog (215)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module MaterialEditor (213)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module SlateReflector (208)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module Slate (206)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module SlateCore (204)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2021.04.22-09.56.33:825][729]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module Messaging (194)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (192)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (190)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module XAudio2 (188)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module Networking (186)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module Core (184)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module MovieSceneTools (182)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module KismetCompiler (180)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module MeshBuilder (178)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module MeshUtilities (176)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (175)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (174)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (173)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (171)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (169)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
+[2021.04.22-09.56.33:826][729]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (158)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (156)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (119)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (117)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (115)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (113)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module InputCore (110)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module Settings (108)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2021.04.22-09.56.33:827][729]LogHMD: Freeing OpenVRDLLHandle.
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2021.04.22-09.56.33:827][729]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2021.04.22-09.56.33:828][729]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2021.04.22-09.56.33:828][729]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2021.04.22-09.56.33:851][729]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2021.04.22-09.56.33:883][729]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2021.04.22-09.56.33:884][729]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2021.04.22-09.56.33:885][729]LogModuleManager: Shutting down and abandoning module Media (61)
+[2021.04.22-09.56.33:886][729]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2021.04.22-09.56.33:886][729]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2021.04.22-09.56.33:886][729]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2021.04.22-09.56.33:886][729]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2021.04.22-09.56.33:886][729]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2021.04.22-09.56.33:886][729]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2021.04.22-09.56.33:886][729]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2021.04.22-09.56.33:886][729]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2021.04.22-09.56.33:886][729]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2021.04.22-09.56.33:886][729]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.04.22-09.56.33:886][729]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.04.22-09.56.33:886][729]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.04.22-09.56.33:887][729]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.04.22-09.56.34:175][729]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.04.22-09.56.34:175][729]LogD3D11RHI: Shutdown
+[2021.04.22-09.56.34:175][729]LogD3D11RHI: CleanupD3DDevice
+[2021.04.22-09.56.34:180][729]LogExit: Exiting.
+[2021.04.22-09.56.34:194][729]Log file closed, 04/22/21 10:56:34
+>>>>>>> pr/40
