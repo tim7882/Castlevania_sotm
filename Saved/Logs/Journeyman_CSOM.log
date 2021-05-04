@@ -1,9 +1,17 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ﻿Log file open, 05/04/21 14:11:01
 LogInit: Display: Running engine for game: Journeyman_CSOM
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.453571
+=======
+﻿Log file open, 05/04/21 13:43:31
+LogInit: Display: Running engine for game: Journeyman_CSOM
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 3.202455
+>>>>>>> Stashed changes
 =======
 ﻿Log file open, 05/04/21 13:43:31
 LogInit: Display: Running engine for game: Journeyman_CSOM
@@ -202,6 +210,7 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 [2021.05.04-13.11.03:301][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2021.05.04-13.11.03:301][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
@@ -772,6 +781,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.04-13.17.13:023][305]LogContentValidation: Display: Validating World /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene
 [2021.05.04-13.17.13:023][305]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Designer/Level_Design/Maps/Maps/ChaseScene_BuiltData.ChaseScene_BuiltData
 =======
+=======
+>>>>>>> Stashed changes
 [2021.05.04-12.43.38:257][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2021.05.04-12.43.38:257][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2021.05.04-12.43.38:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Jay/Documents/GitHub/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
@@ -1686,4 +1697,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.04-12.54.42:754][585]LogD3D11RHI: CleanupD3DDevice
 [2021.05.04-12.54.42:811][585]LogExit: Exiting.
 [2021.05.04-12.54.42:860][585]Log file closed, 05/04/21 13:54:42
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
