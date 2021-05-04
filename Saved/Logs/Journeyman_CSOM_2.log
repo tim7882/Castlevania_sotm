@@ -1310,6 +1310,7 @@ Script call stack:
 [2021.05.04-12.12.57:777][405]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Maps/Maps/ChaseScene' took 3.840
 [2021.05.04-12.12.57:777][405]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.840
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [2021.05.04-12.15.20:298][316]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Designer/KatMurthwaite/hudtest/HeartWidget.
 [2021.05.04-12.15.20:697][317]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Designer/Level_Design/LukeHodgetts/Emitters/bottomlesspit.
 [2021.05.04-12.15.20:957][318]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Designer/Level_Design/Maps/Maps/library_room_KM1.
@@ -1749,5 +1750,7 @@ Script call stack:
 [2021.05.04-12.15.49:405][381]LogD3D11RHI: CleanupD3DDevice
 [2021.05.04-12.15.49:461][381]LogExit: Exiting.
 [2021.05.04-12.15.49:628][381]Log file closed, 05/04/21 13:15:49
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
