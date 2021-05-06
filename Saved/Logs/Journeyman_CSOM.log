@@ -909,3 +909,74 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.06-14.51.57:756][649]LogPlayLevel: Display: Destroying online subsystem :Context_8
 [2021.05.06-14.52.21:894][149]LogSlate: Window 'Message Log' being destroyed
 [2021.05.06-14.52.21:962][149]LogSlate: Window 'Message Log' being destroyed
+[2021.05.06-14.56.53:826][203]LogTexture: Display: Building textures: smoke2 (BGRA8, 2481X3508)
+[2021.05.06-14.56.53:826][203]LogMaterial: Display: Missing cached shader map for material smoke2_Mat, compiling. 
+[2021.05.06-14.56.54:364][203]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 87
+[2021.05.06-14.56.54:364][203]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 77
+[2021.05.06-14.56.54:364][203]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 67
+[2021.05.06-14.56.54:364][203]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 57
+[2021.05.06-14.56.54:452][203]LogAssetEditorSubsystem: Opening Asset editor for NiagaraEmitter /Game/Designer/Level_Design/LukeHodgetts/Game/smokecloudlh.smokecloudlh
+[2021.05.06-14.56.55:217][203]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.098929 sec.
+[2021.05.06-14.56.55:217][203]LogNiagaraEditor: Verbose: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript ...................................................................
+[2021.05.06-14.56.55:257][203]LogNiagaraEditor: Verbose: Translating System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript took 0.039084 sec.
+[2021.05.06-14.56.55:295][203]LogNiagaraEditor: Verbose: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript ...................................................................
+[2021.05.06-14.56.55:312][203]LogNiagaraEditor: Verbose: Translating System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript took 0.016577 sec.
+[2021.05.06-14.56.58:233][203]56964_NiagaraSystem_0_MessageLog: System compile status dirty with 0 warning(s) and 0 error(s).
+[2021.05.06-14.56.58:483][204]LogRenderer: Reallocating scene render targets to support 1208x664 Format 10 NumSamples 1 (Frame:1).
+[2021.05.06-14.57.04:152][546]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 49
+[2021.05.06-14.57.04:308][556]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 48
+[2021.05.06-14.57.04:424][560]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 47
+[2021.05.06-14.57.04:424][560]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 37
+[2021.05.06-14.57.04:548][567]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 27
+[2021.05.06-14.57.04:548][567]LogNiagara: Compiling System NiagaraSystem /Engine/Transient.NiagaraSystem_0 took 9.439249 sec (overall compilation time), 18.326721 sec (combined shader worker time).
+[2021.05.06-14.57.04:549][567]LogMaterial: Display: Material /Game/Designer/Particle_effects/Boss/smoke2_Mat.smoke2_Mat needed to have new flag set bUsedWithNiagaraSprites !
+[2021.05.06-14.57.04:552][567]LogMaterial: Display: Missing cached shader map for material smoke2_Mat, compiling. 
+[2021.05.06-14.57.05:044][568]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 135
+[2021.05.06-14.57.05:044][568]LogNiagaraEditor: Verbose: '/Engine/Transient' Precompile took 0.218794 sec.
+[2021.05.06-14.57.05:045][568]LogNiagaraEditor: Verbose: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript ...................................................................
+[2021.05.06-14.57.05:051][568]LogNiagaraEditor: Verbose: Translating System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemSpawnScript took 0.006616 sec.
+[2021.05.06-14.57.05:052][568]LogNiagaraEditor: Verbose: Compiling System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript ...................................................................
+[2021.05.06-14.57.05:066][568]LogNiagaraEditor: Verbose: Translating System NiagaraScript /Engine/Transient.NiagaraSystem_0:SystemUpdateScript took 0.013519 sec.
+[2021.05.06-14.57.05:230][568]56964_NiagaraSystem_0_MessageLog: System compile status dirty with 0 warning(s) and 0 error(s).
+[2021.05.06-14.57.10:837][892]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 127
+[2021.05.06-14.57.11:104][908]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 126
+[2021.05.06-14.57.11:412][930]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 125
+[2021.05.06-14.57.11:426][930]LogNiagara: Compiling System NiagaraSystem /Engine/Transient.NiagaraSystem_0 took 6.761933 sec (overall compilation time), 12.388224 sec (combined shader worker time).
+[2021.05.06-14.57.11:583][931]56964_NiagaraSystem_0_MessageLog: System compile status dirty with 0 warning(s) and 0 error(s).
+[2021.05.06-14.57.12:745][999]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 115
+[2021.05.06-14.57.13:131][ 24]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 105
+[2021.05.06-14.57.14:233][ 87]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 95
+[2021.05.06-14.57.18:348][263]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 85
+[2021.05.06-14.57.19:312][304]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 75
+[2021.05.06-14.57.20:417][371]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 65
+[2021.05.06-14.57.21:249][422]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 55
+[2021.05.06-14.57.23:014][521]LogNiagaraEditor: Warning: Cleanup System view model 000001D38983B910
+[2021.05.06-14.57.23:083][521]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-14.57.23:083][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-14.57.23:106][521]LogNiagaraEditor: Warning: Cleanup System view model 000001D38983B910
+[2021.05.06-14.57.23:106][521]LogNiagaraEditor: Warning: Deleting System view model 000001D38983B910
+[2021.05.06-14.57.23:317][521]LogUObjectHash: Compacting FUObjectHashTables data took  11.00ms
+[2021.05.06-14.57.25:548][615]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 45
+[2021.05.06-14.57.26:845][673]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 35
+[2021.05.06-14.57.27:592][706]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2021.05.06-14.57.28:780][757]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 19
+[2021.05.06-14.57.31:465][863]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-14.57.31:465][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-14.57.32:260][931]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2021.05.06-14.57.32:566][967]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.05.06-14.57.32:566][967]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.06-14.57.33:361][985]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2021.05.06-14.57.33:434][987]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.05.06-14.57.33:693][993]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.05.06-14.57.35:180][ 29]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.05.06-14.57.35:341][ 33]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.05.06-14.57.36:033][ 50]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.05.06-14.59.23:400][475]LogUObjectHash: Compacting FUObjectHashTables data took  22.61ms
+[2021.05.06-14.59.25:393][475]LogSlate: Window 'Save Content' being destroyed
+[2021.05.06-14.59.25:690][475]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/smoke2_Mat94BA2CE048085B966333BCA59D878CB1.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Particle_effects/Boss/smoke2_Mat.uasset'
+[2021.05.06-14.59.25:738][475]AssetCheck: New page: Asset Save: smoke2_Mat
+[2021.05.06-14.59.25:739][475]LogContentValidation: Display: Validating Material /Game/Designer/Particle_effects/Boss/smoke2_Mat.smoke2_Mat
+[2021.05.06-14.59.44:360][704]LogEditorViewport: Clicking on Actor (LMB): MyCharactor_C (MyCharactor)
+[2021.05.06-14.59.44:632][704]LogEditorViewport: Clicking on Component (LMB): BoxComponent (Box)
+[2021.05.06-14.59.46:099][712]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2021.05.06-15.09.21:168][339]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
