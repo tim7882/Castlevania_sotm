@@ -1567,6 +1567,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.06-14.32.18:299][567]LogEditorActor: Deleted Actor: EnemyCharacter_JB_C
 [2021.05.06-14.32.18:465][567]LogUObjectHash: Compacting FUObjectHashTables data took  13.23ms
 [2021.05.06-14.32.18:474][567]LogEditorActor: Deleted 1 Actors (0.260 secs)
+<<<<<<< HEAD
 [2021.05.06-14.33.16:351][781]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
 [2021.05.06-14.33.17:733][781]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/ChaseScene_Auto17D99F6DD4AFD19F5935F71BD689E0FC5.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Autosaves/Game/Designer/Level_Design/Maps/Maps/ChaseScene_Auto1.umap'
 [2021.05.06-14.33.17:743][781]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Maps/Maps/ChaseScene' took 1.588
@@ -2045,3 +2046,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.06-14.38.23:234][688]Log file closed, 05/06/21 15:38:23
 =======
 >>>>>>> pr/42
+=======
+>>>>>>> testhud-and-damage-
