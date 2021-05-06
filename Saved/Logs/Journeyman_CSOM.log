@@ -1567,3 +1567,12 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.06-14.32.18:299][567]LogEditorActor: Deleted Actor: EnemyCharacter_JB_C
 [2021.05.06-14.32.18:465][567]LogUObjectHash: Compacting FUObjectHashTables data took  13.23ms
 [2021.05.06-14.32.18:474][567]LogEditorActor: Deleted 1 Actors (0.260 secs)
+[2021.05.06-14.33.16:351][781]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2021.05.06-14.33.17:733][781]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/ChaseScene_Auto17D99F6DD4AFD19F5935F71BD689E0FC5.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Autosaves/Game/Designer/Level_Design/Maps/Maps/ChaseScene_Auto1.umap'
+[2021.05.06-14.33.17:743][781]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Maps/Maps/ChaseScene' took 1.588
+[2021.05.06-14.33.17:743][781]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.588
+[2021.05.06-14.33.17:744][781]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Programmer/scrips/MyCharactor] ([1] browsable assets)...
+[2021.05.06-14.33.17:802][781]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Programmer/scrips/MyCharactor.MyCharactor]
+[2021.05.06-14.33.17:802][781]OBJ SavePackage: Finished generating thumbnails for package [/Game/Programmer/scrips/MyCharactor]
+[2021.05.06-14.33.18:314][781]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/MyCharactor_Auto15EFAC6414A794797D23D4D9C8F8F5B8C.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Autosaves/Game/Programmer/scrips/MyCharactor_Auto1.uasset'
+[2021.05.06-14.33.18:325][781]LogFileHelpers: Auto-saving content packages took 0.582
