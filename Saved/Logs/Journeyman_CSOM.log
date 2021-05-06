@@ -1576,6 +1576,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.06-14.33.17:802][781]OBJ SavePackage: Finished generating thumbnails for package [/Game/Programmer/scrips/MyCharactor]
 [2021.05.06-14.33.18:314][781]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/MyCharactor_Auto15EFAC6414A794797D23D4D9C8F8F5B8C.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Autosaves/Game/Programmer/scrips/MyCharactor_Auto1.uasset'
 [2021.05.06-14.33.18:325][781]LogFileHelpers: Auto-saving content packages took 0.582
+<<<<<<< HEAD
 [2021.05.06-14.38.05:388][642]LogUObjectHash: Compacting FUObjectHashTables data took   8.94ms
 [2021.05.06-14.38.06:217][642]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/ChaseSceneC22EEFD445FD5E0A798569A85239166C.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Maps/Maps/ChaseScene.umap'
 [2021.05.06-14.38.09:000][642]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/ChaseScene_BuiltData7263124441219311EC93A69CB7B597C2.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Maps/Maps/ChaseScene_BuiltData.uasset'
@@ -2042,3 +2043,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.06-14.38.23:134][688]LogD3D11RHI: CleanupD3DDevice
 [2021.05.06-14.38.23:202][688]LogExit: Exiting.
 [2021.05.06-14.38.23:234][688]Log file closed, 05/06/21 15:38:23
+=======
+>>>>>>> pr/42
