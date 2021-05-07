@@ -2923,3 +2923,1687 @@ System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRo
 [2021.05.07-15.50.25:081][235]LogContentValidation: Display: Validating WidgetBlueprint /Game/Designer/KatMurthwaite/hudtest/test_hud_km_chase.test_hud_km_chase
 [2021.05.07-15.50.25:081][235]LogContentValidation: Display: Validating World /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene
 [2021.05.07-15.50.25:081][235]LogContentValidation: Display: Validating World /Game/Designer/Level_Design/Maps/Maps/library_room_KM1.library_room_KM1
+[2021.05.07-15.53.04:228][800]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-15.53.04:229][800]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-15.53.04:242][800]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-15.53.04:242][800]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-15.53.09:572][ 97]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-15.53.09:572][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-15.56.30:972][822]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-15.56.30:972][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-15.56.30:986][822]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-15.56.30:986][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-15.56.33:092][902]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-15.56.33:092][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-15.56.33:115][902]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-15.56.33:115][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-15.59.38:251][949]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-15.59.38:367][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-15.59.38:367][949]PIE: New page: PIE session: BossLevelMap1 (7 May 2021, 17:59:38)
+[2021.05.07-15.59.38:367][949]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1
+[2021.05.07-15.59.38:850][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.482959s)
+[2021.05.07-15.59.38:854][949]LogAIModule: Creating AISystem for world BossLevelMap1
+[2021.05.07-15.59.38:855][949]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000255C361DA00), frame # 59949
+[2021.05.07-15.59.38:855][949]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025598185440), frame # 59949
+[2021.05.07-15.59.38:857][949]LogPlayLevel: PIE: World Init took: (0.006102s)
+[2021.05.07-15.59.38:857][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/BossLevelMap1.BossLevelMap1 to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1 (0.489940s)
+[2021.05.07-15.59.39:067][949]LogUObjectHash: Compacting FUObjectHashTables data took  14.88ms
+[2021.05.07-15.59.39:099][949]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-15.59.39:099][949]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-15.59.39:099][949]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-15.59.39:099][949]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-15.59.39:099][949]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-15.59.39:099][949]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-15.59.39:099][949]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-15.59.39:099][949]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-15.59.39:101][949]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-15.59.39:101][949]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-15.59.39:121][949]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-15.59.39:121][949]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-15.59.39:210][949]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-15.59.39:210][949]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-15.59.39:210][949]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-15.59.39:211][949]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-15.59.39:212][949]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-15.59.39:276][949]LogInit: FAudioDevice initialized.
+[2021.05.07-15.59.39:353][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-15.59.39:353][949]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-15.59.39:465][949]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1 up for play (max tick rate 0) at 2021.05.07-16.59.39
+[2021.05.07-15.59.39:472][949]LogWorld: Bringing up level for play took: 0.115586
+[2021.05.07-15.59.39:472][949]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2021.05.07-15.59.39:505][949]PIE: Server logged in
+[2021.05.07-15.59.39:514][949]PIE: Play in editor total start time 1.15 seconds.
+[2021.05.07-15.59.41:812][978]LogNiagara: Niagara Effect stalled GT for 1.9294 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_8.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.42:366][988]LogNiagara: Niagara Effect stalled GT for 1.5254 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_32.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.42:369][988]LogNiagara: Niagara Effect stalled GT for 2.5065 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_33.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.42:805][997]LogNiagara: Niagara Effect stalled GT for 5.1375 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_86.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.42:954][  0]LogNiagara: Niagara Effect stalled GT for 5.3938 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_94.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.43:054][  2]LogNiagara: Niagara Effect stalled GT for 5.9874 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_102.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.43:152][  4]LogNiagara: Niagara Effect stalled GT for 5.7681 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_110.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.43:348][  8]LogNiagara: Niagara Effect stalled GT for 1.5037 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_118.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.43:350][  8]LogNiagara: Niagara Effect stalled GT for 1.5973 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_120.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.43:412][  9]LogNiagara: Niagara Effect stalled GT for 1.7048 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_127.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.43:455][ 10]LogNiagara: Niagara Effect stalled GT for 7.6299 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_163.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.44:087][ 23]LogNiagara: Niagara Effect stalled GT for 2.2653 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_196.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.44:186][ 25]LogNiagara: Niagara Effect stalled GT for 3.0364 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_204.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.44:673][ 35]LogNiagara: Niagara Effect stalled GT for 6.4361 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_273.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.44:814][ 38]LogNiagara: Niagara Effect stalled GT for 5.5863 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_281.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.44:816][ 38]LogNiagara: Niagara Effect stalled GT for 1.4272 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_278.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.44:960][ 41]LogNiagara: Niagara Effect stalled GT for 8.1748 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_289.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.45:103][ 44]LogNiagara: Niagara Effect stalled GT for 7.4454 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_297.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.45:217][ 46]LogNiagara: Niagara Effect stalled GT for 4.064 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_305.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.45:379][ 49]LogNiagara: Niagara Effect stalled GT for 1.3408 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_312.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.45:472][ 51]LogNiagara: Niagara Effect stalled GT for 3.4267 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_321.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.45:688][ 55]LogNiagara: Niagara Effect stalled GT for 5.8788 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_359.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.45:809][ 58]LogNiagara: Niagara Effect stalled GT for 3.9682 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_367.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.45:952][ 61]LogNiagara: Niagara Effect stalled GT for 3.102 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_375.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.46:102][ 64]LogNiagara: Niagara Effect stalled GT for 3.7877 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_383.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.46:258][ 67]LogNiagara: Niagara Effect stalled GT for 7.3754 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_391.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.46:399][ 70]LogNiagara: Niagara Effect stalled GT for 1.1877 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_399.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.46:401][ 70]LogNiagara: Niagara Effect stalled GT for 1.4933 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_397.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.46:504][ 72]LogNiagara: Niagara Effect stalled GT for 3.3474 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_429.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.46:508][ 72]LogNiagara: Niagara Effect stalled GT for 3.2545 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_421.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.46:510][ 72]LogNiagara: Niagara Effect stalled GT for 1.0714 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_418.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.46:712][ 76]LogNiagara: Niagara Effect stalled GT for 5.9854 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_445.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.46:853][ 79]LogNiagara: Niagara Effect stalled GT for 6.5392 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_453.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.47:020][ 82]LogNiagara: Niagara Effect stalled GT for 9.6292 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_461.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.47:140][ 84]LogNiagara: Niagara Effect stalled GT for 1.4281 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_469.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.47:142][ 84]LogNiagara: Niagara Effect stalled GT for 1.4496 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_467.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.47:279][ 86]LogNiagara: Niagara Effect stalled GT for 9.4624 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_477.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.47:535][ 90]LogNiagara: Niagara Effect stalled GT for 7.6491 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_523.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.47:537][ 90]LogNiagara: Niagara Effect stalled GT for 1.5804 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_520.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.48:014][ 96]LogNiagara: Niagara Effect stalled GT for 3.2287 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_555.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.48:018][ 96]LogNiagara: Niagara Effect stalled GT for 3.2476 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_549.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.48:176][ 98]LogNiagara: Niagara Effect stalled GT for 9.9433 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_563.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.48:178][ 98]LogNiagara: Niagara Effect stalled GT for 1.2684 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_561.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.48:303][100]LogNiagara: Niagara Effect stalled GT for 3.7468 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_571.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.48:460][102]LogNiagara: Niagara Effect stalled GT for 3.1812 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_579.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.48:464][102]LogNiagara: Niagara Effect stalled GT for 3.4198 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_578.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.48:597][104]LogNiagara: Niagara Effect stalled GT for 3.793 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_595.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.48:599][104]LogNiagara: Niagara Effect stalled GT for 1.3835 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_593.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.48:607][104]LogNiagara: Niagara Effect stalled GT for 7.4119 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_588.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.49:029][110]LogNiagara: Niagara Effect stalled GT for 3.0542 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_649.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.49:031][110]LogNiagara: Niagara Effect stalled GT for 1.2293 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_645.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.49:158][112]LogNiagara: Niagara Effect stalled GT for 5.485 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_657.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.49:161][112]LogNiagara: Niagara Effect stalled GT for 1.9276 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_650.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.49:289][114]LogNiagara: Niagara Effect stalled GT for 10.074 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_665.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.49:417][116]LogNiagara: Niagara Effect stalled GT for 9.364 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_673.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.49:547][118]LogNiagara: Niagara Effect stalled GT for 7.905 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_681.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.49:913][123]LogNiagara: Niagara Effect stalled GT for 3.537 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_727.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.49:918][123]LogNiagara: Niagara Effect stalled GT for 4.5731 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_723.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.50:030][125]LogNiagara: Niagara Effect stalled GT for 10.0511 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_735.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.50:453][131]LogNiagara: Niagara Effect stalled GT for 5.1297 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_759.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.50:716][135]LogNiagara: Niagara Effect stalled GT for 7.2007 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_797.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.50:718][135]LogNiagara: Niagara Effect stalled GT for 1.261 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_794.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.50:952][138]LogNiagara: Niagara Effect stalled GT for 1.3158 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_813.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.50:954][138]LogNiagara: Niagara Effect stalled GT for 1.8929 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_811.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.51:072][140]LogNiagara: Niagara Effect stalled GT for 12.0206 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_821.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.51:217][142]LogNiagara: Niagara Effect stalled GT for 8.8589 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_829.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.51:221][142]LogNiagara: Niagara Effect stalled GT for 3.2663 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_826.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.51:342][144]LogNiagara: Niagara Effect stalled GT for 7.3055 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_837.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.51:488][146]LogNiagara: Niagara Effect stalled GT for 7.2342 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_845.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.51:768][150]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.05.07-15.59.51:780][150]LogNiagara: Niagara Effect stalled GT for 3.564 ms.
+Component: NiagaraComponent /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1:PersistentLevel.FireballLH_C_899.Niagara 
+System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRoom/LH_Fireball.LH_Fireball
+[2021.05.07-15.59.54:747][200]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-15.59.54:747][200]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1
+[2021.05.07-15.59.54:747][200]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-15.59.54:790][200]LogWorld: UWorld::CleanupWorld for BossLevelMap1, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-15.59.54:835][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-15.59.54:859][200]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-15.59.54:884][200]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-15.59.55:201][200]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025598185440), frame # 60200
+[2021.05.07-15.59.55:201][200]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000255C361DA00), frame # 60200
+[2021.05.07-15.59.55:243][200]LogUObjectHash: Compacting FUObjectHashTables data took  12.74ms
+[2021.05.07-15.59.55:477][201]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2021.05.07-16.02.01:536][ 13]LogUObjectHash: Compacting FUObjectHashTables data took  11.34ms
+[2021.05.07-16.02.03:776][ 13]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/BossLevelMap1_Auto42193D79F45905EE01C1AC29C4A234B93.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Autosaves/Game/Designer/Level_Design/Maps/Maps/BossLevelMap1_Auto4.umap'
+[2021.05.07-16.02.03:783][ 13]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Maps/Maps/BossLevelMap1' took 2.428
+[2021.05.07-16.02.03:783][ 13]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.428
+[2021.05.07-16.04.56:788][ 73]BlueprintLog: New page: Compile MyCharactor
+[2021.05.07-16.04.57:379][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   8.69ms
+[2021.05.07-16.04.59:762][120]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.04.59:844][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.04.59:844][120]PIE: New page: PIE session: BossLevelMap1 (7 May 2021, 18:04:59)
+[2021.05.07-16.04.59:844][120]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1
+[2021.05.07-16.05.00:119][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.274690s)
+[2021.05.07-16.05.00:120][120]LogAIModule: Creating AISystem for world BossLevelMap1
+[2021.05.07-16.05.00:120][120]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000255B8A2BE00), frame # 67120
+[2021.05.07-16.05.00:121][120]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000255C4C20680), frame # 67120
+[2021.05.07-16.05.00:121][120]LogPlayLevel: PIE: World Init took: (0.002189s)
+[2021.05.07-16.05.00:121][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/BossLevelMap1.BossLevelMap1 to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1 (0.277204s)
+[2021.05.07-16.05.00:308][120]LogUObjectHash: Compacting FUObjectHashTables data took  16.83ms
+[2021.05.07-16.05.00:315][120]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.05.00:316][120]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.05.00:316][120]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.05.00:316][120]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.05.00:316][120]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.05.00:316][120]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.05.00:316][120]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.05.00:316][120]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.05.00:317][120]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.05.00:317][120]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.05.00:337][120]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.05.00:337][120]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.05.00:428][120]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.05.00:429][120]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.05.00:429][120]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.05.00:429][120]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.05.00:431][120]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.05.00:493][120]LogInit: FAudioDevice initialized.
+[2021.05.07-16.05.00:556][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.05.00:557][120]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.05.00:677][120]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1.BossLevelMap1 up for play (max tick rate 0) at 2021.05.07-17.05.00
+[2021.05.07-16.05.00:682][120]LogWorld: Bringing up level for play took: 0.121874
+[2021.05.07-16.05.00:682][120]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2021.05.07-16.05.00:716][120]PIE: Server logged in
+[2021.05.07-16.05.00:726][120]PIE: Play in editor total start time 0.884 seconds.
+[2021.05.07-16.05.02:879][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.05.02:879][146]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_BossLevelMap1
+[2021.05.07-16.05.02:879][146]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.05.02:939][146]LogWorld: UWorld::CleanupWorld for BossLevelMap1, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.05.02:973][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.05.02:990][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.05.03:009][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.05.03:274][146]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000255C4C20680), frame # 67146
+[2021.05.07-16.05.03:274][146]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000255B8A2BE00), frame # 67146
+[2021.05.07-16.05.03:303][146]LogUObjectHash: Compacting FUObjectHashTables data took  12.82ms
+[2021.05.07-16.05.03:467][147]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2021.05.07-16.05.06:874][213]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene
+[2021.05.07-16.05.07:037][213]LogUObjectHash: Compacting FUObjectHashTables data took  10.52ms
+[2021.05.07-16.05.07:937][213]LogSlate: Window 'Save Content' being destroyed
+[2021.05.07-16.05.08:657][213]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2021.05.07-16.05.10:775][213]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/BossLevelMap1E278CE214A2D498125AB439E8AD8CD53.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Maps/Maps/BossLevelMap1.umap'
+[2021.05.07-16.05.11:012][213]LogFileHelpers: Saving map 'BossLevelMap1' took 2.531
+[2021.05.07-16.05.14:248][213]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/BossLevelMap1_BuiltDataF69A9E314C41D4BD2D6A959D06F4CBA4.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Maps/Maps/BossLevelMap1_BuiltData.uasset'
+[2021.05.07-16.05.14:675][213]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2021.05.07-16.05.15:746][213]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/ChaseScene71A87FEF4D4F1781AD60B08CFC548DEB.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Maps/Maps/ChaseScene.umap'
+[2021.05.07-16.05.16:564][213]LogFileHelpers: Saving map 'ChaseScene' took 2.305
+[2021.05.07-16.05.16:819][213]LogUObjectHash: Compacting FUObjectHashTables data took   7.58ms
+[2021.05.07-16.05.18:080][213]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/library_room_KM1C231DF0A484BF05A01D2ED96C759CB59.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Maps/Maps/library_room_KM1.umap'
+[2021.05.07-16.05.18:147][213]LogFileHelpers: Saving map 'library_room_KM1' took 1.583
+[2021.05.07-16.05.18:311][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Programmer/scrips/MyCharactor" FILE="../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Programmer/scrips/MyCharactor.uasset" SILENT=true
+[2021.05.07-16.05.18:576][213]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/MyCharactorF08526A54A4D96127DC455BE60FB7DE7.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Programmer/scrips/MyCharactor.uasset'
+[2021.05.07-16.05.18:583][213]Cmd: MAP LOAD FILE="../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Maps/Maps/ChaseScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.07-16.05.18:583][213]LightingResults: New page: Lighting Build
+[2021.05.07-16.05.18:585][213]LoadErrors: New page: Loading map: ChaseScene.umap
+[2021.05.07-16.05.18:613][213]LogWorld: UWorld::CleanupWorld for BossLevelMap1, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.05.18:614][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.05.18:615][213]MapCheck: New page: Map Check
+[2021.05.07-16.05.18:615][213]LightingResults: New page: Lighting Build
+[2021.05.07-16.05.18:764][213]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025564182FC0), frame # 67213
+[2021.05.07-16.05.18:764][213]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025591F36800), frame # 67213
+[2021.05.07-16.05.18:783][213]LogUObjectHash: Compacting FUObjectHashTables data took   9.77ms
+[2021.05.07-16.05.18:966][213]LogUObjectHash: Compacting FUObjectHashTables data took  12.81ms
+[2021.05.07-16.05.19:050][213]LogUObjectHash: Compacting FUObjectHashTables data took   8.96ms
+[2021.05.07-16.05.19:541][213]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.07-16.05.19:541][213]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.05.19:541][213]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002560AAB0600), frame # 67213
+[2021.05.07-16.05.19:541][213]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025599B3C180), frame # 67213
+[2021.05.07-16.05.19:541][213]LogNavigation: Warning: Recreating dtNavMesh instance due to saved navmesh origin (X=-0.018 Y=567.157 Z=0.000, usually the RecastNavMesh location) not being aligned with tile size (988 uu) 
+[2021.05.07-16.05.19:786][213]LogUObjectHash: Compacting FUObjectHashTables data took   6.14ms
+[2021.05.07-16.05.19:911][213]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.07-16.05.19:911][213]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.33ms to complete.
+[2021.05.07-16.05.19:912][213]LogFileHelpers: Loading map 'ChaseScene' took 1.330
+[2021.05.07-16.05.20:045][213]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.07-16.05.20:046][213]LogContentValidation: Display: Validating World /Game/Designer/Level_Design/Maps/Maps/BossLevelMap1.BossLevelMap1
+[2021.05.07-16.05.20:477][213]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Designer/Level_Design/Maps/Maps/BossLevelMap1_BuiltData.BossLevelMap1_BuiltData
+[2021.05.07-16.05.20:477][213]LogContentValidation: Display: Validating World /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene
+[2021.05.07-16.05.20:477][213]LogContentValidation: Display: Validating World /Game/Designer/Level_Design/Maps/Maps/library_room_KM1.library_room_KM1
+[2021.05.07-16.05.21:198][213]LogContentValidation: Display: Validating Blueprint /Game/Programmer/scrips/MyCharactor.MyCharactor
+[2021.05.07-16.11.09:923][467]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.11.10:039][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.11.10:039][467]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:11:10)
+[2021.05.07-16.11.10:039][467]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.11.10:342][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.302064s)
+[2021.05.07-16.11.10:345][467]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.11.10:345][467]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002558F3D4200), frame # 71467
+[2021.05.07-16.11.10:345][467]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000255A92D9440), frame # 71467
+[2021.05.07-16.11.10:347][467]LogPlayLevel: PIE: World Init took: (0.004542s)
+[2021.05.07-16.11.10:347][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.307423s)
+[2021.05.07-16.11.10:563][467]LogUObjectHash: Compacting FUObjectHashTables data took  13.86ms
+[2021.05.07-16.11.10:594][467]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.11.10:594][467]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.11.10:595][467]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.11.10:595][467]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.11.10:595][467]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.11.10:595][467]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.11.10:595][467]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.11.10:595][467]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.11.10:596][467]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.11.10:596][467]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.11.10:621][467]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.11.10:621][467]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.11.10:724][467]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.11.10:724][467]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.11.10:725][467]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.11.10:725][467]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.11.10:727][467]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.11.10:789][467]LogInit: FAudioDevice initialized.
+[2021.05.07-16.11.10:861][467]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.11.10:862][467]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.11.10:948][467]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.11.10
+[2021.05.07-16.11.10:958][467]LogWorld: Bringing up level for play took: 0.092849
+[2021.05.07-16.11.10:959][467]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2021.05.07-16.11.10:988][467]PIE: Server logged in
+[2021.05.07-16.11.10:992][467]PIE: Play in editor total start time 0.956 seconds.
+[2021.05.07-16.11.18:485][584]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health'!
+[2021.05.07-16.11.18:485][584]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MyCharactor_C /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene:PersistentLevel.MyCharactor_2
+	Function /Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health:0103
+[2021.05.07-16.11.18:485][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MyCharactor Function:  Modify Health Graph:  Modify Health Node:  Update Hearts
+[2021.05.07-16.11.18:486][584]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health'!
+[2021.05.07-16.11.18:486][584]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MyCharactor_C /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene:PersistentLevel.MyCharactor_2
+	Function /Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health:0103
+[2021.05.07-16.11.18:486][584]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MyCharactor Function:  Modify Health Graph:  Modify Health Node:  Update Hearts
+[2021.05.07-16.11.19:312][597]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health'!
+[2021.05.07-16.11.19:312][597]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MyCharactor_C /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene:PersistentLevel.MyCharactor_2
+	Function /Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health:0103
+[2021.05.07-16.11.19:313][597]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MyCharactor Function:  Modify Health Graph:  Modify Health Node:  Update Hearts
+[2021.05.07-16.11.19:313][597]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health'!
+[2021.05.07-16.11.19:313][597]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MyCharactor_C /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene:PersistentLevel.MyCharactor_2
+	Function /Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health:0103
+[2021.05.07-16.11.19:313][597]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MyCharactor Function:  Modify Health Graph:  Modify Health Node:  Update Hearts
+[2021.05.07-16.11.20:489][616]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health'!
+[2021.05.07-16.11.20:490][616]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MyCharactor_C /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene:PersistentLevel.MyCharactor_2
+	Function /Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health:0103
+[2021.05.07-16.11.20:490][616]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MyCharactor Function:  Modify Health Graph:  Modify Health Node:  Update Hearts
+[2021.05.07-16.11.20:547][617]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health'!
+[2021.05.07-16.11.20:547][617]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MyCharactor_C /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene:PersistentLevel.MyCharactor_2
+	Function /Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health:0103
+[2021.05.07-16.11.20:548][617]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MyCharactor Function:  Modify Health Graph:  Modify Health Node:  Update Hearts
+[2021.05.07-16.11.20:553][617]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health'!
+[2021.05.07-16.11.20:553][617]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MyCharactor_C /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene:PersistentLevel.MyCharactor_2
+	Function /Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health:0103
+[2021.05.07-16.11.20:553][617]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MyCharactor Function:  Modify Health Graph:  Modify Health Node:  Update Hearts
+[2021.05.07-16.11.20:797][621]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health'!
+[2021.05.07-16.11.20:797][621]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	MyCharactor_C /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene:PersistentLevel.MyCharactor_2
+	Function /Game/Programmer/scrips/MyCharactor.MyCharactor_C:Modify Health:0103
+[2021.05.07-16.11.20:797][621]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Blueprint:  MyCharactor Function:  Modify Health Graph:  Modify Health Node:  Update Hearts
+[2021.05.07-16.11.21:032][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.11.21:032][624]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.11.21:033][624]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.11.21:117][624]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.11.21:139][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.11.21:158][624]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.11.21:174][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.11.21:400][624]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000255A92D9440), frame # 71624
+[2021.05.07-16.11.21:400][624]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002558F3D4200), frame # 71624
+[2021.05.07-16.11.21:416][624]LogUObjectHash: Compacting FUObjectHashTables data took   8.30ms
+[2021.05.07-16.11.21:711][625]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2021.05.07-16.11.26:434][684]LogSlate: Window 'Message Log' being destroyed
+[2021.05.07-16.11.26:468][684]LogSlate: Window 'Message Log' being destroyed
+[2021.05.07-16.11.31:284][787]BlueprintLog: New page: Compile MyCharactor
+[2021.05.07-16.11.31:932][787]LogUObjectHash: Compacting FUObjectHashTables data took  14.27ms
+[2021.05.07-16.11.33:200][799]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.11.33:315][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.11.33:316][799]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:11:33)
+[2021.05.07-16.11.33:316][799]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.11.33:644][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.327695s)
+[2021.05.07-16.11.33:647][799]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.11.33:647][799]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025612CB4200), frame # 71799
+[2021.05.07-16.11.33:647][799]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000255BB847B00), frame # 71799
+[2021.05.07-16.11.33:648][799]LogPlayLevel: PIE: World Init took: (0.004240s)
+[2021.05.07-16.11.33:648][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.332479s)
+[2021.05.07-16.11.33:831][799]LogUObjectHash: Compacting FUObjectHashTables data took  15.95ms
+[2021.05.07-16.11.33:837][799]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.11.33:837][799]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.11.33:837][799]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.11.33:837][799]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.11.33:837][799]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.11.33:837][799]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.11.33:837][799]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.11.33:837][799]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.11.33:839][799]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.11.33:839][799]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.11.33:857][799]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.11.33:857][799]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.11.33:941][799]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.11.33:941][799]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.11.33:941][799]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.11.33:942][799]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.11.33:943][799]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.11.34:005][799]LogInit: FAudioDevice initialized.
+[2021.05.07-16.11.34:071][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.11.34:071][799]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.11.34:163][799]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.11.34
+[2021.05.07-16.11.34:176][799]LogWorld: Bringing up level for play took: 0.102432
+[2021.05.07-16.11.34:177][799]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2021.05.07-16.11.34:182][799]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.11.34:215][799]PIE: Server logged in
+[2021.05.07-16.11.34:226][799]PIE: Play in editor total start time 0.913 seconds.
+[2021.05.07-16.11.38:103][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.11.38:103][861]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.11.38:104][861]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.11.38:192][861]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.11.38:215][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.11.38:244][861]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.11.38:265][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.11.38:452][861]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000255BB847B00), frame # 71861
+[2021.05.07-16.11.38:453][861]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025612CB4200), frame # 71861
+[2021.05.07-16.11.38:475][861]LogUObjectHash: Compacting FUObjectHashTables data took   9.22ms
+[2021.05.07-16.11.38:581][862]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2021.05.07-16.11.49:919][119]BlueprintLog: New page: Compile MyCharactor
+[2021.05.07-16.11.50:524][119]LogUObjectHash: Compacting FUObjectHashTables data took  13.33ms
+[2021.05.07-16.11.51:655][130]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.11.51:800][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.11.51:800][130]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:11:51)
+[2021.05.07-16.11.51:801][130]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.11.52:108][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.307315s)
+[2021.05.07-16.11.52:111][130]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.11.52:111][130]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025591492600), frame # 72130
+[2021.05.07-16.11.52:112][130]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000255BB0CD080), frame # 72130
+[2021.05.07-16.11.52:113][130]LogPlayLevel: PIE: World Init took: (0.004336s)
+[2021.05.07-16.11.52:113][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.312327s)
+[2021.05.07-16.11.52:322][130]LogUObjectHash: Compacting FUObjectHashTables data took  15.75ms
+[2021.05.07-16.11.52:328][130]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.11.52:328][130]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.11.52:328][130]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.11.52:328][130]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.11.52:328][130]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.11.52:328][130]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.11.52:328][130]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.11.52:328][130]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.11.52:330][130]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.11.52:330][130]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.11.52:351][130]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.11.52:351][130]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.11.52:440][130]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.11.52:441][130]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.11.52:441][130]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.11.52:441][130]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.11.52:443][130]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.11.52:503][130]LogInit: FAudioDevice initialized.
+[2021.05.07-16.11.52:577][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.11.52:578][130]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.11.52:682][130]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.11.52
+[2021.05.07-16.11.52:693][130]LogWorld: Bringing up level for play took: 0.112605
+[2021.05.07-16.11.52:694][130]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2021.05.07-16.11.52:699][130]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.11.52:735][130]PIE: Server logged in
+[2021.05.07-16.11.52:746][130]PIE: Play in editor total start time 0.949 seconds.
+[2021.05.07-16.12.04:342][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.12.04:342][320]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.12.04:343][320]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.12.04:395][320]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.12.04:417][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.12.04:438][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.12.04:455][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.12.04:739][320]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000255BB0CD080), frame # 72320
+[2021.05.07-16.12.04:739][320]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025591492600), frame # 72320
+[2021.05.07-16.12.04:754][320]LogUObjectHash: Compacting FUObjectHashTables data took  11.90ms
+[2021.05.07-16.12.04:911][321]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2021.05.07-16.12.30:767][842]BlueprintLog: New page: Compile MyCharactor
+[2021.05.07-16.12.31:362][842]LogUObjectHash: Compacting FUObjectHashTables data took   8.81ms
+[2021.05.07-16.12.32:112][844]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.12.32:233][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.12.32:234][844]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:12:32)
+[2021.05.07-16.12.32:234][844]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.12.32:551][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.316633s)
+[2021.05.07-16.12.32:554][844]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.12.32:554][844]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000255715EC600), frame # 72844
+[2021.05.07-16.12.32:554][844]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000255FD3B2200), frame # 72844
+[2021.05.07-16.12.32:555][844]LogPlayLevel: PIE: World Init took: (0.003989s)
+[2021.05.07-16.12.32:555][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.321251s)
+[2021.05.07-16.12.32:744][844]LogUObjectHash: Compacting FUObjectHashTables data took  15.27ms
+[2021.05.07-16.12.32:749][844]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.12.32:750][844]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.12.32:750][844]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.12.32:750][844]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.12.32:750][844]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.12.32:750][844]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.12.32:750][844]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.12.32:750][844]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.12.32:752][844]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.12.32:752][844]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.12.32:779][844]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.12.32:779][844]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.12.32:873][844]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.12.32:874][844]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.12.32:874][844]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.12.32:874][844]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.12.32:876][844]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.12.32:938][844]LogInit: FAudioDevice initialized.
+[2021.05.07-16.12.33:013][844]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.12.33:014][844]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.12.33:110][844]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.12.33
+[2021.05.07-16.12.33:123][844]LogWorld: Bringing up level for play took: 0.106180
+[2021.05.07-16.12.33:124][844]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2021.05.07-16.12.33:130][844]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.12.33:172][844]PIE: Server logged in
+[2021.05.07-16.12.33:186][844]PIE: Play in editor total start time 0.955 seconds.
+[2021.05.07-16.12.40:662][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.12.40:662][966]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.12.40:663][966]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.12.40:733][966]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.12.40:755][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.12.40:779][966]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.12.40:795][966]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.12.41:019][966]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000255FD3B2200), frame # 72966
+[2021.05.07-16.12.41:019][966]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000255715EC600), frame # 72966
+[2021.05.07-16.12.41:030][966]LogUObjectHash: Compacting FUObjectHashTables data took   8.86ms
+[2021.05.07-16.12.41:140][967]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2021.05.07-16.12.43:192][  9]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.12.43:349][  9]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.12.43:349][  9]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:12:43)
+[2021.05.07-16.12.43:349][  9]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.12.43:650][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.300175s)
+[2021.05.07-16.12.43:652][  9]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.12.43:653][  9]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025612CB7200), frame # 73009
+[2021.05.07-16.12.43:653][  9]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002558EB21080), frame # 73009
+[2021.05.07-16.12.43:654][  9]LogPlayLevel: PIE: World Init took: (0.003801s)
+[2021.05.07-16.12.43:654][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.304673s)
+[2021.05.07-16.12.43:816][  9]LogUObjectHash: Compacting FUObjectHashTables data took  10.89ms
+[2021.05.07-16.12.43:824][  9]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.12.43:824][  9]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.12.43:824][  9]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.12.43:824][  9]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.12.43:824][  9]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.12.43:824][  9]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.12.43:824][  9]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.12.43:824][  9]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.12.43:826][  9]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.12.43:826][  9]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.12.43:844][  9]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.12.43:844][  9]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.12.43:927][  9]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.12.43:928][  9]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.12.43:928][  9]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.12.43:928][  9]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.12.43:930][  9]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.12.43:991][  9]LogInit: FAudioDevice initialized.
+[2021.05.07-16.12.44:055][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.12.44:055][  9]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.12.44:146][  9]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.12.44
+[2021.05.07-16.12.44:156][  9]LogWorld: Bringing up level for play took: 0.098431
+[2021.05.07-16.12.44:157][  9]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2021.05.07-16.12.44:162][  9]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.12.44:199][  9]PIE: Server logged in
+[2021.05.07-16.12.44:210][  9]PIE: Play in editor total start time 0.864 seconds.
+[2021.05.07-16.12.46:721][ 44]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.05.07-16.14.37:316][471]LogNet: Browse: /Game/Designer/Level_Design/Maps/Maps/MainMenu
+[2021.05.07-16.14.37:317][471]LogLoad: LoadMap: /Game/Designer/Level_Design/Maps/Maps/MainMenu
+[2021.05.07-16.14.37:317][471]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.14.37:321][471]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.14.37:339][471]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.14.37:519][471]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002558EB21080), frame # 73471
+[2021.05.07-16.14.37:519][471]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025612CB7200), frame # 73471
+[2021.05.07-16.14.37:537][471]LogUObjectHash: Compacting FUObjectHashTables data took  12.89ms
+[2021.05.07-16.14.43:729][471]LogTexture: Display: Building textures: CSOM (AutoDXT, 3508X2480)
+[2021.05.07-16.14.43:729][471]LogAIModule: Creating AISystem for world MainMenu
+[2021.05.07-16.14.43:729][471]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000255B988BE00), frame # 73471
+[2021.05.07-16.14.43:729][471]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025536EEE980), frame # 73471
+[2021.05.07-16.14.43:731][471]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.14.44:284][471]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.05.07-17.14.44
+[2021.05.07-16.14.44:288][471]LogWorld: Bringing up level for play took: 0.554283
+[2021.05.07-16.14.44:290][471]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.14.44:312][471]LogLoad: Took 6.995023 seconds to LoadMap(/Game/Designer/Level_Design/Maps/Maps/MainMenu)
+[2021.05.07-16.14.49:352][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.14.49:353][567]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_MainMenu
+[2021.05.07-16.14.49:353][567]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.14.49:389][567]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.14.49:408][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.14.49:428][567]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.14.49:440][567]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.14.49:595][567]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025536EEE980), frame # 73567
+[2021.05.07-16.14.49:595][567]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000255B988BE00), frame # 73567
+[2021.05.07-16.14.49:605][567]LogUObjectHash: Compacting FUObjectHashTables data took   9.22ms
+[2021.05.07-16.14.49:718][568]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2021.05.07-16.15.19:641][740]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.15.19:762][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.15.19:762][740]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:15:19)
+[2021.05.07-16.15.19:762][740]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.15.20:062][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.299511s)
+[2021.05.07-16.15.20:065][740]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.15.20:065][740]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000255715EC600), frame # 73740
+[2021.05.07-16.15.20:065][740]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002556DE88F40), frame # 73740
+[2021.05.07-16.15.20:066][740]LogPlayLevel: PIE: World Init took: (0.004006s)
+[2021.05.07-16.15.20:066][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.304026s)
+[2021.05.07-16.15.20:229][740]LogUObjectHash: Compacting FUObjectHashTables data took  11.40ms
+[2021.05.07-16.15.20:243][740]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.15.20:244][740]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.15.20:244][740]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.15.20:244][740]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.15.20:244][740]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.15.20:244][740]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.15.20:244][740]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.15.20:244][740]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.15.20:245][740]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.15.20:245][740]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.15.20:265][740]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.15.20:265][740]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.15.20:352][740]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.15.20:353][740]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.15.20:353][740]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.15.20:353][740]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.15.20:355][740]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.15.20:419][740]LogInit: FAudioDevice initialized.
+[2021.05.07-16.15.20:488][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.15.20:488][740]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.15.20:579][740]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.15.20
+[2021.05.07-16.15.20:589][740]LogWorld: Bringing up level for play took: 0.098079
+[2021.05.07-16.15.20:590][740]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2021.05.07-16.15.20:595][740]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.15.20:630][740]PIE: Server logged in
+[2021.05.07-16.15.20:641][740]PIE: Play in editor total start time 0.883 seconds.
+[2021.05.07-16.15.24:506][804]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2021.05.07-16.15.25:521][825]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.15.25:524][825]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.15.25:524][825]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.15.25:585][825]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.15.25:608][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.15.25:631][825]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.15.25:648][825]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.15.25:906][825]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002556DE88F40), frame # 73825
+[2021.05.07-16.15.25:906][825]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000255715EC600), frame # 73825
+[2021.05.07-16.15.25:923][825]LogUObjectHash: Compacting FUObjectHashTables data took  10.47ms
+[2021.05.07-16.15.26:088][826]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2021.05.07-16.17.56:257][721]LogUObjectHash: Compacting FUObjectHashTables data took  14.48ms
+[2021.05.07-16.17.57:789][721]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/ChaseScene_Auto52DE368AF4971872738AC0B8D094332FC.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Autosaves/Game/Designer/Level_Design/Maps/Maps/ChaseScene_Auto5.umap'
+[2021.05.07-16.17.57:872][721]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Maps/Maps/ChaseScene' took 1.757
+[2021.05.07-16.17.57:872][721]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.757
+[2021.05.07-16.17.57:902][721]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Programmer/scrips/MyCharactor] ([1] browsable assets)...
+[2021.05.07-16.17.57:995][721]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Programmer/scrips/MyCharactor.MyCharactor]
+[2021.05.07-16.17.57:995][721]OBJ SavePackage: Finished generating thumbnails for package [/Game/Programmer/scrips/MyCharactor]
+[2021.05.07-16.17.58:702][721]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/MyCharactor_Auto563F6AB6F41DC549DE5B1588FD335CDEB.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Autosaves/Game/Programmer/scrips/MyCharactor_Auto5.uasset'
+[2021.05.07-16.17.58:710][721]LogFileHelpers: Auto-saving content packages took 0.825
+[2021.05.07-16.18.34:919][990]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Designer/KatMurthwaite/hudtest/test_hud_km_chase.test_hud_km_chase
+[2021.05.07-16.18.51:910][460]LogSlate: Window 'Event Graph' being destroyed
+[2021.05.07-16.20.45:485][391]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Designer/KatMurthwaite/hudtest/HeartWidget.HeartWidget
+[2021.05.07-16.28.46:354][848]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.28.46:354][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.28.46:488][848]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.28.46:488][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.28.48:089][876]LogSlate: Window 'Find Heart to Sub' being destroyed
+[2021.05.07-16.28.48:112][876]LogSlate: Window 'Find Heart to Sub' being destroyed
+[2021.05.07-16.29.05:899][167]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Programmer/scrips/HitBox.HitBox
+[2021.05.07-16.32.26:572][339]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.32.26:572][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.32.26:594][339]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.32.26:594][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.32.50:750][759]LogEditorViewport: Clicking on Actor (LMB): Gem_C (Gem101)
+[2021.05.07-16.32.57:963][831]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Designer/KatMurthwaite/lights/Gem.Gem
+[2021.05.07-16.33.13:539][286]LogEditorTransaction: Undo Remove Components
+[2021.05.07-16.33.38:639][143]BlueprintLog: New page: Compile Gem
+[2021.05.07-16.33.40:577][143]LogUObjectHash: Compacting FUObjectHashTables data took  16.56ms
+[2021.05.07-16.34.17:957][439]LogUObjectHash: Compacting FUObjectHashTables data took  17.73ms
+[2021.05.07-16.34.19:732][439]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/ChaseScene_Auto6AF992FA649A0373F9B62A298BA2E0F64.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Autosaves/Game/Designer/Level_Design/Maps/Maps/ChaseScene_Auto6.umap'
+[2021.05.07-16.34.19:746][439]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Designer/Level_Design/Maps/Maps/ChaseScene' took 1.983
+[2021.05.07-16.34.19:747][439]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.983
+[2021.05.07-16.34.19:749][439]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Designer/KatMurthwaite/lights/Gem] ([1] browsable assets)...
+[2021.05.07-16.34.19:751][439]OBJ SavePackage: Finished generating thumbnails for package [/Game/Designer/KatMurthwaite/lights/Gem]
+[2021.05.07-16.34.19:893][439]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Gem_Auto6F4CF23FE4448C3FE519026BB65ACC670.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/Autosaves/Game/Designer/KatMurthwaite/lights/Gem_Auto6.uasset'
+[2021.05.07-16.34.19:900][439]LogFileHelpers: Auto-saving content packages took 0.153
+[2021.05.07-16.36.16:900][576]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.36.17:020][576]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.36.17:020][576]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:36:17)
+[2021.05.07-16.36.17:025][576]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.36.17:308][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.282752s)
+[2021.05.07-16.36.17:311][576]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.36.17:312][576]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025573592000), frame # 83576
+[2021.05.07-16.36.17:312][576]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000255789BA0C0), frame # 83576
+[2021.05.07-16.36.17:313][576]LogPlayLevel: PIE: World Init took: (0.004156s)
+[2021.05.07-16.36.17:313][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.287540s)
+[2021.05.07-16.36.17:498][576]LogUObjectHash: Compacting FUObjectHashTables data took  10.98ms
+[2021.05.07-16.36.17:511][576]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.36.17:511][576]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.36.17:511][576]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.36.17:511][576]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.36.17:512][576]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.36.17:512][576]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.36.17:512][576]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.36.17:512][576]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.36.17:513][576]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.36.17:513][576]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.36.17:535][576]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.36.17:535][576]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.36.17:600][576]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.36.17:601][576]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.36.17:601][576]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.36.17:601][576]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.36.17:603][576]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.36.17:643][576]LogInit: FAudioDevice initialized.
+[2021.05.07-16.36.17:700][576]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.36.17:701][576]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.36.17:753][576]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.36.17
+[2021.05.07-16.36.17:764][576]LogWorld: Bringing up level for play took: 0.061997
+[2021.05.07-16.36.17:765][576]LogOnline: OSS: Creating online subsystem instance for: :Context_55
+[2021.05.07-16.36.17:770][576]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.36.17:796][576]PIE: Server logged in
+[2021.05.07-16.36.17:798][576]PIE: Play in editor total start time 0.781 seconds.
+[2021.05.07-16.36.33:848][900]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.33:849][900]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.33:870][900]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.33:870][900]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.33:870][900]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.33:895][901]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.33:895][901]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.33:916][901]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.33:917][901]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.33:917][901]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.34:194][902]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.34:195][902]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.34:219][902]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.34:219][902]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.34:219][902]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.34:347][903]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.34:347][903]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.34:374][903]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.34:375][903]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.34:375][903]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.34:472][904]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.34:472][904]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.34:494][904]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.34:495][904]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.34:495][904]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.34:593][905]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.34:593][905]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.34:619][905]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.34:620][905]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.34:620][905]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.34:709][906]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.34:710][906]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.34:733][906]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.34:734][906]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.34:734][906]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.34:827][907]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.34:827][907]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.34:854][907]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.34:854][907]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.34:855][907]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.34:939][908]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.34:939][908]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.34:961][908]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.34:961][908]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.34:961][908]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.35:057][909]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:057][909]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:080][909]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:081][909]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:081][909]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.35:174][910]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:174][910]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:198][910]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:199][910]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:199][910]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.35:287][911]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:288][911]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:313][911]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:313][911]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:314][911]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.35:405][912]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:405][912]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:427][912]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:428][912]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:429][912]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.35:525][913]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:526][913]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:551][913]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:552][913]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:552][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.35:638][914]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:638][914]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:660][914]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:661][914]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:661][914]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.35:760][915]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:760][915]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:788][915]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:788][915]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:788][915]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.35:875][916]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:875][916]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:897][916]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:898][916]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.35:898][916]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.35:988][917]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.35:989][917]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:012][917]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:013][917]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:013][917]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.36:106][918]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:106][918]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:130][918]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:130][918]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:130][918]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.36:222][919]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:222][919]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:244][919]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:245][919]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:245][919]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.36:337][920]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:338][920]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:360][920]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:361][920]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:361][920]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.36:460][921]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:460][921]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:487][921]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:487][921]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:488][921]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.36:577][922]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:577][922]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:601][922]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:602][922]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:602][922]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.36:702][923]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:702][923]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:727][923]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:728][923]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:728][923]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.36:816][924]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:816][924]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:840][924]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:841][924]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:841][924]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.36:930][925]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:930][925]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.36:953][925]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:953][925]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.36:953][925]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.37:046][926]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:046][926]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:074][926]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:074][926]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:075][926]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.37:162][927]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:163][927]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:185][927]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:186][927]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:186][927]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.37:276][928]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:277][928]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:300][928]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:300][928]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:300][928]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.37:395][929]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:395][929]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:419][929]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:419][929]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:419][929]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.37:508][930]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:509][930]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:535][930]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:536][930]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:536][930]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.37:639][931]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:640][931]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:663][931]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:664][931]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:664][931]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.37:757][932]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:757][932]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:782][932]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:783][932]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:783][932]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.37:871][933]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:871][933]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:893][933]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:893][933]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharacterReferance, but MyCharactor_2 is pending kill". Blueprint:  StaminaHUD Function:  Get Stamina Bar Percent 0 Graph:  Get_StaminaBar_Percent_0 Node:  Return Node
+[2021.05.07-16.36.37:893][933]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Programmer/scrips/StaminaHUD.StaminaHUD_C:Get_StaminaBar_Percent_0
+
+[2021.05.07-16.36.37:988][934]PIE: Error: Blueprint Runtime Error: "Attempted to access MyCharactor_2 via property CharBP, but MyCharactor_2 is pending kill". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.37:988][934]PIE: Error: Blueprint Runtime Error: "Accessed None". Blueprint:  Chaser Function:  Execute Ubergraph Chaser Graph:  EventGraph Node:  Set MaxWalkSpeed
+[2021.05.07-16.36.38:024][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.36.38:025][934]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.36.38:025][934]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.36.38:236][934]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.36.38:250][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.36.38:278][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.36.38:297][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.36.38:575][934]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000255789BA0C0), frame # 83934
+[2021.05.07-16.36.38:575][934]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025573592000), frame # 83934
+[2021.05.07-16.36.38:587][934]LogUObjectHash: Compacting FUObjectHashTables data took  10.67ms
+[2021.05.07-16.36.39:034][935]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2021.05.07-16.36.40:749][978]LogSlate: Window 'Message Log' being destroyed
+[2021.05.07-16.36.40:774][978]LogSlate: Window 'Message Log' being destroyed
+[2021.05.07-16.41.07:242][ 26]LogEditorTransaction: Undo Delete current selection
+[2021.05.07-16.41.55:349][756]BlueprintLog: New page: Compile Gem
+[2021.05.07-16.41.56:850][756]LogUObjectHash: Compacting FUObjectHashTables data took  16.04ms
+[2021.05.07-16.42.02:625][851]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.42.02:746][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.42.02:747][851]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:42:02)
+[2021.05.07-16.42.02:747][851]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.42.03:023][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.276057s)
+[2021.05.07-16.42.03:026][851]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.42.03:027][851]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002558CB79800), frame # 92851
+[2021.05.07-16.42.03:027][851]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025645F57100), frame # 92851
+[2021.05.07-16.42.03:028][851]LogPlayLevel: PIE: World Init took: (0.004136s)
+[2021.05.07-16.42.03:028][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.280685s)
+[2021.05.07-16.42.03:269][851]LogUObjectHash: Compacting FUObjectHashTables data took  16.18ms
+[2021.05.07-16.42.03:278][851]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.42.03:278][851]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.42.03:278][851]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.42.03:278][851]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.42.03:278][851]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.42.03:278][851]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.42.03:278][851]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.42.03:278][851]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.42.03:279][851]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.42.03:279][851]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.42.03:297][851]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.42.03:297][851]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.42.03:386][851]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.42.03:387][851]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.42.03:387][851]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.42.03:387][851]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.42.03:389][851]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.42.03:450][851]LogInit: FAudioDevice initialized.
+[2021.05.07-16.42.03:515][851]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.42.03:516][851]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.42.03:588][851]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.42.03
+[2021.05.07-16.42.03:600][851]LogWorld: Bringing up level for play took: 0.081858
+[2021.05.07-16.42.03:601][851]LogOnline: OSS: Creating online subsystem instance for: :Context_56
+[2021.05.07-16.42.03:633][851]PIE: Server logged in
+[2021.05.07-16.42.03:638][851]PIE: Play in editor total start time 0.893 seconds.
+[2021.05.07-16.42.15:017][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.42.15:017][183]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.42.15:018][183]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.42.15:037][183]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.42.15:053][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.42.15:085][183]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.42.15:102][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.42.15:381][183]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025645F57100), frame # 93183
+[2021.05.07-16.42.15:381][183]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002558CB79800), frame # 93183
+[2021.05.07-16.42.15:394][183]LogUObjectHash: Compacting FUObjectHashTables data took   7.86ms
+[2021.05.07-16.42.15:509][184]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2021.05.07-16.45.16:861][462]BlueprintLog: New page: Compile Gem
+[2021.05.07-16.45.18:299][462]LogUObjectHash: Compacting FUObjectHashTables data took  16.52ms
+[2021.05.07-16.45.20:658][528]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.45.20:773][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.45.20:774][528]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:45:20)
+[2021.05.07-16.45.20:774][528]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.45.21:048][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.273919s)
+[2021.05.07-16.45.21:051][528]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.45.21:051][528]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002565114BE00), frame # 97528
+[2021.05.07-16.45.21:051][528]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000255FAD9DE40), frame # 97528
+[2021.05.07-16.45.21:052][528]LogPlayLevel: PIE: World Init took: (0.004037s)
+[2021.05.07-16.45.21:052][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.278442s)
+[2021.05.07-16.45.21:278][528]LogUObjectHash: Compacting FUObjectHashTables data took  15.88ms
+[2021.05.07-16.45.21:286][528]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.45.21:286][528]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.45.21:287][528]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.45.21:287][528]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.45.21:287][528]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.45.21:287][528]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.45.21:287][528]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.45.21:287][528]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.45.21:288][528]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.45.21:288][528]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.45.21:309][528]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.45.21:309][528]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.45.21:401][528]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.45.21:402][528]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.45.21:402][528]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.45.21:402][528]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.45.21:404][528]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.45.21:463][528]LogInit: FAudioDevice initialized.
+[2021.05.07-16.45.21:525][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.45.21:525][528]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.45.21:601][528]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.45.21
+[2021.05.07-16.45.21:614][528]LogWorld: Bringing up level for play took: 0.085492
+[2021.05.07-16.45.21:615][528]LogOnline: OSS: Creating online subsystem instance for: :Context_57
+[2021.05.07-16.45.21:620][528]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.45.21:643][528]PIE: Server logged in
+[2021.05.07-16.45.21:645][528]PIE: Play in editor total start time 0.874 seconds.
+[2021.05.07-16.45.28:968][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.45.28:968][667]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.45.28:969][667]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.45.29:030][667]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.45.29:047][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.45.29:079][667]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.45.29:094][667]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.45.29:365][667]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000255FAD9DE40), frame # 97667
+[2021.05.07-16.45.29:365][667]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002565114BE00), frame # 97667
+[2021.05.07-16.45.29:374][667]LogUObjectHash: Compacting FUObjectHashTables data took   7.54ms
+[2021.05.07-16.45.29:483][668]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2021.05.07-16.45.43:176][219]BlueprintLog: New page: Compile Gem
+[2021.05.07-16.45.44:529][219]LogUObjectHash: Compacting FUObjectHashTables data took  14.03ms
+[2021.05.07-16.45.45:945][240]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.45.46:063][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.45.46:063][240]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:45:46)
+[2021.05.07-16.45.46:064][240]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.45.46:359][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.295543s)
+[2021.05.07-16.45.46:362][240]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.45.46:362][240]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000256517EBE00), frame # 98240
+[2021.05.07-16.45.46:363][240]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025599EE91C0), frame # 98240
+[2021.05.07-16.45.46:363][240]LogPlayLevel: PIE: World Init took: (0.003811s)
+[2021.05.07-16.45.46:364][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.299872s)
+[2021.05.07-16.45.46:584][240]LogUObjectHash: Compacting FUObjectHashTables data took  15.34ms
+[2021.05.07-16.45.46:591][240]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.45.46:591][240]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.45.46:591][240]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.45.46:591][240]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.45.46:591][240]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.45.46:591][240]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.45.46:591][240]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.45.46:591][240]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.45.46:592][240]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.45.46:592][240]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.45.46:610][240]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.45.46:610][240]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.45.46:694][240]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.45.46:695][240]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.45.46:695][240]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.45.46:695][240]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.45.46:697][240]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.45.46:758][240]LogInit: FAudioDevice initialized.
+[2021.05.07-16.45.46:817][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.45.46:817][240]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.45.46:884][240]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.45.46
+[2021.05.07-16.45.46:896][240]LogWorld: Bringing up level for play took: 0.075919
+[2021.05.07-16.45.46:897][240]LogOnline: OSS: Creating online subsystem instance for: :Context_58
+[2021.05.07-16.45.46:901][240]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.45.46:925][240]PIE: Server logged in
+[2021.05.07-16.45.46:927][240]PIE: Play in editor total start time 0.866 seconds.
+[2021.05.07-16.45.54:959][387]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.45.54:959][387]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.45.54:961][387]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.45.55:029][387]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.45.55:045][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.45.55:074][387]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.45.55:091][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.45.55:359][387]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025599EE91C0), frame # 98387
+[2021.05.07-16.45.55:360][387]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000256517EBE00), frame # 98387
+[2021.05.07-16.45.55:369][387]LogUObjectHash: Compacting FUObjectHashTables data took   8.67ms
+[2021.05.07-16.45.55:488][388]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2021.05.07-16.46.00:721][596]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.46.00:838][596]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.07-16.46.00:840][596]LogPlayLevel: [PlayLevel] Compiling Gem before play...
+[2021.05.07-16.46.03:166][596]LogUObjectHash: Compacting FUObjectHashTables data took  15.93ms
+[2021.05.07-16.46.03:172][596]LogPlayLevel: PlayLevel: Blueprint regeneration took 2333 ms (1 blueprints)
+[2021.05.07-16.46.03:172][596]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:46:03)
+[2021.05.07-16.46.03:172][596]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.46.03:432][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.259525s)
+[2021.05.07-16.46.03:435][596]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.46.03:435][596]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002565BE55C00), frame # 98596
+[2021.05.07-16.46.03:435][596]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002559F6D2700), frame # 98596
+[2021.05.07-16.46.03:436][596]LogPlayLevel: PIE: World Init took: (0.003896s)
+[2021.05.07-16.46.03:436][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.263918s)
+[2021.05.07-16.46.03:637][596]LogUObjectHash: Compacting FUObjectHashTables data took  10.64ms
+[2021.05.07-16.46.03:641][596]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.46.03:641][596]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.46.03:642][596]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.46.03:642][596]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.46.03:642][596]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.46.03:642][596]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.46.03:642][596]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.46.03:642][596]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.46.03:643][596]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.46.03:643][596]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.46.03:662][596]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.46.03:662][596]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.46.03:757][596]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.46.03:758][596]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.46.03:758][596]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.46.03:758][596]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.46.03:760][596]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.46.03:820][596]LogInit: FAudioDevice initialized.
+[2021.05.07-16.46.03:892][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.46.03:893][596]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.46.03:961][596]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.46.03
+[2021.05.07-16.46.03:973][596]LogWorld: Bringing up level for play took: 0.076530
+[2021.05.07-16.46.03:973][596]LogOnline: OSS: Creating online subsystem instance for: :Context_59
+[2021.05.07-16.46.03:979][596]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.46.04:011][596]PIE: Server logged in
+[2021.05.07-16.46.04:013][596]PIE: Play in editor total start time 3.177 seconds.
+[2021.05.07-16.46.08:819][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.46.08:819][683]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.46.08:820][683]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.46.08:883][683]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.46.08:901][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.46.08:931][683]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.46.08:950][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.46.09:179][683]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002559F6D2700), frame # 98683
+[2021.05.07-16.46.09:179][683]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002565BE55C00), frame # 98683
+[2021.05.07-16.46.09:191][683]LogUObjectHash: Compacting FUObjectHashTables data took   7.09ms
+[2021.05.07-16.46.09:305][684]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2021.05.07-16.46.14:239][876]BlueprintLog: New page: Compile Gem
+[2021.05.07-16.46.15:655][876]LogUObjectHash: Compacting FUObjectHashTables data took  14.83ms
+[2021.05.07-16.46.17:193][905]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.46.17:316][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.46.17:316][905]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:46:17)
+[2021.05.07-16.46.17:316][905]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.46.17:576][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.258982s)
+[2021.05.07-16.46.17:579][905]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.46.17:579][905]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000255EF885C00), frame # 98905
+[2021.05.07-16.46.17:580][905]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000255E66B8900), frame # 98905
+[2021.05.07-16.46.17:580][905]LogPlayLevel: PIE: World Init took: (0.004655s)
+[2021.05.07-16.46.17:581][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.264338s)
+[2021.05.07-16.46.17:789][905]LogUObjectHash: Compacting FUObjectHashTables data took  15.35ms
+[2021.05.07-16.46.17:795][905]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.46.17:795][905]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.46.17:796][905]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.46.17:796][905]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.46.17:796][905]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.46.17:796][905]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.46.17:796][905]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.46.17:797][905]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.46.17:798][905]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.46.17:798][905]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.46.17:816][905]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.46.17:816][905]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.46.17:903][905]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.46.17:904][905]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.46.17:904][905]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.46.17:904][905]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.46.17:906][905]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.46.17:969][905]LogInit: FAudioDevice initialized.
+[2021.05.07-16.46.18:034][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.46.18:035][905]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.46.18:104][905]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.46.18
+[2021.05.07-16.46.18:115][905]LogWorld: Bringing up level for play took: 0.076724
+[2021.05.07-16.46.18:116][905]LogOnline: OSS: Creating online subsystem instance for: :Context_60
+[2021.05.07-16.46.18:121][905]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.46.18:148][905]PIE: Server logged in
+[2021.05.07-16.46.18:149][905]PIE: Play in editor total start time 0.836 seconds.
+[2021.05.07-16.46.23:589][  4]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.46.23:589][  4]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.46.23:590][  4]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.46.23:636][  4]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.46.23:651][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.46.23:677][  4]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.46.23:693][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.46.23:957][  4]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000255E66B8900), frame # 99004
+[2021.05.07-16.46.23:958][  4]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000255EF885C00), frame # 99004
+[2021.05.07-16.46.23:980][  4]LogUObjectHash: Compacting FUObjectHashTables data took  11.88ms
+[2021.05.07-16.46.24:145][  5]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2021.05.07-16.47.20:776][ 42]BlueprintLog: New page: Compile Gem
+[2021.05.07-16.47.22:114][ 42]LogUObjectHash: Compacting FUObjectHashTables data took  15.10ms
+[2021.05.07-16.47.24:449][ 90]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.47.24:565][ 90]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.47.24:565][ 90]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:47:24)
+[2021.05.07-16.47.24:565][ 90]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.47.24:797][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.231884s)
+[2021.05.07-16.47.24:800][ 90]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.47.24:800][ 90]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025658909C00), frame # 101090
+[2021.05.07-16.47.24:800][ 90]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000256461FE340), frame # 101090
+[2021.05.07-16.47.24:801][ 90]LogPlayLevel: PIE: World Init took: (0.003998s)
+[2021.05.07-16.47.24:801][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.236390s)
+[2021.05.07-16.47.25:005][ 90]LogUObjectHash: Compacting FUObjectHashTables data took  15.46ms
+[2021.05.07-16.47.25:011][ 90]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.47.25:011][ 90]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.47.25:012][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.47.25:012][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.47.25:012][ 90]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.47.25:012][ 90]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.47.25:012][ 90]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.47.25:012][ 90]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.47.25:013][ 90]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.47.25:013][ 90]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.47.25:034][ 90]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.47.25:034][ 90]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.47.25:124][ 90]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.47.25:125][ 90]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.47.25:125][ 90]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.47.25:125][ 90]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.47.25:127][ 90]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.47.25:189][ 90]LogInit: FAudioDevice initialized.
+[2021.05.07-16.47.25:254][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.47.25:255][ 90]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.47.25:327][ 90]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.47.25
+[2021.05.07-16.47.25:338][ 90]LogWorld: Bringing up level for play took: 0.079764
+[2021.05.07-16.47.25:339][ 90]LogOnline: OSS: Creating online subsystem instance for: :Context_61
+[2021.05.07-16.47.25:343][ 90]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.47.25:370][ 90]PIE: Server logged in
+[2021.05.07-16.47.25:372][ 90]PIE: Play in editor total start time 0.809 seconds.
+[2021.05.07-16.47.47:170][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.47.47:170][495]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.47.47:171][495]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.47.47:228][495]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.47.47:243][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.47.47:274][495]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.47.47:292][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.47.47:569][495]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000256461FE340), frame # 101495
+[2021.05.07-16.47.47:569][495]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025658909C00), frame # 101495
+[2021.05.07-16.47.47:588][495]LogUObjectHash: Compacting FUObjectHashTables data took  11.54ms
+[2021.05.07-16.47.47:752][496]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2021.05.07-16.47.55:681][830]BlueprintLog: New page: Compile Gem
+[2021.05.07-16.47.57:005][830]LogUObjectHash: Compacting FUObjectHashTables data took  14.09ms
+[2021.05.07-16.48.04:934][106]BlueprintLog: New page: Compile Gem
+[2021.05.07-16.48.06:537][106]LogUObjectHash: Compacting FUObjectHashTables data took  16.09ms
+[2021.05.07-16.48.07:423][106]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.48.07:537][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.48.07:537][106]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:48:07)
+[2021.05.07-16.48.07:562][106]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.48.07:786][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.223388s)
+[2021.05.07-16.48.07:789][106]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.48.07:789][106]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025644E03C00), frame # 102106
+[2021.05.07-16.48.07:789][106]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025659F1CF40), frame # 102106
+[2021.05.07-16.48.07:790][106]LogPlayLevel: PIE: World Init took: (0.004001s)
+[2021.05.07-16.48.07:790][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.227951s)
+[2021.05.07-16.48.08:001][106]LogUObjectHash: Compacting FUObjectHashTables data took  16.16ms
+[2021.05.07-16.48.08:006][106]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.48.08:006][106]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.48.08:006][106]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.48.08:006][106]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.48.08:006][106]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.48.08:006][106]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.48.08:006][106]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.48.08:006][106]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.48.08:008][106]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.48.08:008][106]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.48.08:027][106]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.48.08:027][106]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.48.08:114][106]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.48.08:114][106]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.48.08:114][106]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.48.08:114][106]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.48.08:116][106]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.48.08:179][106]LogInit: FAudioDevice initialized.
+[2021.05.07-16.48.08:260][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.48.08:261][106]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.48.08:354][106]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.48.08
+[2021.05.07-16.48.08:369][106]LogWorld: Bringing up level for play took: 0.105634
+[2021.05.07-16.48.08:370][106]LogOnline: OSS: Creating online subsystem instance for: :Context_62
+[2021.05.07-16.48.08:375][106]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.48.08:407][106]PIE: Server logged in
+[2021.05.07-16.48.08:408][106]PIE: Play in editor total start time 0.874 seconds.
+[2021.05.07-16.48.19:620][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.48.19:620][301]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.48.19:621][301]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.48.19:674][301]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.48.19:691][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.48.19:717][301]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.48.19:734][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.48.19:992][301]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025659F1CF40), frame # 102301
+[2021.05.07-16.48.19:993][301]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025644E03C00), frame # 102301
+[2021.05.07-16.48.20:011][301]LogUObjectHash: Compacting FUObjectHashTables data took  11.60ms
+[2021.05.07-16.48.20:186][302]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2021.05.07-16.48.29:341][605]BlueprintLog: New page: Compile Gem
+[2021.05.07-16.48.30:739][605]LogUObjectHash: Compacting FUObjectHashTables data took  14.12ms
+[2021.05.07-16.48.31:745][605]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.48.31:860][605]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.48.31:860][605]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:48:31)
+[2021.05.07-16.48.31:860][605]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.48.32:092][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.231007s)
+[2021.05.07-16.48.32:094][605]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.48.32:095][605]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002565C081400), frame # 102605
+[2021.05.07-16.48.32:095][605]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025626229E40), frame # 102605
+[2021.05.07-16.48.32:095][605]LogPlayLevel: PIE: World Init took: (0.003728s)
+[2021.05.07-16.48.32:096][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.235259s)
+[2021.05.07-16.48.32:331][605]LogUObjectHash: Compacting FUObjectHashTables data took  14.06ms
+[2021.05.07-16.48.32:336][605]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.48.32:336][605]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.48.32:336][605]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.48.32:336][605]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.48.32:336][605]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.48.32:336][605]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.48.32:336][605]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.48.32:336][605]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.48.32:338][605]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.48.32:338][605]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.48.32:350][605]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.48.32:350][605]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.48.32:411][605]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.48.32:412][605]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.48.32:412][605]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.48.32:412][605]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.48.32:413][605]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.48.32:454][605]LogInit: FAudioDevice initialized.
+[2021.05.07-16.48.32:523][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.48.32:523][605]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.48.32:567][605]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.48.32
+[2021.05.07-16.48.32:574][605]LogWorld: Bringing up level for play took: 0.048850
+[2021.05.07-16.48.32:574][605]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2021.05.07-16.48.32:578][605]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.48.32:596][605]PIE: Server logged in
+[2021.05.07-16.48.32:597][605]PIE: Play in editor total start time 0.74 seconds.
+[2021.05.07-16.48.42:250][778]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.48.42:250][778]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.48.42:250][778]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.48.42:304][778]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.48.42:317][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.48.42:338][778]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.48.42:350][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.48.42:518][778]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025626229E40), frame # 102778
+[2021.05.07-16.48.42:519][778]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002565C081400), frame # 102778
+[2021.05.07-16.48.42:534][778]LogUObjectHash: Compacting FUObjectHashTables data took   8.55ms
+[2021.05.07-16.48.42:657][779]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2021.05.07-16.48.50:640][122]BlueprintLog: New page: Compile Gem
+[2021.05.07-16.48.51:858][122]LogUObjectHash: Compacting FUObjectHashTables data took  15.42ms
+[2021.05.07-16.48.53:353][142]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.48.53:485][142]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.48.53:485][142]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:48:53)
+[2021.05.07-16.48.53:486][142]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.48.53:748][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.261271s)
+[2021.05.07-16.48.53:752][142]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.48.53:752][142]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000256562A5800), frame # 103142
+[2021.05.07-16.48.53:752][142]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002560ED70F40), frame # 103142
+[2021.05.07-16.48.53:754][142]LogPlayLevel: PIE: World Init took: (0.005945s)
+[2021.05.07-16.48.53:754][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.267911s)
+[2021.05.07-16.48.53:958][142]LogUObjectHash: Compacting FUObjectHashTables data took  10.84ms
+[2021.05.07-16.48.53:963][142]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.48.53:963][142]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.48.53:963][142]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.48.53:963][142]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.48.53:963][142]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.48.53:963][142]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.48.53:963][142]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.48.53:963][142]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.48.53:964][142]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.48.53:964][142]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.48.53:978][142]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.48.53:978][142]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.48.54:046][142]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.48.54:046][142]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.48.54:047][142]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.48.54:047][142]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.48.54:048][142]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.48.54:084][142]LogInit: FAudioDevice initialized.
+[2021.05.07-16.48.54:156][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.48.54:156][142]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.48.54:239][142]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.48.54
+[2021.05.07-16.48.54:251][142]LogWorld: Bringing up level for play took: 0.091726
+[2021.05.07-16.48.54:252][142]LogOnline: OSS: Creating online subsystem instance for: :Context_64
+[2021.05.07-16.48.54:258][142]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.48.54:295][142]PIE: Server logged in
+[2021.05.07-16.48.54:296][142]PIE: Play in editor total start time 0.815 seconds.
+[2021.05.07-16.49.07:121][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.49.07:121][363]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.49.07:122][363]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.49.07:196][363]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.49.07:214][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.49.07:243][363]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.49.07:260][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.49.07:526][363]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002560ED70F40), frame # 103363
+[2021.05.07-16.49.07:526][363]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000256562A5800), frame # 103363
+[2021.05.07-16.49.07:546][363]LogUObjectHash: Compacting FUObjectHashTables data took  12.20ms
+[2021.05.07-16.49.07:726][364]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2021.05.07-16.49.14:284][619]BlueprintLog: New page: Compile Gem
+[2021.05.07-16.49.15:743][619]LogUObjectHash: Compacting FUObjectHashTables data took  15.81ms
+[2021.05.07-16.49.17:302][641]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.49.17:400][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.49.17:400][641]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:49:17)
+[2021.05.07-16.49.17:400][641]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.49.17:574][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.173421s)
+[2021.05.07-16.49.17:576][641]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.49.17:576][641]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000256559E5C00), frame # 103641
+[2021.05.07-16.49.17:576][641]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000255A8994180), frame # 103641
+[2021.05.07-16.49.17:576][641]LogPlayLevel: PIE: World Init took: (0.002648s)
+[2021.05.07-16.49.17:577][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.176419s)
+[2021.05.07-16.49.17:721][641]LogUObjectHash: Compacting FUObjectHashTables data took  10.22ms
+[2021.05.07-16.49.17:725][641]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.49.17:725][641]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.49.17:725][641]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.49.17:725][641]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.49.17:725][641]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.49.17:725][641]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.49.17:725][641]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.49.17:725][641]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.49.17:726][641]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.49.17:726][641]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.49.17:739][641]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.49.17:739][641]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.49.17:794][641]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.49.17:795][641]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.49.17:795][641]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.49.17:795][641]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.49.17:797][641]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.49.17:839][641]LogInit: FAudioDevice initialized.
+[2021.05.07-16.49.17:903][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.49.17:904][641]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.49.17:972][641]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.49.17
+[2021.05.07-16.49.17:984][641]LogWorld: Bringing up level for play took: 0.078530
+[2021.05.07-16.49.17:985][641]LogOnline: OSS: Creating online subsystem instance for: :Context_65
+[2021.05.07-16.49.17:990][641]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.49.18:024][641]PIE: Server logged in
+[2021.05.07-16.49.18:026][641]PIE: Play in editor total start time 0.628 seconds.
+[2021.05.07-16.49.24:521][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.49.24:521][757]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.49.24:522][757]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.49.24:598][757]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.49.24:613][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.49.24:639][757]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.49.24:656][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.49.24:921][757]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000255A8994180), frame # 103757
+[2021.05.07-16.49.24:921][757]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000256559E5C00), frame # 103757
+[2021.05.07-16.49.24:945][757]LogUObjectHash: Compacting FUObjectHashTables data took  15.31ms
+[2021.05.07-16.49.25:136][758]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2021.05.07-16.49.33:918][103]BlueprintLog: New page: Compile Gem
+[2021.05.07-16.49.35:259][103]LogUObjectHash: Compacting FUObjectHashTables data took  14.18ms
+[2021.05.07-16.49.41:611][331]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.49.41:725][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.49.41:726][331]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:49:41)
+[2021.05.07-16.49.41:726][331]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.49.41:958][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.231823s)
+[2021.05.07-16.49.41:961][331]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.49.41:962][331]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025670F56600), frame # 104331
+[2021.05.07-16.49.41:962][331]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000255E6292480), frame # 104331
+[2021.05.07-16.49.41:963][331]LogPlayLevel: PIE: World Init took: (0.004147s)
+[2021.05.07-16.49.41:963][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.236527s)
+[2021.05.07-16.49.42:171][331]LogUObjectHash: Compacting FUObjectHashTables data took  16.87ms
+[2021.05.07-16.49.42:178][331]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.49.42:178][331]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.49.42:178][331]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.49.42:178][331]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.49.42:178][331]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.49.42:178][331]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.49.42:178][331]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.49.42:178][331]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.49.42:179][331]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.49.42:179][331]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.49.42:202][331]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.49.42:202][331]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.49.42:302][331]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.49.42:302][331]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.49.42:302][331]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.49.42:303][331]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.49.42:305][331]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.49.42:372][331]LogInit: FAudioDevice initialized.
+[2021.05.07-16.49.42:430][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.49.42:430][331]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.49.42:513][331]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.49.42
+[2021.05.07-16.49.42:525][331]LogWorld: Bringing up level for play took: 0.091764
+[2021.05.07-16.49.42:526][331]LogOnline: OSS: Creating online subsystem instance for: :Context_66
+[2021.05.07-16.49.42:532][331]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.49.42:568][331]PIE: Server logged in
+[2021.05.07-16.49.42:570][331]PIE: Play in editor total start time 0.847 seconds.
+[2021.05.07-16.49.57:651][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.49.57:651][611]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.49.57:652][611]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.49.57:727][611]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.49.57:744][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.49.57:772][611]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.49.57:789][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.49.58:010][611]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025670F56600), frame # 104611
+[2021.05.07-16.49.58:011][611]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000255E6292480), frame # 104611
+[2021.05.07-16.49.58:024][611]LogUObjectHash: Compacting FUObjectHashTables data took   8.59ms
+[2021.05.07-16.49.58:140][612]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2021.05.07-16.50.03:979][840]BlueprintLog: New page: Compile Gem
+[2021.05.07-16.50.05:298][840]LogUObjectHash: Compacting FUObjectHashTables data took  13.91ms
+[2021.05.07-16.50.07:386][879]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2021.05.07-16.50.07:505][879]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-16.50.07:505][879]PIE: New page: PIE session: ChaseScene (7 May 2021, 18:50:07)
+[2021.05.07-16.50.07:505][879]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.50.07:739][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.233304s)
+[2021.05.07-16.50.07:742][879]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-16.50.07:742][879]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025670A4BE00), frame # 104879
+[2021.05.07-16.50.07:742][879]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025632A4E200), frame # 104879
+[2021.05.07-16.50.07:743][879]LogPlayLevel: PIE: World Init took: (0.003798s)
+[2021.05.07-16.50.07:743][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.237746s)
+[2021.05.07-16.50.07:953][879]LogUObjectHash: Compacting FUObjectHashTables data took  15.95ms
+[2021.05.07-16.50.07:959][879]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-16.50.07:960][879]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-16.50.07:960][879]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-16.50.07:960][879]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-16.50.07:960][879]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-16.50.07:960][879]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-16.50.07:960][879]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-16.50.07:960][879]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-16.50.07:961][879]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-16.50.07:962][879]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-16.50.07:984][879]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-16.50.07:984][879]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-16.50.08:073][879]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-16.50.08:073][879]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-16.50.08:073][879]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-16.50.08:073][879]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-16.50.08:075][879]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-16.50.08:137][879]LogInit: FAudioDevice initialized.
+[2021.05.07-16.50.08:209][879]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.50.08:210][879]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-16.50.08:274][879]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-17.50.08
+[2021.05.07-16.50.08:284][879]LogWorld: Bringing up level for play took: 0.072256
+[2021.05.07-16.50.08:285][879]LogOnline: OSS: Creating online subsystem instance for: :Context_67
+[2021.05.07-16.50.08:290][879]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.07-16.50.08:326][879]PIE: Server logged in
+[2021.05.07-16.50.08:329][879]PIE: Play in editor total start time 0.828 seconds.
+[2021.05.07-16.50.20:342][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-16.50.20:342][106]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-16.50.20:344][106]LogSlate: Window 'Journeyman_CSOM Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.05.07-16.50.20:420][106]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-16.50.20:437][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.50.20:464][106]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-16.50.20:483][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-16.50.20:766][106]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025632A4E200), frame # 105106
+[2021.05.07-16.50.20:766][106]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025670A4BE00), frame # 105106
+[2021.05.07-16.50.20:777][106]LogUObjectHash: Compacting FUObjectHashTables data took  11.39ms
+[2021.05.07-16.50.20:955][107]LogPlayLevel: Display: Destroying online subsystem :Context_67
