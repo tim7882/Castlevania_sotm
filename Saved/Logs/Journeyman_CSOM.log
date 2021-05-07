@@ -1568,3 +1568,4 @@ Script call stack:
 [2021.05.07-15.11.16:575][ 89]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
 [2021.05.07-15.11.16:575][ 89]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
 [2021.05.07-15.11.16:575][ 89]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.05.07-15.13.32:103][727]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/Designer/Level_Design/Maps/Maps/ChaseScene.
