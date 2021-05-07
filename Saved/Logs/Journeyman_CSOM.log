@@ -2918,3 +2918,8 @@ System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRo
 [2021.05.07-15.50.03:137][234]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
 [2021.05.07-15.50.05:315][234]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/library_room_KM1876E061A40179C73ED6D6480B0CB7AD1.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Maps/Maps/library_room_KM1.umap'
 [2021.05.07-15.50.05:396][234]LogFileHelpers: Saving map 'library_room_KM1' took 2.427
+[2021.05.07-15.50.24:733][234]LogSlate: Window 'Submit Files' being destroyed
+[2021.05.07-15.50.25:081][235]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.07-15.50.25:081][235]LogContentValidation: Display: Validating WidgetBlueprint /Game/Designer/KatMurthwaite/hudtest/test_hud_km_chase.test_hud_km_chase
+[2021.05.07-15.50.25:081][235]LogContentValidation: Display: Validating World /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene
+[2021.05.07-15.50.25:081][235]LogContentValidation: Display: Validating World /Game/Designer/Level_Design/Maps/Maps/library_room_KM1.library_room_KM1
