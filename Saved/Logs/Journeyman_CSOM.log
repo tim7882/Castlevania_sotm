@@ -1,9 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 05/07/21 09:24:35
 LogInit: Display: Running engine for game: Journeyman_CSOM
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.358722
+=======
+﻿Log file open, 05/05/21 18:53:46
+LogInit: Display: Running engine for game: Journeyman_CSOM
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.609221
+>>>>>>> parent of a1938bf (damage done)
 =======
 ﻿Log file open, 05/05/21 18:53:46
 LogInit: Display: Running engine for game: Journeyman_CSOM
@@ -202,6 +210,7 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 <<<<<<< HEAD
 [2021.05.07-08.24.37:315][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2021.05.07-08.24.37:315][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
@@ -1189,6 +1198,8 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.07-08.25.45:775][550]LogExit: Exiting.
 [2021.05.07-08.25.46:005][550]Log file closed, 05/07/21 09:25:46
 =======
+=======
+>>>>>>> parent of a1938bf (damage done)
 [2021.05.05-17.53.48:012][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2021.05.05-17.53.48:012][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2021.05.05-17.53.48:013][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
@@ -3576,4 +3587,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.05-20.04.16:130][213]LogContentValidation: Display: Validating Blueprint /Game/Programmer/scrips/Jay_W9055613/AI/EnemyCharacter_JB.EnemyCharacter_JB
 [2021.05.05-20.04.16:131][213]LogContentValidation: Display: Validating Skeleton /Game/StarterContent/Mannequin/Character/Mesh/SK_Mannequin_Skeleton.SK_Mannequin_Skeleton
 [2021.05.05-20.04.16:131][213]LogContentValidation: Display: Validating AnimMontage /Game/Programmer/scrips/Jay_W9055613/AI/Attack_PrimaryA_Montage.Attack_PrimaryA_Montage
+<<<<<<< HEAD
+>>>>>>> parent of a1938bf (damage done)
+=======
 >>>>>>> parent of a1938bf (damage done)
