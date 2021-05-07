@@ -4647,3 +4647,6 @@ System: NiagaraSystem /Game/Designer/Level_Design/LukeHodgetts/FullLevels/BossRo
 [2021.05.07-10.47.20:655][305]LogUObjectHash: Compacting FUObjectHashTables data took  23.19ms
 [2021.05.07-10.47.22:854][305]LogSavePackage: Moving '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Saved/BossLevelMap1AD7E78414F58F2515F30538C19BBE8CC.tmp' to '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Maps/Maps/BossLevelMap1.umap'
 [2021.05.07-10.47.22:989][305]LogFileHelpers: Saving map 'BossLevelMap1' took 2.606
+[2021.05.07-10.48.17:962][305]LogSlate: Window 'Submit Files' being destroyed
+[2021.05.07-10.48.18:145][306]AssetCheck: New page: Asset Save: BossLevelMap1
+[2021.05.07-10.48.18:145][306]LogContentValidation: Display: Validating World /Game/Designer/Level_Design/Maps/Maps/BossLevelMap1.BossLevelMap1
