@@ -3734,6 +3734,7 @@ Script call stack:
 [2021.05.07-08.10.13:967][748]AssetCheck: New page: Asset Save: multiple assets
 [2021.05.07-08.10.13:967][748]LogContentValidation: Display: Validating World /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene
 [2021.05.07-08.10.13:967][748]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Designer/Level_Design/Maps/Maps/ChaseScene_BuiltData.ChaseScene_BuiltData
+<<<<<<< HEAD
 [2021.05.07-08.13.07:363][306]LogUObjectHash: Compacting FUObjectHashTables data took   8.36ms
 [2021.05.07-08.13.07:696][306]LogSlate: Window 'Journeyman_CSOM - Unreal Editor' being destroyed
 [2021.05.07-08.13.08:566][307]Cmd: QUIT_EDITOR
@@ -4169,3 +4170,5 @@ Script call stack:
 [2021.05.07-08.13.14:368][307]LogD3D11RHI: CleanupD3DDevice
 [2021.05.07-08.13.14:494][307]LogExit: Exiting.
 [2021.05.07-08.13.14:573][307]Log file closed, 05/07/21 09:13:14
+=======
+>>>>>>> testhud-and-damage-
