@@ -1,8 +1,8 @@
-﻿Log file open, 05/07/21 09:45:00
+﻿Log file open, 05/07/21 09:53:05
 LogInit: Display: Running engine for game: Journeyman_CSOM
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.843824
+LogStats: Stats thread started at 0.549505
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,583 +194,554 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.05.07-08.45.02:089][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.05.07-08.45.02:089][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
-[2021.05.07-08.45.02:090][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
-[2021.05.07-08.45.02:090][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
-[2021.05.07-08.45.02:090][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.05.07-08.45.02:090][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
-[2021.05.07-08.45.02:091][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.05.07-08.45.02:091][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.05.07-08.45.02:091][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.05.07-08.45.02:091][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.05.07-08.45.02:091][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.05.07-08.45.02:091][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.05.07-08.45.02:091][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.05.07-08.45.02:091][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.05.07-08.45.02:091][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.05.07-08.45.02:091][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.05.07-08.45.02:091][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.05.07-08.45.02:091][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.05.07-08.45.02:091][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.05.07-08.45.02:091][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
-[2021.05.07-08.45.02:091][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
-[2021.05.07-08.45.02:115][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.05.07-08.45.02:115][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.05.07-08.45.02:116][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.05.07-08.45.02:117][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.05.07-08.45.02:118][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.05.07-08.45.02:118][  0]LogInit: Selected Device Profile: [Windows]
-[2021.05.07-08.45.02:118][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.05.07-08.45.02:119][  0]LogHAL: Display: Platform has ~ 20 GB [21430620160 / 34359738368 / 20], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.05.07-08.45.02:119][  0]LogInit: Going up to parent DeviceProfile []
-[2021.05.07-08.45.02:119][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.05.07-08.45.02:119][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.05.07-08.45.02:120][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.05.07-08.45.02:121][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.05.07-08.45.02:121][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.05.07-08.45.02:121][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.05.07-08.45.02:121][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.05.07-08.45.02:121][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.05.07-08.45.02:121][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.05.07-08.45.02:121][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.05.07-08.45.02:121][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:121][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.05.07-08.45.02:121][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.05.07-08.45.02:121][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.05.07-08.45.02:121][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.05.07-08.45.02:122][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.05.07-08.45.02:123][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.05.07-08.45.02:124][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.05.07-08.45.02:124][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.05.07-08.45.02:124][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.05.07-08.45.02:124][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.05.07-08.45.02:124][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.05.07-08.45.02:125][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.05.07-08.45.02:125][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.05.07-08.45.02:125][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.05.07-08.45.02:126][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
-[2021.05.07-08.45.02:126][  0]LogInit: Computer: DESKTOP-38FH8H9
-[2021.05.07-08.45.02:126][  0]LogInit: User: tim782
-[2021.05.07-08.45.02:126][  0]LogInit: CPU Page size=4096, Cores=4
-[2021.05.07-08.45.02:126][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.05.07-08.45.02:126][  0]LogMemory: Memory total: Physical=20.0GB (20GB approx)
-[2021.05.07-08.45.02:126][  0]LogMemory: Platform Memory Stats for Windows
-[2021.05.07-08.45.02:126][  0]LogMemory: Process Physical Memory: 115.38 MB used, 115.38 MB peak
-[2021.05.07-08.45.02:126][  0]LogMemory: Process Virtual Memory: 100.00 MB used, 100.00 MB peak
-[2021.05.07-08.45.02:126][  0]LogMemory: Physical Memory: 6879.87 MB used,  13557.96 MB free, 20437.83 MB total
-[2021.05.07-08.45.02:126][  0]LogMemory: Virtual Memory: 5148.87 MB used,  134212576.00 MB free, 134217728.00 MB total
-[2021.05.07-08.45.02:143][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.05.07-08.45.02:242][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.05.07-08.45.02:246][  0]LogInit: Using OS detected language (en-GB).
-[2021.05.07-08.45.02:246][  0]LogInit: Using OS detected locale (en-GB).
-[2021.05.07-08.45.02:259][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2021.05.07-08.45.02:817][  0]LogInit: Setting process to per monitor DPI aware
-[2021.05.07-08.45.02:901][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.05.07-08.45.02:901][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.05.07-08.45.03:265][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.05.07-08.45.03:265][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.05.07-08.45.03:265][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.05.07-08.45.03:265][  0]LogD3D11RHI: D3D11 adapters:
-[2021.05.07-08.45.03:333][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
-[2021.05.07-08.45.03:333][  0]LogD3D11RHI:       3052/0/10218 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2021.05.07-08.45.03:338][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.05.07-08.45.03:338][  0]LogD3D11RHI:       0/0/10218 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.05.07-08.45.03:338][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.05.07-08.45.03:359][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.05.07-08.45.03:359][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
-[2021.05.07-08.45.03:359][  0]LogWindows: EnumDisplayDevices:
-[2021.05.07-08.45.03:360][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
-[2021.05.07-08.45.03:360][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:1)
-[2021.05.07-08.45.03:361][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2021.05.07-08.45.03:362][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2021.05.07-08.45.03:363][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2021.05.07-08.45.03:363][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2021.05.07-08.45.03:364][  0]LogWindows:    6. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2021.05.07-08.45.03:365][  0]LogWindows:    7. 'AMD Radeon R9 200 Series' (P:0 D:0)
-[2021.05.07-08.45.03:366][  0]LogWindows: DebugString: FoundDriverCount:8 
-[2021.05.07-08.45.03:366][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
-[2021.05.07-08.45.03:366][  0]LogD3D11RHI:   Driver Version: Adrenalin 19.20 (internal:26.20.12028.2, unified:26.20.12028.2)
-[2021.05.07-08.45.03:366][  0]LogD3D11RHI:      Driver Date: 8-16-2019
-[2021.05.07-08.45.03:366][  0]LogRHI: Texture pool is 1816 MB (70% of 2594 MB)
-[2021.05.07-08.45.03:433][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
-[2021.05.07-08.45.03:433][  0]LogD3D11RHI: Async texture creation enabled
-[2021.05.07-08.45.03:433][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.05.07-08.45.03:451][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2021.05.07-08.45.04:150][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.05.07-08.45.04:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.05.07-08.45.04:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.05.07-08.45.04:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.05.07-08.45.04:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.05.07-08.45.04:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.05.07-08.45.04:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.05.07-08.45.04:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.05.07-08.45.04:198][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.05.07-08.45.04:198][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.05.07-08.45.04:198][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.05.07-08.45.04:284][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.05.07-08.45.04:284][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.05.07-08.45.04:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.05.07-08.45.04:326][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.05.07-08.45.04:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.05.07-08.45.04:366][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.05.07-08.45.04:385][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.05.07-08.45.04:406][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.05.07-08.45.04:425][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.05.07-08.45.04:492][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.05.07-08.45.04:492][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.05.07-08.45.04:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.05.07-08.45.04:531][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.05.07-08.45.04:556][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.05.07-08.45.04:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.05.07-08.45.04:612][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.05.07-08.45.04:636][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.05.07-08.45.04:636][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.05.07-08.45.04:654][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.05.07-08.45.04:802][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/Shaders/WorkingDirectory/45784/).
-[2021.05.07-08.45.04:803][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tim782/AppData/Local/Temp/UnrealShaderWorkingDir/A7450DE84355B8469F9070BA4D03A588/'.
-[2021.05.07-08.45.04:804][  0]LogXGEController: Cleaning working directory: C:/Users/tim782/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2021.05.07-08.45.04:804][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.05.07-08.45.04:805][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.05.07-08.45.04:805][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.05.07-08.45.08:218][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.05.07-08.45.08:465][  0]LogDerivedDataCache: Loaded boot cache 0.25s 76MB C:/Users/tim782/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.05.07-08.45.08:465][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tim782/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.05.07-08.45.08:466][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tim782/Desktop/Castlevania_sotm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.05.07-08.45.08:466][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.05.07-08.45.08:466][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tim782/Desktop/Castlevania_sotm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.05.07-08.45.08:466][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.05.07-08.45.08:506][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.05.07-08.45.08:506][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.05.07-08.45.08:506][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.05.07-08.45.08:511][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tim782/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.05.07-08.45.08:511][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.05.07-08.45.08:511][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.05.07-08.45.08:742][  0]LogSlate: Using FreeType 2.10.0
-[2021.05.07-08.45.08:744][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.05.07-08.45.08:837][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
-[2021.05.07-08.45.10:030][  0]LogInit: Selected Device Profile: [Windows]
-[2021.05.07-08.45.10:624][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.05.07-08.45.10:624][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.05.07-08.45.10:624][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.05.07-08.45.10:624][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.05.07-08.45.10:625][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.05.07-08.45.10:717][  0]LogNetVersion: Journeyman_CSOM 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4292092786)
-[2021.05.07-08.45.12:260][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000028CF5DAA3C0), frame # 0
-[2021.05.07-08.45.12:260][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028CF5D3EAC0), frame # 0
-[2021.05.07-08.45.12:269][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028CF5D85E00), frame # 0
-[2021.05.07-08.45.12:435][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.146328 seconds
-[2021.05.07-08.45.12:446][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2021.05.07-08.45.12:446][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2021.05.07-08.45.12:447][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.05.07-08.45.13:699][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.05.07-08.45.13:716][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.05.07-08.45.13:930][  0]LogLinker: Warning: Failed to load '/Game/SideScrollerBP/SideScrollerOverview': Can't find file.
-[2021.05.07-08.45.13:931][  0]LogLinker: Warning: Failed to load '/Game/SideScrollerBP/SideScrollerOverview': Can't find file.
-[2021.05.07-08.45.13:931][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerBP/SideScrollerOverview.SideScrollerOverview_C'
-[2021.05.07-08.45.14:081][  0]SourceControl: Source control is disabled
-[2021.05.07-08.45.15:900][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.05.07-08.45.15:942][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.05.07-08.45.15:942][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.05.07-08.45.16:152][  0]LogOcInput: OculusInput pre-init called
-[2021.05.07-08.45.16:202][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.05.07-08.45.16:202][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.05.07-08.45.16:473][  0]LogEngine: Initializing Engine...
-[2021.05.07-08.45.16:478][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.05.07-08.45.16:478][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.05.07-08.45.16:482][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2021.05.07-08.45.16:984][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.05.07-08.45.17:015][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.05.07-08.45.17:015][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028CFA397C00), frame # 0
-[2021.05.07-08.45.17:015][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028CFA3F1BC0), frame # 0
-[2021.05.07-08.45.17:035][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.05.07-08.45.17:035][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.05.07-08.45.17:036][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.05.07-08.45.17:036][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.05.07-08.45.17:036][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.05.07-08.45.17:036][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.05.07-08.45.17:036][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.05.07-08.45.17:036][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.05.07-08.45.17:037][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.05.07-08.45.17:037][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.05.07-08.45.17:102][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.05.07-08.45.17:102][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.05.07-08.45.17:275][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2021.05.07-08.45.17:284][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.05.07-08.45.17:296][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.05.07-08.45.17:296][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.05.07-08.45.17:299][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.05.07-08.45.17:303][  0]LogInit: FAudioDevice initialized.
-[2021.05.07-08.45.17:304][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.05.07-08.45.17:959][  0]LogDerivedDataCache: Saved boot cache 0.65s 76MB C:/Users/tim782/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.05.07-08.45.17:963][  0]LogInit: Texture streaming: Enabled
-[2021.05.07-08.45.18:028][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.05.07-08.45.18:028][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.05.07-08.45.18:036][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.05.07-08.45.18:298][  0]LogInit: Transaction tracking system initialized
-[2021.05.07-08.45.18:389][  0]BlueprintLog: New page: Editor Load
-[2021.05.07-08.45.18:695][  0]LocalizationService: Localization service is disabled
-[2021.05.07-08.45.19:390][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.05.07-08.45.19:391][  0]LogCook: Display: Mobile HDR setting 1
-[2021.05.07-08.45.20:002][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Content/' took 0.09s
-[2021.05.07-08.45.20:802][  0]LogUnrealEdMisc: Loading editor; pre map load, took 27.174
-[2021.05.07-08.45.20:802][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Maps/Maps/ChaseScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.05.07-08.45.20:803][  0]LightingResults: New page: Lighting Build
-[2021.05.07-08.45.20:805][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.05.07-08.45.20:805][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.07-08.45.20:805][  0]MapCheck: New page: Map Check
-[2021.05.07-08.45.20:805][  0]LightingResults: New page: Lighting Build
-[2021.05.07-08.45.20:853][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028CFA397C00), frame # 0
-[2021.05.07-08.45.20:853][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028CFA3F1BC0), frame # 0
-[2021.05.07-08.45.20:856][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
-[2021.05.07-08.45.21:005][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
-[2021.05.07-08.45.21:005][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
-[2021.05.07-08.45.21:006][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
-[2021.05.07-08.45.21:006][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
-[2021.05.07-08.45.21:007][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPerson_Jump.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
-[2021.05.07-08.45.21:007][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
-[2021.05.07-08.45.21:010][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPerson_Jump.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
-[2021.05.07-08.45.21:010][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
-[2021.05.07-08.45.21:012][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPerson_Jump.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
-[2021.05.07-08.45.21:012][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
-[2021.05.07-08.45.21:012][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPerson_Jump.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
-[2021.05.07-08.45.21:013][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
-[2021.05.07-08.45.21:017][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
-[2021.05.07-08.45.21:018][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
-[2021.05.07-08.45.21:018][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
-[2021.05.07-08.45.21:018][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
-[2021.05.07-08.45.21:021][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Start.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
-[2021.05.07-08.45.21:021][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
-[2021.05.07-08.45.21:022][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Start.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
-[2021.05.07-08.45.21:022][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
-[2021.05.07-08.45.23:244][  0]LogAIModule: Creating AISystem for world ChaseScene
-[2021.05.07-08.45.23:249][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028C90979000), frame # 0
-[2021.05.07-08.45.23:249][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028C90A01940), frame # 0
-[2021.05.07-08.45.24:635][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.05.07-08.45.24:637][  0]LogNavigation: Warning: Recreating dtNavMesh instance due to saved navmesh origin (X=-0.003 Y=94.526 Z=0.000, usually the RecastNavMesh location) not being aligned with tile size (988 uu) 
-[2021.05.07-08.45.25:018][  0]LogUObjectHash: Compacting FUObjectHashTables data took   6.77ms
-[2021.05.07-08.45.25:018][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.05.07-08.45.25:019][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.683ms to complete.
-[2021.05.07-08.45.25:019][  0]LogFileHelpers: Loading map 'ChaseScene' took 4.217
-[2021.05.07-08.45.25:027][  0]LogUnrealEdMisc: Total Editor Startup Time, took 31.398
-[2021.05.07-08.45.25:417][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.07-08.45.25:452][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.07-08.45.25:488][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.07-08.45.25:525][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.07-08.45.25:548][  0]LogCollectionManager: Loaded 0 collections in 0.006570 seconds
-[2021.05.07-08.45.25:599][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Collections/' took 0.00s
-[2021.05.07-08.45.25:599][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Content/Developers/tim782/Collections/' took 0.00s
-[2021.05.07-08.45.25:599][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Content/Collections/' took 0.00s
-[2021.05.07-08.45.25:599][  0]LogContentBrowser: Native class hierarchy populated in 0.0363 seconds. Added 3427 classes and 821 folders.
-[2021.05.07-08.45.25:615][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2021.05.07-08.45.25:835][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2021.05.07-08.45.25:837][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
-[2021.05.07-08.45.25:915][  0]LogSlate: Took 0.000446 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.05.07-08.45.25:920][  0]LogSlate: Took 0.000400 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.05.07-08.45.25:936][  0]LogSlate: Took 0.000444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.05.07-08.45.26:257][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2021.05.07-08.45.26:747][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2021.05.07-08.45.26:748][  0]LogLoad: (Engine Initialization) Total time: 33.12 seconds
-[2021.05.07-08.45.26:748][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.05.07-08.45.26:764][  0]LoadErrors: Error: /Game/StarterContent/Mannequin/Animations/ThirdPerson_Jump : Failed import for Skeleton /Game/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton [redirection] in /Game/StarterContent/Mannequin/Animations/ThirdPerson_Jump Referenced by export AnimSequence /Game/StarterContent/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump
-[2021.05.07-08.45.26:765][  0]LoadErrors: Error: /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop : Failed import for Skeleton /Game/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton [redirection] in /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop Referenced by export AnimSequence /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop
-[2021.05.07-08.45.26:765][  0]LoadErrors: Error: /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Start : Failed import for Skeleton /Game/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton [redirection] in /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Start Referenced by export AnimSequence /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start
-[2021.05.07-08.45.26:832][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.05.07-08.45.27:004][  0]LogSlate: Took 0.000378 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.05.07-08.45.27:083][  0]LogSlate: Took 0.000387 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2021.05.07-08.45.27:165][  1]LogAssetRegistry: Asset discovery search completed in 18.3304 seconds
-[2021.05.07-08.45.27:176][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
-[2021.05.07-08.45.27:848][  4]LogSlate: Took 0.000412 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.05.07-08.45.27:873][  4]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Programmer/scrips/MyCharactor.MyCharactor
-[2021.05.07-08.45.28:864][  4]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0021 seconds. Added 125 classes and 0 folders.
-[2021.05.07-08.45.33:433][  4]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Programmer/scrips/Jay_W9055613/AI/Attack_PrimaryA_Montage.Attack_PrimaryA_Montage
-[2021.05.07-08.45.33:468][  4]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0012 seconds. Added 1 classes and 2 folders.
-[2021.05.07-08.45.34:122][  4]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2021.05.07-08.45.34:127][  4]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0013 seconds. Added 1 classes and 0 folders.
-[2021.05.07-08.45.34:281][  4]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_1:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2021.05.07-08.45.35:821][  4]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/StarterContent/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
-[2021.05.07-08.45.35:850][  4]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2021.05.07-08.45.37:601][  4]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2021.05.07-08.45.39:006][  4]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Programmer/scrips/Jay_W9055613/AI/EnemyCharacter_JB.EnemyCharacter_JB
-[2021.05.07-08.45.40:745][  4]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/StarterContent/Mannequin/Character/Mesh/SK_Mannequin_Skeleton.SK_Mannequin_Skeleton
-[2021.05.07-08.45.40:758][  4]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2021.05.07-08.45.40:917][  4]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2021.05.07-08.45.41:928][  4]LogLinker: Warning: Failed to load '/Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene:PersistentLevel.ChaseScene': Can't resolve asset name
-[2021.05.07-08.45.42:001][  4]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Art/dagger/dagger.dagger
-[2021.05.07-08.45.46:208][  4]LogSlate: Took 0.000615 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2021.05.07-08.45.46:532][  5]LogSlate: Took 0.001033 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2021.05.07-08.46.00:454][205]LogTemp: Repeating last play command: Selected Viewport
-[2021.05.07-08.46.00:536][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.05.07-08.46.00:537][205]PIE: New page: PIE session: ChaseScene (7 May 2021, 10:46:00)
-[2021.05.07-08.46.00:540][205]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2021.05.07-08.46.00:542][205]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2021.05.07-08.46.00:542][205]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
-[2021.05.07-08.46.00:743][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.200741s)
-[2021.05.07-08.46.00:745][205]LogAIModule: Creating AISystem for world ChaseScene
-[2021.05.07-08.46.00:746][205]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028D85D8FE00), frame # 205
-[2021.05.07-08.46.00:746][205]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028D85DACB80), frame # 205
-[2021.05.07-08.46.00:746][205]LogPlayLevel: PIE: World Init took: (0.003330s)
-[2021.05.07-08.46.00:747][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.204556s)
-[2021.05.07-08.46.00:955][205]LogUObjectHash: Compacting FUObjectHashTables data took  13.80ms
-[2021.05.07-08.46.00:962][205]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.05.07-08.46.00:962][205]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.05.07-08.46.00:962][205]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.05.07-08.46.00:962][205]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.05.07-08.46.00:962][205]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.05.07-08.46.00:962][205]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.05.07-08.46.00:962][205]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.05.07-08.46.00:962][205]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.05.07-08.46.00:963][205]LogAudio: Display: Using built-in audio occlusion.
-[2021.05.07-08.46.00:964][205]LogAudioMixer: Display: Initializing audio mixer.
-[2021.05.07-08.46.00:977][205]LogAudioMixer: Display: 0: FrontLeft
-[2021.05.07-08.46.00:977][205]LogAudioMixer: Display: 1: FrontRight
-[2021.05.07-08.46.01:035][205]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
-[2021.05.07-08.46.01:035][205]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.05.07-08.46.01:035][205]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.05.07-08.46.01:035][205]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.05.07-08.46.01:037][205]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.05.07-08.46.01:080][205]LogInit: FAudioDevice initialized.
-[2021.05.07-08.46.01:105][205]LogLoad: Game class is 'SideScrollerGameMode_C'
-[2021.05.07-08.46.01:180][205]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-09.46.01
-[2021.05.07-08.46.01:187][205]LogWorld: Bringing up level for play took: 0.080947
-[2021.05.07-08.46.01:188][205]LogOnline: OSS: Creating online subsystem instance for: :Context_16
-[2021.05.07-08.46.01:195][205]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
-[2021.05.07-08.46.01:209][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.07-08.46.01:215][205]PIE: Server logged in
-[2021.05.07-08.46.01:219][205]PIE: Play in editor total start time 0.685 seconds.
-[2021.05.07-08.46.03:332][206]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064118 > MaxSimulationTimeStep (0.050) for 'MyCharactor_2', movement 'Walking'
-[2021.05.07-08.46.05:136][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.07-08.46.05:136][239]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
-[2021.05.07-08.46.05:139][239]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
-[2021.05.07-08.46.05:166][239]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.07-08.46.05:185][239]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.05.07-08.46.05:206][239]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.07-08.46.05:381][239]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.07-08.46.05:594][239]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028D85D8FE00), frame # 239
-[2021.05.07-08.46.05:594][239]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028D85DACB80), frame # 239
-[2021.05.07-08.46.05:718][239]LogUObjectHash: Compacting FUObjectHashTables data took  25.17ms
-[2021.05.07-08.46.05:922][240]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2021.05.07-08.46.06:071][241]Cmd: SELECT NONE
-[2021.05.07-08.46.06:115][241]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
-[2021.05.07-08.46.10:556][287]LogSlate: Window 'Message Log' being destroyed
-[2021.05.07-08.46.10:609][287]LogSlate: Window 'Message Log' being destroyed
-[2021.05.07-08.47.50:196][751]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Art/Hallway_test/MEK/Slice_T.Slice_T
-[2021.05.07-08.47.51:151][751]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
-[2021.05.07-08.47.51:151][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.07-08.47.54:329][752]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
-[2021.05.07-08.48.14:638][995]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
-[2021.05.07-08.48.14:639][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.07-08.49.06:809][757]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
-[2021.05.07-08.49.06:810][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.07-08.49.08:005][765]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
-[2021.05.07-08.49.08:005][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.07-08.49.09:463][771]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2021.05.07-08.49.09:463][771]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
-[2021.05.07-08.49.09:463][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.07-08.49.10:910][778]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2021.05.07-08.49.10:910][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.07-08.49.10:934][778]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2021.05.07-08.49.10:934][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.07-08.49.11:464][778]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2021.05.07-08.49.11:464][778]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.07-08.49.12:610][788]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2021.05.07-08.49.12:610][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.07-08.49.13:121][788]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2021.05.07-08.49.13:121][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.07-08.49.19:501][876]LogSlate: Window 'MyCharactor' being destroyed
-[2021.05.07-08.49.35:390][120]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Programmer/scrips/Jay_W9055613/AI/EnemyCharacter_JB.EnemyCharacter_JB
+[2021.05.07-08.53.06:672][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.05.07-08.53.06:672][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.05.07-08.53.06:672][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.05.07-08.53.06:672][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.05.07-08.53.06:672][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.05.07-08.53.06:672][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.05.07-08.53.06:672][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.05.07-08.53.06:673][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.05.07-08.53.06:674][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.05.07-08.53.06:674][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.05.07-08.53.06:674][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.05.07-08.53.06:674][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.05.07-08.53.06:674][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.05.07-08.53.06:674][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.05.07-08.53.06:674][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.05.07-08.53.06:674][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.05.07-08.53.06:674][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.05.07-08.53.06:674][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.05.07-08.53.06:674][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.05.07-08.53.06:710][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:710][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.07-08.53.06:710][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.07-08.53.06:710][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:710][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.07-08.53.06:710][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:710][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.07-08.53.06:710][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.07-08.53.06:710][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.07-08.53.06:710][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.07-08.53.06:710][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.07-08.53.06:711][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.07-08.53.06:712][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.07-08.53.06:712][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.07-08.53.06:712][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.07-08.53.06:712][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.07-08.53.06:712][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.07-08.53.06:712][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.07-08.53.06:712][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.07-08.53.06:712][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.07-08.53.06:712][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.07-08.53.06:712][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.07-08.53.06:713][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.07-08.53.06:714][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.07-08.53.06:714][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:714][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.07-08.53.06:714][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.07-08.53.06:714][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.07-08.53.06:714][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.07-08.53.06:714][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.07-08.53.06:714][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.07-08.53.06:714][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.07-08.53.06:714][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.07-08.53.06:714][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.07-08.53.06:714][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:714][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.07-08.53.06:714][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.07-08.53.06:714][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.07-08.53.06:714][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.07-08.53.06:714][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.07-08.53.06:715][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.07-08.53.06:715][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.07-08.53.06:715][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.07-08.53.06:715][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.07-08.53.06:715][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.07-08.53.06:715][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.07-08.53.06:715][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.07-08.53.06:715][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.07-08.53.06:715][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.07-08.53.06:715][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.07-08.53.06:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.07-08.53.06:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.07-08.53.06:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.07-08.53.06:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.07-08.53.06:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.07-08.53.06:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.07-08.53.06:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.07-08.53.06:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.07-08.53.06:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.07-08.53.06:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.07-08.53.06:716][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.07-08.53.06:716][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:717][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.07-08.53.06:717][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.07-08.53.06:717][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:717][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.07-08.53.06:717][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.07-08.53.06:717][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.07-08.53.06:717][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.07-08.53.06:717][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.07-08.53.06:717][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.07-08.53.06:717][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.07-08.53.06:717][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.07-08.53.06:717][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.07-08.53.06:718][  0]LogHAL: Display: Platform has ~ 20 GB [21430620160 / 34359738368 / 20], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.05.07-08.53.06:718][  0]LogInit: Going up to parent DeviceProfile []
+[2021.05.07-08.53.06:718][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:718][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.07-08.53.06:718][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.07-08.53.06:718][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:718][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.07-08.53.06:718][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:718][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.07-08.53.06:718][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.07-08.53.06:718][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.07-08.53.06:719][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.07-08.53.06:720][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.07-08.53.06:721][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.07-08.53.06:721][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.07-08.53.06:721][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.07-08.53.06:721][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.07-08.53.06:721][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.07-08.53.06:721][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.07-08.53.06:721][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.07-08.53.06:721][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.07-08.53.06:721][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.07-08.53.06:721][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:721][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.07-08.53.06:721][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.07-08.53.06:721][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.07-08.53.06:721][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.07-08.53.06:721][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.07-08.53.06:721][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.07-08.53.06:722][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.07-08.53.06:723][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.07-08.53.06:723][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.07-08.53.06:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.07-08.53.06:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.07-08.53.06:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.07-08.53.06:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.07-08.53.06:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.07-08.53.06:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.07-08.53.06:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.07-08.53.06:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.07-08.53.06:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.07-08.53.06:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.07-08.53.06:723][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.07-08.53.06:723][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:723][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.07-08.53.06:723][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.07-08.53.06:724][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.53.06:724][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.07-08.53.06:724][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.07-08.53.06:724][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.07-08.53.06:724][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.07-08.53.06:724][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.07-08.53.06:724][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.07-08.53.06:724][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.07-08.53.06:724][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.05.07-08.53.06:727][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.05.07-08.53.06:727][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.05.07-08.53.06:727][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.05.07-08.53.06:727][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.05.07-08.53.06:727][  0]LogInit: Computer: DESKTOP-38FH8H9
+[2021.05.07-08.53.06:728][  0]LogInit: User: tim782
+[2021.05.07-08.53.06:728][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.05.07-08.53.06:728][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.07-08.53.06:728][  0]LogMemory: Memory total: Physical=20.0GB (20GB approx)
+[2021.05.07-08.53.06:728][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.07-08.53.06:728][  0]LogMemory: Process Physical Memory: 115.46 MB used, 115.46 MB peak
+[2021.05.07-08.53.06:728][  0]LogMemory: Process Virtual Memory: 100.14 MB used, 100.14 MB peak
+[2021.05.07-08.53.06:729][  0]LogMemory: Physical Memory: 6955.33 MB used,  13482.50 MB free, 20437.83 MB total
+[2021.05.07-08.53.06:729][  0]LogMemory: Virtual Memory: 5148.87 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2021.05.07-08.53.06:750][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.05.07-08.53.06:882][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.05.07-08.53.06:886][  0]LogInit: Using OS detected language (en-GB).
+[2021.05.07-08.53.06:886][  0]LogInit: Using OS detected locale (en-GB).
+[2021.05.07-08.53.06:905][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2021.05.07-08.53.07:667][  0]LogInit: Setting process to per monitor DPI aware
+[2021.05.07-08.53.07:840][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.05.07-08.53.07:840][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.05.07-08.53.08:559][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.07-08.53.08:560][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.05.07-08.53.08:560][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.05.07-08.53.08:560][  0]LogD3D11RHI: D3D11 adapters:
+[2021.05.07-08.53.08:640][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2021.05.07-08.53.08:640][  0]LogD3D11RHI:       3052/0/10218 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2021.05.07-08.53.08:647][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.05.07-08.53.08:647][  0]LogD3D11RHI:       0/0/10218 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.05.07-08.53.08:647][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.05.07-08.53.08:688][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.05.07-08.53.08:689][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2021.05.07-08.53.08:689][  0]LogWindows: EnumDisplayDevices:
+[2021.05.07-08.53.08:689][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2021.05.07-08.53.08:691][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:1)
+[2021.05.07-08.53.08:692][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2021.05.07-08.53.08:694][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2021.05.07-08.53.08:696][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2021.05.07-08.53.08:697][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2021.05.07-08.53.08:699][  0]LogWindows:    6. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2021.05.07-08.53.08:701][  0]LogWindows:    7. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2021.05.07-08.53.08:703][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2021.05.07-08.53.08:703][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2021.05.07-08.53.08:703][  0]LogD3D11RHI:   Driver Version: Adrenalin 19.20 (internal:26.20.12028.2, unified:26.20.12028.2)
+[2021.05.07-08.53.08:703][  0]LogD3D11RHI:      Driver Date: 8-16-2019
+[2021.05.07-08.53.08:703][  0]LogRHI: Texture pool is 1816 MB (70% of 2594 MB)
+[2021.05.07-08.53.08:831][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2021.05.07-08.53.08:831][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.07-08.53.08:831][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.05.07-08.53.08:858][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2021.05.07-08.53.10:144][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.05.07-08.53.10:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.05.07-08.53.10:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.05.07-08.53.10:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.05.07-08.53.10:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.05.07-08.53.10:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.05.07-08.53.10:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.05.07-08.53.10:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.05.07-08.53.10:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.05.07-08.53.10:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.05.07-08.53.10:241][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.05.07-08.53.10:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.05.07-08.53.10:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.05.07-08.53.10:404][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.05.07-08.53.10:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.05.07-08.53.10:496][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.05.07-08.53.10:544][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.05.07-08.53.10:596][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.05.07-08.53.10:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.05.07-08.53.10:698][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.05.07-08.53.10:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.05.07-08.53.10:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.05.07-08.53.10:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.05.07-08.53.10:942][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.05.07-08.53.10:987][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.05.07-08.53.11:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.05.07-08.53.11:083][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.05.07-08.53.11:129][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.05.07-08.53.11:129][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.05.07-08.53.11:160][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.05.07-08.53.11:437][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/tim782/Desktop/Castlevania_sotm/Intermediate/Shaders/WorkingDirectory/46524/).
+[2021.05.07-08.53.11:438][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tim782/AppData/Local/Temp/UnrealShaderWorkingDir/1AC65B994D428368100077B41F6BEC04/'.
+[2021.05.07-08.53.11:439][  0]LogXGEController: Cleaning working directory: C:/Users/tim782/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.05.07-08.53.11:440][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.05.07-08.53.11:441][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.05.07-08.53.11:441][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.05.07-08.53.15:536][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.05.07-08.53.15:782][  0]LogDerivedDataCache: Loaded boot cache 0.25s 76MB C:/Users/tim782/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.07-08.53.15:782][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/tim782/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.05.07-08.53.15:782][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tim782/Desktop/Castlevania_sotm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.05.07-08.53.15:782][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.05.07-08.53.15:783][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tim782/Desktop/Castlevania_sotm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.07-08.53.15:783][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.05.07-08.53.15:828][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.05.07-08.53.15:828][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.07-08.53.15:829][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.05.07-08.53.15:834][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tim782/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.05.07-08.53.15:834][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.05.07-08.53.15:834][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.05.07-08.53.16:105][  0]LogSlate: Using FreeType 2.10.0
+[2021.05.07-08.53.16:108][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.05.07-08.53.16:204][  0]LogAssetRegistry: FAssetRegistry took 0.0119 seconds to start up
+[2021.05.07-08.53.17:017][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.07-08.53.17:368][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.05.07-08.53.17:368][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.05.07-08.53.17:368][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.05.07-08.53.17:368][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.05.07-08.53.17:368][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.05.07-08.53.17:433][  0]LogNetVersion: Journeyman_CSOM 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4292092786)
+[2021.05.07-08.53.18:693][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001C17721AA00), frame # 0
+[2021.05.07-08.53.18:693][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C1780AEAC0), frame # 0
+[2021.05.07-08.53.18:698][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C1780FDE00), frame # 0
+[2021.05.07-08.53.18:918][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.199517 seconds
+[2021.05.07-08.53.18:938][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.05.07-08.53.18:938][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.05.07-08.53.18:938][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.05.07-08.53.20:288][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.05.07-08.53.20:303][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.05.07-08.53.20:500][  0]LogLinker: Warning: Failed to load '/Game/SideScrollerBP/SideScrollerOverview': Can't find file.
+[2021.05.07-08.53.20:501][  0]LogLinker: Warning: Failed to load '/Game/SideScrollerBP/SideScrollerOverview': Can't find file.
+[2021.05.07-08.53.20:501][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SideScrollerBP/SideScrollerOverview.SideScrollerOverview_C'
+[2021.05.07-08.53.20:653][  0]SourceControl: Source control is disabled
+[2021.05.07-08.53.22:484][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.05.07-08.53.22:519][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.07-08.53.22:519][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.07-08.53.22:621][  0]LogOcInput: OculusInput pre-init called
+[2021.05.07-08.53.22:644][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.05.07-08.53.22:644][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.05.07-08.53.22:754][  0]LogEngine: Initializing Engine...
+[2021.05.07-08.53.22:756][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.07-08.53.22:757][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.05.07-08.53.22:758][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.05.07-08.53.22:945][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.05.07-08.53.22:956][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.05.07-08.53.22:957][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C1788F3C00), frame # 0
+[2021.05.07-08.53.22:957][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C17893DBC0), frame # 0
+[2021.05.07-08.53.22:982][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-08.53.22:982][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-08.53.22:982][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-08.53.22:982][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-08.53.22:982][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-08.53.22:982][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-08.53.22:982][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-08.53.22:982][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-08.53.22:982][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-08.53.22:983][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-08.53.23:004][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-08.53.23:004][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-08.53.23:073][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-08.53.23:079][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-08.53.23:083][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-08.53.23:083][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-08.53.23:085][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-08.53.23:086][  0]LogInit: FAudioDevice initialized.
+[2021.05.07-08.53.23:087][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.05.07-08.53.23:941][  0]LogDerivedDataCache: Saved boot cache 0.85s 76MB C:/Users/tim782/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.07-08.53.23:946][  0]LogInit: Texture streaming: Enabled
+[2021.05.07-08.53.24:008][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.05.07-08.53.24:008][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.05.07-08.53.24:018][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.05.07-08.53.24:303][  0]LogInit: Transaction tracking system initialized
+[2021.05.07-08.53.24:403][  0]BlueprintLog: New page: Editor Load
+[2021.05.07-08.53.24:705][  0]LocalizationService: Localization service is disabled
+[2021.05.07-08.53.25:513][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.05.07-08.53.25:513][  0]LogCook: Display: Mobile HDR setting 1
+[2021.05.07-08.53.26:030][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Content/' took 0.10s
+[2021.05.07-08.53.26:696][  0]LogUnrealEdMisc: Loading editor; pre map load, took 28.587
+[2021.05.07-08.53.26:696][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/Designer/Level_Design/Maps/Maps/ChaseScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.07-08.53.26:697][  0]LightingResults: New page: Lighting Build
+[2021.05.07-08.53.26:698][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-08.53.26:698][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-08.53.26:700][  0]MapCheck: New page: Map Check
+[2021.05.07-08.53.26:700][  0]LightingResults: New page: Lighting Build
+[2021.05.07-08.53.26:744][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C1788F3C00), frame # 0
+[2021.05.07-08.53.26:744][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C17893DBC0), frame # 0
+[2021.05.07-08.53.26:747][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2021.05.07-08.53.26:893][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.53.26:894][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.53.26:894][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.53.26:895][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.53.26:896][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPerson_Jump.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.53.26:896][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.53.26:897][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPerson_Jump.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.53.26:897][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.53.26:898][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPerson_Jump.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.53.26:898][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.53.26:898][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPerson_Jump.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.53.26:898][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.53.26:904][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.53.26:905][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.53.26:905][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.53.26:905][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.53.26:908][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Start.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.53.26:908][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.53.26:909][  0]LogLinker: Warning: While loading '../../../../../../Users/tim782/Desktop/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Start.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.53.26:909][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.53.29:134][  0]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-08.53.29:136][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C111C4D000), frame # 0
+[2021.05.07-08.53.29:136][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C111C79940), frame # 0
+[2021.05.07-08.53.30:432][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.07-08.53.30:434][  0]LogNavigation: Warning: Recreating dtNavMesh instance due to saved navmesh origin (X=-0.003 Y=94.526 Z=0.000, usually the RecastNavMesh location) not being aligned with tile size (988 uu) 
+[2021.05.07-08.53.30:834][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2021.05.07-08.53.30:836][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.07-08.53.30:837][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.891ms to complete.
+[2021.05.07-08.53.30:837][  0]LogFileHelpers: Loading map 'ChaseScene' took 4.142
+[2021.05.07-08.53.30:844][  0]LogUnrealEdMisc: Total Editor Startup Time, took 32.735
+[2021.05.07-08.53.31:316][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-08.53.31:345][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-08.53.31:368][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-08.53.31:390][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-08.53.31:414][  0]LogCollectionManager: Loaded 0 collections in 0.007611 seconds
+[2021.05.07-08.53.31:465][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Collections/' took 0.00s
+[2021.05.07-08.53.31:465][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Content/Developers/tim782/Collections/' took 0.00s
+[2021.05.07-08.53.31:465][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tim782/Desktop/Castlevania_sotm/Content/Collections/' took 0.00s
+[2021.05.07-08.53.31:465][  0]LogContentBrowser: Native class hierarchy populated in 0.0356 seconds. Added 3427 classes and 821 folders.
+[2021.05.07-08.53.31:480][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2021.05.07-08.53.31:760][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.05.07-08.53.31:762][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 2 classes and 0 folders.
+[2021.05.07-08.53.31:839][  0]LogSlate: Took 0.000580 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.05.07-08.53.31:845][  0]LogSlate: Took 0.000423 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.05.07-08.53.31:860][  0]LogSlate: Took 0.000421 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.05.07-08.53.32:241][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.05.07-08.53.32:848][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.05.07-08.53.32:848][  0]LogLoad: (Engine Initialization) Total time: 34.74 seconds
+[2021.05.07-08.53.32:848][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.05.07-08.53.32:861][  0]LoadErrors: Error: /Game/StarterContent/Mannequin/Animations/ThirdPerson_Jump : Failed import for Skeleton /Game/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton [redirection] in /Game/StarterContent/Mannequin/Animations/ThirdPerson_Jump Referenced by export AnimSequence /Game/StarterContent/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump
+[2021.05.07-08.53.32:861][  0]LoadErrors: Error: /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop : Failed import for Skeleton /Game/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton [redirection] in /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop Referenced by export AnimSequence /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop
+[2021.05.07-08.53.32:862][  0]LoadErrors: Error: /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Start : Failed import for Skeleton /Game/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton [redirection] in /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Start Referenced by export AnimSequence /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start
+[2021.05.07-08.53.32:935][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.05.07-08.53.33:111][  0]LogSlate: Took 0.000341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.07-08.53.33:147][  0]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.05.07-08.53.33:445][  2]LogAssetRegistry: Asset discovery search completed in 17.2437 seconds
+[2021.05.07-08.53.33:453][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.05.07-08.53.34:043][ 11]LogSlate: Took 0.000704 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.07-08.53.34:085][ 11]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Programmer/scrips/MyCharactor.MyCharactor
+[2021.05.07-08.53.34:985][ 11]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 125 classes and 0 folders.
+[2021.05.07-08.53.39:764][ 11]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Programmer/scrips/Jay_W9055613/AI/EnemyCharacter_JB.EnemyCharacter_JB
+[2021.05.07-08.53.41:651][ 11]LogSlate: Took 0.000987 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.07-08.53.42:264][ 12]LogSlate: Took 0.000555 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.07-08.53.49:680][115]LogSlate: Window 'EnemyCharacter_JB' being destroyed
+[2021.05.07-08.53.51:178][143]LogSlate: Window 'EnemyCharacter_JB' being destroyed
+[2021.05.07-08.53.52:701][174]LogSlate: Window 'MyCharactor' being destroyed
+[2021.05.07-08.53.55:190][209]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.07-08.53.55:308][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.07-08.53.55:310][209]PIE: New page: PIE session: ChaseScene (7 May 2021, 10:53:55)
+[2021.05.07-08.53.55:313][209]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.05.07-08.53.55:317][209]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.05.07-08.53.55:317][209]LogPlayLevel: Creating play world package: /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-08.53.55:640][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.322677s)
+[2021.05.07-08.53.55:644][209]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-08.53.55:644][209]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001C1C5501200), frame # 209
+[2021.05.07-08.53.55:644][209]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001C1C54EBD80), frame # 209
+[2021.05.07-08.53.55:646][209]LogPlayLevel: PIE: World Init took: (0.005397s)
+[2021.05.07-08.53.55:646][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Designer/Level_Design/Maps/Maps/ChaseScene.ChaseScene to /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene (0.329281s)
+[2021.05.07-08.53.55:834][209]LogUObjectHash: Compacting FUObjectHashTables data took  13.79ms
+[2021.05.07-08.53.55:846][209]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-08.53.55:846][209]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-08.53.55:846][209]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-08.53.55:846][209]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-08.53.55:846][209]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-08.53.55:846][209]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-08.53.55:846][209]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-08.53.55:846][209]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-08.53.55:848][209]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-08.53.55:848][209]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-08.53.55:868][209]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-08.53.55:868][209]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-08.53.55:961][209]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.07-08.53.55:962][209]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-08.53.55:962][209]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-08.53.55:962][209]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-08.53.55:965][209]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-08.53.56:026][209]LogInit: FAudioDevice initialized.
+[2021.05.07-08.53.56:059][209]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2021.05.07-08.53.56:173][209]LogWorld: Bringing World /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene.ChaseScene up for play (max tick rate 0) at 2021.05.07-09.53.56
+[2021.05.07-08.53.56:182][209]LogWorld: Bringing up level for play took: 0.120191
+[2021.05.07-08.53.56:184][209]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.05.07-08.53.56:193][209]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 20 classes and 0 folders.
+[2021.05.07-08.53.56:216][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-08.53.56:227][209]PIE: Server logged in
+[2021.05.07-08.53.56:233][209]PIE: Play in editor total start time 0.927 seconds.
+[2021.05.07-08.53.58:123][210]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'MyCharactor_2', movement 'Walking'
+[2021.05.07-08.53.58:124][210]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.066865 > MaxSimulationTimeStep (0.050) for 'Chaser_5', movement 'Walking'
+[2021.05.07-08.54.07:770][391]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-08.54.07:770][391]LogWorld: BeginTearingDown for /Game/Designer/Level_Design/Maps/Maps/UEDPIE_0_ChaseScene
+[2021.05.07-08.54.07:772][391]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-08.54.07:791][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-08.54.07:816][391]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.07-08.54.07:832][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-08.54.08:097][391]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-08.54.08:146][391]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001C1C5501200), frame # 391
+[2021.05.07-08.54.08:147][391]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001C1C54EBD80), frame # 391
+[2021.05.07-08.54.08:231][391]LogUObjectHash: Compacting FUObjectHashTables data took  18.52ms
+[2021.05.07-08.54.08:428][392]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.05.07-08.54.08:623][394]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Slice_T_5)
+[2021.05.07-08.54.09:794][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Slice_T_5)
+[2021.05.07-08.54.15:009][491]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Slice_T_5)
+[2021.05.07-08.54.16:003][507]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Slice_T_5)
+[2021.05.07-08.54.17:110][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Slice_T_5)
+[2021.05.07-08.54.23:450][621]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Slice_T_5)
+[2021.05.07-08.54.26:591][665]LogSlate: Window 'Message Log' being destroyed
+[2021.05.07-08.54.26:613][665]LogSlate: Window 'Message Log' being destroyed
+[2021.05.07-08.55.23:231][109]LogEditorViewport: Clicking on Actor (context menu): NavMeshBoundsVolume (NavMeshBoundsVolume)
