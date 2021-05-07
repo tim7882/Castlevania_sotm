@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 ﻿Log file open, 05/07/21 10:14:50
 LogInit: Display: Running engine for game: Journeyman_CSOM
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.586587
+=======
+﻿Log file open, 05/07/21 09:10:08
+LogInit: Display: Running engine for game: Journeyman_CSOM
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 4.264189
+>>>>>>> 4b5f8626be44b52bb82151e64726d3458068033a
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,6 +202,7 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2021.05.07-09.14.51:623][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2021.05.07-09.14.51:623][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2021.05.07-09.14.51:623][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/tim782/Desktop/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
@@ -1098,3 +1107,522 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.07-09.21.08:460][855]LogD3D11RHI: CleanupD3DDevice
 [2021.05.07-09.21.08:514][855]LogExit: Exiting.
 [2021.05.07-09.21.08:556][855]Log file closed, 05/07/21 10:21:08
+=======
+[2021.05.07-08.10.12:735][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.05.07-08.10.12:735][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.05.07-08.10.12:735][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.05.07-08.10.12:735][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.05.07-08.10.12:735][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.05.07-08.10.12:735][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.05.07-08.10.12:735][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.05.07-08.10.12:735][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.05.07-08.10.12:735][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.05.07-08.10.12:735][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.05.07-08.10.12:735][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.05.07-08.10.12:735][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.05.07-08.10.12:736][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.05.07-08.10.12:736][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.05.07-08.10.12:790][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.07-08.10.12:790][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.07-08.10.12:791][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.07-08.10.12:799][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.07-08.10.12:799][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.07-08.10.12:814][  0]LogHAL: Display: Platform has ~ 16 GB [17106370560 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.05.07-08.10.12:814][  0]LogInit: Going up to parent DeviceProfile []
+[2021.05.07-08.10.12:815][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.07-08.10.12:815][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Scalability.ini]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.07-08.10.12:816][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.05.07-08.10.12:836][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.05.07-08.10.12:836][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.05.07-08.10.12:836][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.05.07-08.10.12:836][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Config/Windows/Engine.ini]
+[2021.05.07-08.10.12:851][  0]LogInit: Computer: DESKTOP-IHIODIE
+[2021.05.07-08.10.12:851][  0]LogInit: User: Cameron
+[2021.05.07-08.10.12:851][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.05.07-08.10.12:851][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.07-08.10.12:851][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.05.07-08.10.12:851][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.07-08.10.12:851][  0]LogMemory: Process Physical Memory: 117.96 MB used, 117.97 MB peak
+[2021.05.07-08.10.12:851][  0]LogMemory: Process Virtual Memory: 107.88 MB used, 107.88 MB peak
+[2021.05.07-08.10.12:851][  0]LogMemory: Physical Memory: 6056.34 MB used,  10257.57 MB free, 16313.91 MB total
+[2021.05.07-08.10.12:851][  0]LogMemory: Virtual Memory: 5196.62 MB used,  134212528.00 MB free, 134217728.00 MB total
+[2021.05.07-08.10.12:859][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.05.07-08.10.13:972][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.05.07-08.10.13:996][  0]LogInit: Using OS detected language (en-GB).
+[2021.05.07-08.10.13:997][  0]LogInit: Using OS detected locale (en-GB).
+[2021.05.07-08.10.14:114][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2021.05.07-08.10.14:742][  0]LogInit: Setting process to per monitor DPI aware
+[2021.05.07-08.10.15:359][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.05.07-08.10.15:359][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.05.07-08.10.19:474][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.07-08.10.19:475][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.05.07-08.10.19:475][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.05.07-08.10.19:475][  0]LogD3D11RHI: D3D11 adapters:
+[2021.05.07-08.10.19:610][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2021.05.07-08.10.19:610][  0]LogD3D11RHI:       8079/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.05.07-08.10.19:612][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.05.07-08.10.19:612][  0]LogD3D11RHI:       0/0/8156 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.05.07-08.10.19:613][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.05.07-08.10.19:633][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.05.07-08.10.19:633][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2021.05.07-08.10.19:633][  0]LogWindows: EnumDisplayDevices:
+[2021.05.07-08.10.19:633][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2021.05.07-08.10.19:633][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2021.05.07-08.10.19:634][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2021.05.07-08.10.19:634][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2021.05.07-08.10.19:634][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.05.07-08.10.19:634][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2021.05.07-08.10.19:634][  0]LogD3D11RHI:   Driver Version: 466.11 (internal:27.21.14.6611, unified:466.11)
+[2021.05.07-08.10.19:634][  0]LogD3D11RHI:      Driver Date: 4-12-2021
+[2021.05.07-08.10.19:634][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2021.05.07-08.10.19:724][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.05.07-08.10.19:725][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.07-08.10.19:725][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.05.07-08.10.20:016][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.05.07-08.10.20:978][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.05.07-08.10.21:095][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.05.07-08.10.21:095][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.05.07-08.10.21:095][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.05.07-08.10.21:095][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.05.07-08.10.21:095][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.05.07-08.10.21:095][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.05.07-08.10.21:095][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.05.07-08.10.21:095][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.05.07-08.10.21:095][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.05.07-08.10.21:095][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.05.07-08.10.21:247][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.05.07-08.10.21:247][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.05.07-08.10.21:320][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.05.07-08.10.21:362][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.05.07-08.10.21:408][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.05.07-08.10.21:449][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.05.07-08.10.21:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.05.07-08.10.21:561][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.05.07-08.10.21:611][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.05.07-08.10.21:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.05.07-08.10.21:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.05.07-08.10.21:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.05.07-08.10.21:706][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.05.07-08.10.21:773][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.05.07-08.10.21:817][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.05.07-08.10.21:860][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.05.07-08.10.21:893][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.05.07-08.10.21:893][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.05.07-08.10.22:216][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.05.07-08.10.23:423][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Intermediate/Shaders/WorkingDirectory/14096/).
+[2021.05.07-08.10.23:423][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cameron/AppData/Local/Temp/UnrealShaderWorkingDir/5B2191AB410F401515E865B6FB904B93/'.
+[2021.05.07-08.10.23:425][  0]LogXGEController: Cleaning working directory: C:/Users/Cameron/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.05.07-08.10.23:425][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.05.07-08.10.23:426][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.05.07-08.10.23:426][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.05.07-08.10.28:024][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.05.07-08.10.28:267][  0]LogDerivedDataCache: Loaded boot cache 0.24s 75MB C:/Users/Cameron/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.07-08.10.28:267][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Cameron/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.05.07-08.10.28:267][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.05.07-08.10.28:267][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.05.07-08.10.28:267][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.07-08.10.28:267][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.05.07-08.10.28:323][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.05.07-08.10.28:323][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.07-08.10.28:323][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.05.07-08.10.28:325][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cameron/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.05.07-08.10.28:325][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.05.07-08.10.28:325][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.05.07-08.10.28:478][  0]LogSlate: Using FreeType 2.10.0
+[2021.05.07-08.10.28:582][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.05.07-08.10.29:283][  0]LogAssetRegistry: FAssetRegistry took 0.0047 seconds to start up
+[2021.05.07-08.10.34:053][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.07-08.10.36:205][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.05.07-08.10.36:205][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.05.07-08.10.36:205][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.05.07-08.10.36:205][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.05.07-08.10.36:205][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.05.07-08.10.36:585][  0]LogNetVersion: Journeyman_CSOM 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 4292092786)
+[2021.05.07-08.10.44:639][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000025E0BA58F00), frame # 0
+[2021.05.07-08.10.44:639][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025E0C8D91C0), frame # 0
+[2021.05.07-08.10.44:649][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025E0C90DE00), frame # 0
+[2021.05.07-08.10.44:997][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.064736 seconds
+[2021.05.07-08.10.45:018][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.05.07-08.10.45:018][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.05.07-08.10.45:018][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.05.07-08.10.50:700][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.05.07-08.10.50:769][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.05.07-08.10.51:863][  0]SourceControl: Source control is disabled
+[2021.05.07-08.10.52:633][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.05.07-08.10.52:634][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.05.07-08.10.55:877][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.05.07-08.10.56:100][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.07-08.10.56:100][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.07-08.10.56:582][  0]LogOcInput: OculusInput pre-init called
+[2021.05.07-08.10.56:666][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.05.07-08.10.56:666][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.05.07-08.10.57:898][  0]LogEngine: Initializing Engine...
+[2021.05.07-08.10.57:901][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.07-08.10.57:901][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.05.07-08.10.57:938][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.016 s
+[2021.05.07-08.10.58:635][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.05.07-08.10.58:978][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.05.07-08.10.58:978][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025E0F324600), frame # 0
+[2021.05.07-08.10.58:978][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025E0F344A40), frame # 0
+[2021.05.07-08.10.59:084][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.07-08.10.59:084][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.07-08.10.59:084][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.07-08.10.59:084][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.07-08.10.59:084][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.07-08.10.59:084][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.07-08.10.59:084][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.07-08.10.59:084][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.07-08.10.59:095][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.07-08.10.59:095][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.07-08.10.59:266][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.07-08.10.59:266][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.05.07-08.10.59:313][  0]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2021.05.07-08.10.59:320][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.07-08.10.59:355][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.07-08.10.59:355][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.07-08.10.59:357][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.07-08.10.59:358][  0]LogInit: FAudioDevice initialized.
+[2021.05.07-08.10.59:358][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.05.07-08.10.59:455][  0]LogDerivedDataCache: Saved boot cache 0.10s 75MB C:/Users/Cameron/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.07-08.10.59:456][  0]LogInit: Texture streaming: Enabled
+[2021.05.07-08.10.59:706][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.05.07-08.10.59:706][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.05.07-08.10.59:715][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.05.07-08.11.00:250][  0]LogInit: Transaction tracking system initialized
+[2021.05.07-08.11.00:621][  0]BlueprintLog: New page: Editor Load
+[2021.05.07-08.11.01:916][  0]LocalizationService: Localization service is disabled
+[2021.05.07-08.11.03:125][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.05.07-08.11.03:126][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.05.07-08.11.05:595][  0]LogFileCache: Scanning file cache for directory 'E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Content/' took 0.02s
+[2021.05.07-08.11.05:595][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.05.07-08.11.05:595][  0]LogCook: Display: Mobile HDR setting 1
+[2021.05.07-08.11.08:752][  0]LogUnrealEdMisc: Loading editor; pre map load, took 75.703
+[2021.05.07-08.11.08:861][  0]LightingResults: New page: Lighting Build
+[2021.05.07-08.11.08:903][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-08.11.08:935][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-08.11.08:940][  0]MapCheck: New page: Map Check
+[2021.05.07-08.11.08:940][  0]LightingResults: New page: Lighting Build
+[2021.05.07-08.11.09:145][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025E0F324600), frame # 0
+[2021.05.07-08.11.09:145][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025E0F344A40), frame # 0
+[2021.05.07-08.11.09:147][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.05.07-08.11.11:128][  0]LogLinker: Warning: While loading '../../../../Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Content/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.11.11:128][  0]LogLinker: Warning: While loading '../../../../Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Content/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.11.11:128][  0]LogLinker: Warning: While loading '../../../../Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Content/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.11.11:128][  0]LogLinker: Warning: While loading '../../../../Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Content/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.11.11:129][  0]LogLinker: Warning: While loading '../../../../Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPerson_Jump.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.11.11:129][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.11.11:129][  0]LogLinker: Warning: While loading '../../../../Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPerson_Jump.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.11.11:129][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.11.11:129][  0]LogLinker: Warning: While loading '../../../../Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPerson_Jump.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.11.11:129][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.11.11:129][  0]LogLinker: Warning: While loading '../../../../Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPerson_Jump.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.11.11:130][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.11.11:161][  0]LogLinker: Warning: While loading '../../../../Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.11.11:161][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.11.11:161][  0]LogLinker: Warning: While loading '../../../../Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.11.11:161][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.11.11:207][  0]LogLinker: Warning: While loading '../../../../Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Start.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.11.11:207][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.11.11:207][  0]LogLinker: Warning: While loading '../../../../Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Content/StarterContent/Mannequin/Animations/ThirdPersonJump_Start.uasset' failed to load '/Game/Charactor/UE4_Mannequin_Skeleton': Can't find file.
+[2021.05.07-08.11.11:207][  0]LoadErrors: Failed to load /Game/Charactor/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton Referenced by UE4_Mannequin_Skeleton
+[2021.05.07-08.11.17:214][  0]LogAIModule: Creating AISystem for world ChaseScene
+[2021.05.07-08.11.17:215][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025E051EBE00), frame # 0
+[2021.05.07-08.11.17:215][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025E05207B00), frame # 0
+[2021.05.07-08.11.18:060][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.07-08.11.18:083][  0]LogNavigation: Warning: Recreating dtNavMesh instance due to saved navmesh origin (X=-0.003 Y=94.526 Z=0.000, usually the RecastNavMesh location) not being aligned with tile size (988 uu) 
+[2021.05.07-08.11.18:216][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.05.07-08.11.18:217][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.07-08.11.18:217][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.381ms to complete.
+[2021.05.07-08.11.18:217][  0]LogFileHelpers: Loading map 'ChaseScene' took 9.444
+[2021.05.07-08.11.18:985][  0]LogUnrealEdMisc: Total Editor Startup Time, took 85.936
+[2021.05.07-08.11.19:687][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-08.11.19:699][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-08.11.19:710][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-08.11.19:717][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.07-08.11.19:881][  0]LogCollectionManager: Loaded 0 collections in 0.001049 seconds
+[2021.05.07-08.11.19:987][  0]LogFileCache: Scanning file cache for directory 'E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Saved/Collections/' took 0.00s
+[2021.05.07-08.11.19:987][  0]LogFileCache: Scanning file cache for directory 'E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Content/Developers/Cameron/Collections/' took 0.00s
+[2021.05.07-08.11.19:987][  0]LogFileCache: Scanning file cache for directory 'E:/Uni Backup/Uni Work/Year 2/Semester 2/Journeyman/RepoClone/Castlevania_sotm/Content/Collections/' took 0.00s
+[2021.05.07-08.11.19:987][  0]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 3427 classes and 821 folders.
+[2021.05.07-08.11.20:150][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2021.05.07-08.11.21:395][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.05.07-08.11.21:433][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2021.05.07-08.11.22:167][  0]LogSlate: Took 0.034870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.05.07-08.11.22:201][  0]LogSlate: Took 0.007762 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.05.07-08.11.22:233][  0]LogSlate: Took 0.021612 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.05.07-08.11.22:577][  0]LogRenderer: Reallocating scene render targets to support 1140x568 Format 10 NumSamples 1 (Frame:1).
+[2021.05.07-08.11.22:998][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.05.07-08.11.22:998][  0]LogLoad: (Engine Initialization) Total time: 89.95 seconds
+[2021.05.07-08.11.22:998][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.05.07-08.11.23:029][  0]LoadErrors: Error: /Game/StarterContent/Mannequin/Animations/ThirdPerson_Jump : Failed import for Skeleton /Game/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton [redirection] in /Game/StarterContent/Mannequin/Animations/ThirdPerson_Jump Referenced by export AnimSequence /Game/StarterContent/Mannequin/Animations/ThirdPerson_Jump.ThirdPerson_Jump
+[2021.05.07-08.11.23:029][  0]LoadErrors: Error: /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop : Failed import for Skeleton /Game/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton [redirection] in /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop Referenced by export AnimSequence /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Loop.ThirdPersonJump_Loop
+[2021.05.07-08.11.23:029][  0]LoadErrors: Error: /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Start : Failed import for Skeleton /Game/StarterContent/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton [redirection] in /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Start Referenced by export AnimSequence /Game/StarterContent/Mannequin/Animations/ThirdPersonJump_Start.ThirdPersonJump_Start
+[2021.05.07-08.11.23:313][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.05.07-08.11.23:382][  0]LogSlate: Took 0.039963 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.05.07-08.11.23:452][  1]LogAssetRegistry: Asset discovery search completed in 54.1702 seconds
+[2021.05.07-08.11.23:456][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.05.07-08.11.25:078][110]LogSlate: Took 0.030620 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.07-08.11.36:516][864]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.07-08.11.37:905][864]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Designer/Level_Design/Maps/Maps/library_room_KM1.library_room_KM1
+[2021.05.07-08.11.37:953][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2021.05.07-08.11.37:980][864]LightingResults: New page: Lighting Build
+[2021.05.07-08.11.37:981][864]LoadErrors: New page: Loading map: library_room_KM1.umap
+[2021.05.07-08.11.37:990][864]LogWorld: UWorld::CleanupWorld for ChaseScene, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-08.11.37:994][864]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-08.11.37:995][864]MapCheck: New page: Map Check
+[2021.05.07-08.11.37:995][864]LightingResults: New page: Lighting Build
+[2021.05.07-08.11.38:044][864]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025E051EBE00), frame # 864
+[2021.05.07-08.11.38:044][864]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025E05207B00), frame # 864
+[2021.05.07-08.11.38:047][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2021.05.07-08.11.38:273][864]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.07-08.11.38:273][864]LogAIModule: Creating AISystem for world library_room_KM1
+[2021.05.07-08.11.38:273][864]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025E1406BC00), frame # 864
+[2021.05.07-08.11.38:273][864]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025E1B5C82C0), frame # 864
+[2021.05.07-08.11.38:321][864]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.05.07-08.11.38:379][864]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.07-08.11.38:379][864]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.15ms to complete.
+[2021.05.07-08.11.38:379][864]LogFileHelpers: Loading map 'library_room_KM1' took 0.423
+[2021.05.07-08.11.43:461][955]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Designer/Level_Design/Maps/Maps/BossLevelMap1.BossLevelMap1
+[2021.05.07-08.11.43:487][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.05.07-08.11.43:490][955]LightingResults: New page: Lighting Build
+[2021.05.07-08.11.43:491][955]LoadErrors: New page: Loading map: BossLevelMap1.umap
+[2021.05.07-08.11.43:517][955]LogWorld: UWorld::CleanupWorld for library_room_KM1, bSessionEnded=true, bCleanupResources=true
+[2021.05.07-08.11.43:517][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.07-08.11.43:518][955]MapCheck: New page: Map Check
+[2021.05.07-08.11.43:518][955]LightingResults: New page: Lighting Build
+[2021.05.07-08.11.43:549][955]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000025E1B5C82C0), frame # 955
+[2021.05.07-08.11.43:549][955]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000025E1406BC00), frame # 955
+[2021.05.07-08.11.43:551][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.05.07-08.11.44:042][955]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.07-08.11.44:043][955]LogAIModule: Creating AISystem for world BossLevelMap1
+[2021.05.07-08.11.44:043][955]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000025E04F47C00), frame # 955
+[2021.05.07-08.11.44:043][955]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000025E364FEAC0), frame # 955
+[2021.05.07-08.11.44:082][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2021.05.07-08.11.44:136][955]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.07-08.11.44:137][955]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.231ms to complete.
+[2021.05.07-08.11.44:137][955]LogFileHelpers: Loading map 'BossLevelMap1' took 0.648
+[2021.05.07-08.15.34:372][102]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+>>>>>>> 4b5f8626be44b52bb82151e64726d3458068033a
